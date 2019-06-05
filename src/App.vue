@@ -1,27 +1,33 @@
 <template>
-  <div id="app">
-    <HelloWorld msg="Welcome to mouse's portfolio."/>
-  </div>
+    <div id="app">
+        <h1 id="title">mouse's portfolio.</h1>
+        <br>
+        <br>
+        <about/>
+    </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import about from "./components/about.vue";
 
 export default {
-  name: "app",
-  components: {
-    HelloWorld
-  }
+    name: "app",
+    components: {
+        about
+    }
 };
 </script>
-
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+    font-family: "ink free";
+}
+h1#title {
+    color: #93bbdf;
 }
 </style>
