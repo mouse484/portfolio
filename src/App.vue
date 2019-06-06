@@ -7,21 +7,21 @@
         <br>
         <skill/>
         <br>
-        <work/>
+        <works/>
     </div>
 </template>
 
 <script>
 import profile from "./components/profile.vue";
 import skill from "./components/skill.vue";
-import work from "./components/work.vue";
+import works from "./components/works.vue";
 
 export default {
     name: "app",
     components: {
         profile,
         skill,
-        work
+        works
     }
 };
 </script>
