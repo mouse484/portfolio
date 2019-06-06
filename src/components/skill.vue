@@ -31,10 +31,10 @@
                 <i class="fab fa-python"></i> Python *
             </li>
             <li>
-                <img src="https://img.icons8.com/ios/15/000000/circled-c.png"> C
+                <img src="https://img.icons8.com/ios/15/000000/circled-c.png"> C *
             </li>
             <li>
-                <img src="https://img.icons8.com/ios/15/000000/c-plus-plus-logo.png"> C++
+                <img src="https://img.icons8.com/ios/15/000000/c-plus-plus-logo.png"> C++ *
             </li>
             <li>
                 <img src="https://img.icons8.com/ios/15/000000/cs.png"> C# *
