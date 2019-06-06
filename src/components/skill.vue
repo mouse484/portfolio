@@ -13,7 +13,7 @@
                 <i class="fab fa-js"></i> JavaScript
             </li>
             <li>
-                <img src="https://img.icons8.com/ios/15/000000/jquery-filled.png"> Jquery
+                <img src="https://img.icons8.com/ios/15/000000/jquery-filled.png"> jQuery
             </li>
             <li>
                 <i class="fab fa-vuejs"></i> Vue
