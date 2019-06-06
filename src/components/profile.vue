@@ -11,7 +11,13 @@
                 Twitter :
                 <a href="https://twitter.com/mouse_484">@mouse_484</a>
             </li>
+            <li>Discord : mouse#2240</li>
+            <li>
+                GitHub :
+                <a href="https://github.com/mouse484">@mouse484</a>
+            </li>
         </ui>
+        <p>中学生弱々プログラマー。</p>
     </div>
 </template>
 
