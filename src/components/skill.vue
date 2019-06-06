@@ -68,7 +68,6 @@
 </template>
 
 <style>
-@import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
 div.skill {
     max-width: 450px;
     margin: 0 auto;

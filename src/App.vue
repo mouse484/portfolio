@@ -27,6 +27,8 @@ export default {
 </script>
 <style>
 @import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
 #app {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
