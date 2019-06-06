@@ -2,7 +2,7 @@
     <div class="profile">
         <h2>Profile</h2>
 
-        <ui>
+        <ul>
             <li>Name : mouse</li>
             <li>From : Gifu Japan</li>
             <li>Birthday : 2004/08/04</li>
@@ -16,18 +16,18 @@
                 GitHub :
                 <a href="https://github.com/mouse484">@mouse484</a>
             </li>
-        </ui>
+        </ul>
         <p>中学生弱々プログラマー。</p>
     </div>
 </template>
 
 <style>
 div.profile {
-    max-width: 290px;
+    max-width: 300px;
     margin: 0 auto;
     font-size: 1.5em;
 }
-div.profile ui {
+div.profile ul {
     text-align: left;
     list-style-type: square;
 }
