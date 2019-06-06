@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <h1 id="title">mouse's portfolio.</h1>
+        <h1 id="title">mouse's Portfolio.</h1>
         <br>
         <br>
         <profile/>
