@@ -4,16 +4,20 @@
         <br>
         <br>
         <about/>
+        <br>
+        <skill/>
     </div>
 </template>
 
 <script>
 import about from "./components/about.vue";
+import skill from "./components/skill.vue";
 
 export default {
     name: "app",
     components: {
-        about
+        about,
+        skill
     }
 };
 </script>
