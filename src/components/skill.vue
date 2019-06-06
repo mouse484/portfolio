@@ -69,15 +69,15 @@
 
 <style>
 @import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
-.skill {
-    margin: 0px 500px;
+div.skill {
+    max-width: 400px;
+    margin: 0 auto;
 }
-ul {
+div.skill ui {
     list-style-type: none;
-    padding: 0;
 }
-li {
+div.skill li {
     display: inline-block;
-    margin: 0 10px;
+    padding-right: 10px;
 }
 </style>

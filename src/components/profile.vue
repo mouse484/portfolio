@@ -1,0 +1,29 @@
+<template>
+    <div class="profile">
+        <h2>Profile</h2>
+
+        <ui>
+            <li>Name : mouse</li>
+            <li>From : Gifu Japan</li>
+            <li>Birthday : 2004/08/04</li>
+            <li>Profession : student</li>
+            <li>
+                Twitter :
+                <a href="https://twitter.com/mouse_484">@mouse_484</a>
+            </li>
+        </ui>
+    </div>
+</template>
+
+<style>
+div.profile {
+    max-width: 290px;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+div.profile ui {
+    text-align: left;
+    list-style-type: square;
+}
+</style>
+
