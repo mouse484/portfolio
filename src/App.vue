@@ -41,6 +41,7 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
 @import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
 #app {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -54,7 +55,8 @@ export default {
     margin: 0 auto;
 }
 h1#title {
-    color: #93bbdf;
+    color: #9cc2e2;
+    font-family: "Merienda", cursive;
 }
 a:link {
     color: #8f8fcf;
