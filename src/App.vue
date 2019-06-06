@@ -8,6 +8,19 @@
         <skill/>
         <br>
         <works/>
+        <br>
+        <br>
+        <footer>
+            <a href="https://github.com/mouse484">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/mouse_484">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="mailto:escmouse484@gmail.com">
+                <i class="far fa-paper-plane fa-2x"></i>
+            </a>
+        </footer>
     </div>
 </template>
 
@@ -42,5 +55,21 @@ export default {
 }
 h1#title {
     color: #93bbdf;
+}
+a:link {
+    color: #8f8fcf;
+}
+a:visited {
+    color: #7a7ab9;
+}
+a:hover {
+    color: #00ff62;
+}
+a:active {
+    color: #ff8000;
+}
+
+footer a {
+    padding: 1em;
 }
 </style>
