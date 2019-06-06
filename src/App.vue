@@ -6,18 +6,22 @@
         <profile/>
         <br>
         <skill/>
+        <br>
+        <work/>
     </div>
 </template>
 
 <script>
 import profile from "./components/profile.vue";
 import skill from "./components/skill.vue";
+import work from "./components/work.vue";
 
 export default {
     name: "app",
     components: {
         profile,
-        skill
+        skill,
+        work
     }
 };
 </script>
