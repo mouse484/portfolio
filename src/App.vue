@@ -39,10 +39,14 @@ export default {
 };
 </script>
 <style>
+/* fonts */
 @import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
+/* icon fonts*/
 @import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
+@import url("https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css");
+@import url("https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css");
 #app {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

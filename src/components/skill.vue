@@ -4,31 +4,31 @@
         <h2>Skills</h2>
         <ul>
             <li>
-                <i class="fab fa-html5"></i> HTML
+                <i class="fab fa-html5"/> HTML
             </li>
             <li>
-                <i class="fab fa-css3-alt"></i> Css
+                <i class="fab fa-css3-alt"/> Css
             </li>
             <li>
-                <i class="fab fa-js"></i> JavaScript
+                <i class="fab fa-js"/> JavaScript
             </li>
             <li>
-                <img src="https://img.icons8.com/ios/15/000000/jquery-filled.png"> jQuery
+                <i class="devicons devicons-jquery"/> jQuery
             </li>
             <li>
-                <i class="fab fa-vuejs"></i> Vue
+                <i class="fab fa-vuejs"/> Vue
             </li>
             <li>
-                <i class="fab fa-react"></i> React *
+                <i class="fab fa-react"/> React *
             </li>
             <li>
-                <i class="fab fa-node-js"></i> Node.js
+                <i class="fab fa-node-js"/> Node.js
             </li>
             <li>
-                <img src="https://img.icons8.com/ios/15/000000/ruby-programming-language.png"> Ruby *
+                <i class="devicons devicons-ruby"/> Ruby *
             </li>
             <li>
-                <i class="fab fa-python"></i> Python *
+                <i class="fab fa-python"/> Python *
             </li>
             <li>
                 <img src="https://img.icons8.com/ios/15/000000/circled-c.png"> C *
@@ -40,28 +40,28 @@
                 <img src="https://img.icons8.com/ios/15/000000/cs.png"> C# *
             </li>
             <li>
-                <i class="fab fa-java"></i> Java *
+                <i class="fab fa-java"/> Java *
             </li>
             <li>
-                <img src="https://img.icons8.com/ios/15/000000/unreal-engine-filled.png"> Unreal Engine *
+                <i class="fi fi-unreal-engine"/> Unreal Engine *
             </li>
             <li>
-                <img src="https://img.icons8.com/ios/15/000000/unity-filled.png"> Unity *
+                <i class="devicons devicons-unity_small"/> Unity *
             </li>
             <li>
-                <i class="fab fa-git-square"></i> Git
+                <i class="fab fa-git-square"/> Git
             </li>
             <li>
-                <i class="fab fa-github"></i> GitHub
+                <i class="fab fa-github"/> GitHub
             </li>
             <li>
                 <img src="https://img.icons8.com/ios/15/000000/arduino.png"> Arduino *
             </li>
             <li>
-                <i class="fab fa-linux"></i> Linux
+                <i class="fab fa-linux"/> Linux
             </li>
             <li>
-                <i class="fas fa-database"></i> SQL
+                <i class="fas fa-database"/> SQL
             </li>
         </ul>
     </div>
