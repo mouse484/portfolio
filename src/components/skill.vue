@@ -25,6 +25,15 @@
                 <i class="fab fa-node-js"/> Node.js
             </li>
             <li>
+                <i class="fab fa-npm"/> npm
+            </li>
+            <li>
+                <i class="fab fa-yarn"/> Yarn
+            </li>
+            <li>
+                <i class="fi fi-electronjs"/> Electron
+            </li>
+            <li>
                 <i class="devicons devicons-ruby"/> Ruby *
             </li>
             <li>
@@ -49,6 +58,9 @@
                 <i class="devicons devicons-unity_small"/> Unity *
             </li>
             <li>
+                <i class="fab fa-markdown"/> Markdown
+            </li>
+            <li>
                 <i class="devicons devicons-git"/> Git
             </li>
             <li>
@@ -62,6 +74,12 @@
             </li>
             <li>
                 <i class="fab fa-linux"/> Linux
+            </li>
+            <li>
+                <i class="fab fa-ubuntu"/> Ubuntu
+            </li>
+            <li>
+                <i class="fab fa-centos"/> CentOS
             </li>
             <li>
                 <i class="devicons devicons-visualstudio"/> VisualStudio
