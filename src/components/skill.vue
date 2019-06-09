@@ -30,7 +30,7 @@
             <li>
                 <i class="fab fa-python"/> Python *
             </li>
-            <li>
+            <!-- <li>
                 <img src="https://img.icons8.com/ios/15/000000/circled-c.png"> C *
             </li>
             <li>
@@ -41,7 +41,7 @@
             </li>
             <li>
                 <i class="fab fa-java"/> Java *
-            </li>
+            </li>-->
             <li>
                 <i class="fi fi-unreal-engine"/> Unreal Engine *
             </li>
@@ -49,10 +49,13 @@
                 <i class="devicons devicons-unity_small"/> Unity *
             </li>
             <li>
-                <i class="fab fa-git-square"/> Git
+                <i class="devicons devicons-git"/> Git
             </li>
             <li>
                 <i class="fab fa-github"/> GitHub
+            </li>
+            <li>
+                <i class="fab fa-gitlab"/> GitLab
             </li>
             <li>
                 <img src="https://img.icons8.com/ios/15/000000/arduino.png"> Arduino *
@@ -61,9 +64,16 @@
                 <i class="fab fa-linux"/> Linux
             </li>
             <li>
+                <i class="devicons devicons-visualstudio"/> VisualStudio
+            </li>
+            <li>
                 <i class="fas fa-database"/> SQL
             </li>
+            <li>
+                <i class="fab fa-docker"/> Docker *
+            </li>
         </ul>
+        <div id="come">*がついている物は学習中です。</div>
     </div>
 </template>
 
@@ -78,5 +88,9 @@ div.skill ul {
 div.skill li {
     display: inline-block;
     padding-right: 10px;
+}
+div#come {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 0.8em;
 }
 </style>
