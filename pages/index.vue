@@ -1,7 +1,7 @@
 <template>
   <div class="text-center">
     <h1 id="title" class="mt-3">mouse's Portfolio.</h1>
-    <h4 class="mt-3">Student web and robot engineer.</h4>
+    <h3 class="mt-3">Student web and robot engineer.</h3>
     <Profile class="mt-5" />
   </div>
 </template>
@@ -17,6 +17,6 @@ export default { components: { Profile } }
 h1#title {
   color: #9cc2e2;
   font-family: 'Merienda', cursive;
-  font-size: 10vh;
+  font-size: 8vh;
 }
 </style>
