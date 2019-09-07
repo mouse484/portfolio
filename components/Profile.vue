@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div style="font-size: 1.5em;">
     <h2>Profile</h2>
 
-    <ul>
+    <ul class="mx-auto mt-3" style="max-width: 40vh;">
       <li>Name : mouse</li>
       <li>From : Gifu Japan</li>
       <li>Birthday : 2004/08/04</li>
@@ -22,12 +22,7 @@
 </template>
 
 <style scoped>
-div {
-  max-width: 300px;
-  margin: 0 auto;
-  font-size: 1.5em;
-}
-div ul {
+ul {
   text-align: left;
   list-style-type: square;
 }

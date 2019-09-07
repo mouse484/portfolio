@@ -1,7 +1,8 @@
 <template>
-  <div>
-    <h1 id="title" class="text-center mt-3">mouse's Portfolio.</h1>
-    <Profile />
+  <div class="text-center">
+    <h1 id="title" class="mt-3">mouse's Portfolio.</h1>
+    <h4 class="mt-3">Student web and robot engineer.</h4>
+    <Profile class="mt-5" />
   </div>
 </template>
 
@@ -12,8 +13,10 @@ export default { components: { Profile } }
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
 h1#title {
   color: #9cc2e2;
   font-family: 'Merienda', cursive;
+  font-size: 10vh;
 }
 </style>
