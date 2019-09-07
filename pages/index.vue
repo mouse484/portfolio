@@ -1,5 +1,5 @@
 <template>
-  <h1 id="title" class="text-center">mouse's Portfolio.</h1>
+  <h1 id="title" class="text-center mt-3">mouse's Portfolio.</h1>
 </template>
 
 <style scoped>
