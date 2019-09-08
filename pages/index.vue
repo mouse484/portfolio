@@ -5,6 +5,7 @@
     <Profile class="mt-5" />
     <skills class="mt-5" />
     <Works class="mt-5" />
+    <Footer class="mt-3 mb-5" />
   </div>
 </template>
 
@@ -12,7 +13,8 @@
 import Profile from '../components/Profile.vue'
 import Skills from '../components/Skills.vue'
 import Works from '../components/Works.vue'
-export default { components: { Profile, Skills, Works } }
+import Footer from '../components/Footer.vue'
+export default { components: { Profile, Skills, Works, Footer } }
 </script>
 
 <style scoped>
