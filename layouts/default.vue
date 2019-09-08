@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt />
+    <nuxt class="mx-auto" style="max-width: 70vw;" />
   </div>
 </template>
 
