@@ -20,6 +20,9 @@
             "pre-commit": "lint-staged"
         }
     },
+    "browserslist": [
+        "last 2 version"
+    ],
     "dependencies": {
         "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
         "@nuxtjs/axios": "^5.3.6",
