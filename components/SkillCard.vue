@@ -33,8 +33,8 @@ export default {
   data() {
     return {
       name: this.skill[0],
-      img_url: `./img/skills/${this.skill[0]}.png`,
-      level: `width: ${this.skill[2] * 20}%;`
+      img_url: `./img/skills/${this.skill[0]}.svg`,
+      level: `width: ${this.skill[1] * 20}%;`
     }
   }
 }
