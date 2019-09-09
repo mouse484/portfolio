@@ -5,6 +5,7 @@ export default {
    */
   head: {
     title: "mouse's Portfolio.",
+    description: "Student web and robot engineer, mouse's Portfolio.",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' }
