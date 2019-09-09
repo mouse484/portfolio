@@ -1,27 +1,31 @@
 <template>
-  <div class="rounded bg-secondary m-2 p-2 d-flex">
-    <img :src="img_url" />
-    <div class="flex-column">
+  <div id="skill-card" class="rounded bg-secondary m-2 p-1 d-flex">
+    <img :src="img_url" class="m-1" />
+    <div class="flex-column ml-2">
       <p>{{ name }}</p>
       <div class="level">
-        <div class="star-rating-front text-info" :style="level">■■■■■</div>
-        <div class="text-white">■■■■■</div>
+        <div class="level-color level-default text-info" :style="level">
+          ■■■■■
+        </div>
+        <div class="text-white level-default">■■■■■</div>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+#skill-card {
+  min-width: 10em;
+}
 .level {
   position: relative;
-  width: 5em;
-  height: 1em;
 }
-.star-rating-front {
+.level-color {
   position: absolute;
-  top: 0;
-  left: 0;
   overflow: hidden;
+}
+.level-default {
+  text-align: left;
 }
 </style>
 
