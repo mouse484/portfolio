@@ -18,8 +18,6 @@ export default { components: { Profile, Skills, Works, Footer } }
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
-
 h1#title {
   color: #9cc2e2;
   font-family: 'Merienda', cursive;

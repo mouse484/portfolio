@@ -30,7 +30,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 ul {
   list-style-type: none;
   text-align: left;
