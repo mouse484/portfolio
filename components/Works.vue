@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Works</h2>
-    <ul class="mt-5">
+    <ul class="ml-1 mr-4 d-flex flex-column">
       <li>
         <h5>Ecstar</h5>
         <p>
@@ -37,6 +37,9 @@ ul {
 }
 li {
   display: inline-flex-box;
+  margin-top: 1em;
+}
+h5 {
   margin-top: 1em;
 }
 p {
