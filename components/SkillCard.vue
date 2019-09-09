@@ -4,7 +4,7 @@
     <div class="flex-column">
       <p>{{ name }}</p>
       <div class="level">
-        <div class="star-rating-front text-info" :style="level">■■■■■</div>
+        <div class="level-color text-info" :style="level">■■■■■</div>
         <div class="text-white">■■■■■</div>
       </div>
     </div>
@@ -14,13 +14,9 @@
 <style scoped>
 .level {
   position: relative;
-  width: 5em;
-  height: 1em;
 }
-.star-rating-front {
+.level-color {
   position: absolute;
-  top: 0;
-  left: 0;
   overflow: hidden;
 }
 </style>
