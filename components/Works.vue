@@ -21,14 +21,14 @@
           このポートフォリオです、見やすさにこだわって作成しました
           このサイトはNuxt.jsとBootstrapで作成しました
         </p>
-        <a href="https://portfolio.mouse-484.tk/" aria-label="このサイトのURL">
-          <i class="fas fa-external-link-alt"></i> </a
-        >&nbsp;
         <a
           href="https://github.com/mouse484/portfolio"
           aria-label="ポートフォリオをGitHubで見る"
         >
           <i class="fab fa-github"></i>
+        </a>
+        <a href="https://portfolio.mouse-484.tk/" aria-label="このサイトのURL">
+          <i class="fas fa-external-link-alt"></i>
         </a>
       </li>
     </ul>
@@ -49,5 +49,9 @@ h5 {
 }
 p {
   font-family: 'Noto Sans JP', sans-serif;
+}
+i {
+  font-size: 1.5em;
+  margin-right: 0.2em;
 }
 </style>
