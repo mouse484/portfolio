@@ -2,9 +2,13 @@
   <div id="skill-card" class="rounded bg-secondary m-2 p-1 d-flex">
     <img :src="img_url" class="m-1" />
     <div class="flex-column ml-2">
-      <p>{{ name }}</p>
+      <p class="text-white">{{ name }}</p>
       <div class="level">
-        <div class="level-color level-default text-info" :style="level">
+        <div
+          class="level-color level-default"
+          style="color:#7fffd4;"
+          :style="level"
+        >
           ■■■■■
         </div>
         <div class="text-white level-default">■■■■■</div>

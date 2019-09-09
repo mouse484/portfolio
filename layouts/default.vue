@@ -11,4 +11,7 @@ body {
   color: #b9cbd9;
   min-height: 100vh;
 }
+a {
+  color: #9cc2e2;
+}
 </style>
