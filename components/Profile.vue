@@ -9,12 +9,20 @@
       <li>Profession : student</li>
       <li>
         Twitter :
-        <a href="https://twitter.com/mouse_484">@mouse_484</a>
+        <a
+          href="https://twitter.com/mouse_484"
+          aria-label="Twitterでmouse_484を見る"
+          >@mouse_484</a
+        >
       </li>
       <li>Discord : mouse#1213</li>
       <li>
         GitHub :
-        <a href="https://github.com/mouse484">@mouse484</a>
+        <a
+          href="https://github.com/mouse484"
+          aria-label="GitHubでmouse484を見る"
+          >@mouse484</a
+        >
       </li>
     </ul>
   </div>

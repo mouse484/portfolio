@@ -7,7 +7,12 @@ export default {
     title: "mouse's Portfolio.",
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: "Student web and robot engineer, mouse's Portfolio."
+      }
     ]
   },
   /*
@@ -42,8 +47,14 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'nuxt-webfontloader'
   ],
+  webfontloader: {
+    google: {
+      families: ['Livvic', 'Merienda', 'Noto+Sans+JP']
+    }
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

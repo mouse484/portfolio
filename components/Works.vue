@@ -8,7 +8,10 @@
           DiscordのAPIを操作するNode.js用の強力なモジュール"Discord.js"で簡単にBotを作れるようにする事を目指して作っているフレームワーク。
           Discord.js-commandoを超えることを目指してます
         </p>
-        <a href="https://github.com/mouse484/Ecstar">
+        <a
+          href="https://github.com/mouse484/Ecstar"
+          aria-label="EcstarをGitHubで見る"
+        >
           <i class="fab fa-github"></i>
         </a>
       </li>
@@ -18,11 +21,14 @@
           このポートフォリオです、見やすさにこだわって作成しました
           このサイトはNuxt.jsとBootstrapで作成しました
         </p>
-        <a href="https://portfolio.mouse-484.tk/">
-          <i class="fas fa-external-link-alt"></i> </a
-        >&nbsp;
-        <a href="https://github.com/mouse484/portfolio">
+        <a
+          href="https://github.com/mouse484/portfolio"
+          aria-label="ポートフォリオをGitHubで見る"
+        >
           <i class="fab fa-github"></i>
+        </a>
+        <a href="https://portfolio.mouse-484.tk/" aria-label="このサイトのURL">
+          <i class="fas fa-external-link-alt"></i>
         </a>
       </li>
     </ul>
@@ -30,7 +36,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
 ul {
   list-style-type: none;
   text-align: left;
@@ -44,5 +49,9 @@ h5 {
 }
 p {
   font-family: 'Noto Sans JP', sans-serif;
+}
+i {
+  font-size: 1.5em;
+  margin-right: 0.2em;
 }
 </style>
