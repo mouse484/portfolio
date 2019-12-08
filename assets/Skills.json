@@ -1,86 +1,47 @@
 [
-    [
-        "Node.js",
-        4
-    ],
-    [
-        "HTML-5",
-        5
-    ],
-    [
-        "CSS-3",
-        3
-    ],
-    [
-        "JavaScript",
-        4
-    ],
-    [
-        "jQuery",
-        3
-    ],
-    [
-        "Nuxt",
-        3
-    ],
-    [
-        "Vue",
-        4
-    ],
-    [
-        "React",
-        1
-    ],
-    [
-        "npm",
-        3
-    ],
-    [
-        "Yarn",
-        4
-    ],
-    [
-        "Electron",
-        2
-    ],
-    [
-        "Markdown",
-        5
-    ],
-    [
-        "Bootstrap",
-        2
-    ],
-    [
-        "Git",
-        2
-    ],
-    [
-        "GitHub",
-        3
-    ],
-    [
-        "Arduino",
-        1
-    ],
-    [
-        "Linux",
-        3
-    ],
-    [
-        "ubuntu",
-        3
-    ],
-    [
-        "SQLite",
-        4
-    ],
-    [
-        "Docker",
-        1
-    ],
-    [
-        "VS Code",
-        5
-    ]
+  ["Node.js", 4],
+  ["TypeScript", 2],
+  ["ESLint", 3],
+  ["Prettier", 5],
+  ["HTML", 5],
+  ["Express", 3],
+  ["CSS", 3],
+  ["JavaScript", 4],
+  ["jQuery", 3],
+  ["Nuxt", 3],
+  ["Vue", 4],
+  ["React", 1],
+  ["npm", 3],
+  ["Yarn", 4],
+  ["Babel", 1],
+  ["Electron", 2],
+  ["Markdown", 5],
+  ["Bootstrap", 2],
+  ["Git", 2],
+  ["GitHub", 4],
+  ["GitLab", 2],
+  ["GitKraken", 4],
+  ["Arduino", 1],
+  ["Linux", 4],
+  ["Linux Mint", 4],
+  ["ubuntu", 4],
+  ["CentOS", 2],
+  ["SQLite", 4],
+  ["Docker", 1],
+  ["VS Code", 5],
+  ["C++", 1],
+  ["Chrome", 5],
+  ["PostCSS", 3],
+  ["Figma", 4],
+  ["Firebase", 2],
+  ["Firefox", 3],
+  ["Fly", 4],
+  ["Gatsby", 1],
+  ["G Analytics", 3],
+  ["Jest", 1],
+  ["Now", 3],
+  ["slack", 3],
+  ["Discord", 5],
+  ["webpack", 2],
+  ["Windows", 4]
 ]
