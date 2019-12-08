@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Skills</h2>
-    <div class="d-flex flex-wrap mx-lg-5" style="justify-content:center;">
+    <div class="d-flex flex-wrap mx-lg-5 mt-3" style="justify-content:center;">
       <SkillCard v-for="skill in skills" :key="skill" :skill="skill" />
     </div>
   </div>

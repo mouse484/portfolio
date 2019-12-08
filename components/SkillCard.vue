@@ -1,5 +1,5 @@
 <template>
-  <div id="skill-card" class="rounded bg-secondary m-2 p-1 d-flex">
+  <div id="skill-card" class="m-3 p-1 d-flex bg-dark rounded">
     <img :src="img_url" :alt="name" class="m-1" />
     <div class="flex-column ml-2">
       <p class="text-white">{{ name }}</p>
