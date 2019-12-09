@@ -1,7 +1,10 @@
 <template>
   <div>
     <h2>Skills</h2>
-    <div class="d-flex flex-wrap justify-content-center mx-5 mt-3">
+    <draggable
+      v-model="skills"
+      class="d-flex flex-wrap justify-content-center mx-5 mt-3"
+    >
       <div v-for="skill in skills" :key="skill">
         <div class="bg-dark rounded clearfix m-2">
           <div class="float-left p-2">
@@ -22,13 +25,18 @@
           </div>
         </div>
       </div>
-    </div>
+    </draggable>
   </div>
 </template>
 
 <script>
+import draggable from 'vuedraggable'
 import skills from '~/assets/Skills.json'
+
 export default {
+  components: {
+    draggable
+  },
   data() {
     return {
       skills
