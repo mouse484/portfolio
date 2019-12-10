@@ -12,7 +12,7 @@
           href="https://github.com/mouse484/Ecstar"
           aria-label="EcstarをGitHubで見る"
         >
-          <i class="fab fa-github"></i>
+          <font-icon :icon="['fab', 'github']" />
         </a>
       </li>
       <li>
@@ -25,10 +25,10 @@
           href="https://github.com/mouse484/portfolio"
           aria-label="ポートフォリオをGitHubで見る"
         >
-          <i class="fab fa-github"></i>
+          <font-icon :icon="['fab', 'github']" />
         </a>
         <a href="https://portfolio.mouse-484.tk/" aria-label="このサイトのURL">
-          <i class="fas fa-external-link-alt"></i>
+          <font-icon icon="link" />
         </a>
       </li>
     </ul>
