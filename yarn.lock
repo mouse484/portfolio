@@ -1182,17 +1182,16 @@
     consola "^2.5.6"
     http-proxy-middleware "^0.19.1"
 
-"@nuxtjs/pwa@^3.0.0-0":
-  version "3.0.0-beta.17"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-3.0.0-beta.17.tgz#00a3ad5fa8ae39ac94e0f6eaa7058315b4a1c036"
-  integrity sha512-WSAyXGJpSg3Zgd5Seqzzk44lnuOQF14KRCcUZeW8HDktJnaN0vIqHUOgrvUhuF7qhRJ1OxypybYVOG+EVI1NPQ==
+"@nuxtjs/pwa@^3.0.0-beta.19":
+  version "3.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/pwa/-/pwa-3.0.0-beta.19.tgz#4685c8137a5b588126b3ee4d469f6806423f958f"
+  integrity sha512-5c7CB2qrrlpu7BmJeWX9GN//uK1SiEzBbT+ykH11ZfUxQyXiO3QTm1f6tTOnG/P5v4kRIGYdBr0wmRbA/Hv1cw==
   dependencies:
     defu "^0.0.3"
     execa "^1.0.0"
     fs-extra "^8.1.0"
     hasha "^5.0.0"
-    jimp-compact "^0.6.8"
-    lodash.template "^4.5.0"
+    jimp-compact "^0.8.0"
     workbox-cdn "^4.3.1"
 
 "@nuxtjs/youch@^4.2.3":
@@ -5026,10 +5025,10 @@ jest-worker@^25.1.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-jimp-compact@^0.6.8:
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/jimp-compact/-/jimp-compact-0.6.8.tgz#e915446206c60a65df8bb413902fe6b42bef44ef"
-  integrity sha512-K3xHMUYkzrX3Gfu/WKrA75RlD9BtwJ0bQqSO4EDVqXNmUQQLrB4N2mAfTz3L2P2vadTfhjBWt4JLOuTHz/FyWg==
+jimp-compact@^0.8.0:
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/jimp-compact/-/jimp-compact-0.8.5.tgz#4dd5be1df94111902a58e6e698cbbdea9bdc1e0b"
+  integrity sha512-BkpiX6jZyDVLU+CleO/6yF8SFHnyZXiElPryNjZx58AK1vy+bqSFvhKeFS680TISSr8IWqHlIAwDMMA0DTQkMw==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
