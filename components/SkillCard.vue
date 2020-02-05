@@ -14,7 +14,7 @@
   grid-template-rows: 60% 40%;
   padding: 0.5rem;
   margin: 0.2rem;
-  width: 9.5rem;
+  width: 9.7rem;
 }
 img {
   grid-column: 1/2;
