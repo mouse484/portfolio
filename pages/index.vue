@@ -14,7 +14,11 @@
       </p>
     </div>
 
-    <skills class="mt-5" />
+    <div id="skills" class="mt-5">
+      <h2>My Skills</h2>
+      <skills />
+    </div>
+
     <Works class="mt-5" />
     <Footer class="mt-3 mb-5" />
   </div>
