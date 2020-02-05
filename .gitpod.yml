@@ -4,3 +4,6 @@ ports:
 tasks:
 - init: yarn install
   command: yarn dev
+vscode:
+  extensions:
+    - octref.vetur@0.23.0:TEzauMObB6f3i2JqlvrOpA==
