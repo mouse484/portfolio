@@ -1,7 +1,10 @@
 <template>
-  <div class="text-center">
-    <h1 id="title" class="mt-3">mouse's Portfolio.</h1>
-    <h3 class="mt-3">Student web and robot engineer.</h3>
+  <div>
+    <div class="text-center">
+      <h1 id="title" class="mt-3">mouse's Portfolio.</h1>
+      <h3 class="mt-3">Student web and robot engineer.</h3>
+    </div>
+
     <Profile class="mt-5" />
     <skills class="mt-5" />
     <Works class="mt-5" />
