@@ -13,7 +13,7 @@
   ["webpack", 4],
   ["TypeScript", 7],
   ["jQuery", 6],
-  ["Jest", 4],
+  ["Jest", 6],
   ["Vue", 7],
   ["Nuxt", 8],
   ["React", 4],
