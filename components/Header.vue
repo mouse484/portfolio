@@ -3,7 +3,7 @@
     <b-navbar type="dark">
       <transition name="title">
         <b-navbar-brand v-if="scrolled" class="title" href="#">
-          mouse's
+          mouse's Portfolio.
         </b-navbar-brand>
       </transition>
       <b-navbar-nav class="ml-auto">
