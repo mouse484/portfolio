@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="loading">
     <Header />
     <nuxt class="main" />
     <Footer />
@@ -9,7 +9,22 @@
 <script>
 import Header from '~/components/Header'
 import Footer from '~/components/Footer'
-export default { components: { Header, Footer } }
+export default {
+  components: { Header, Footer },
+  data() {
+    return { loading: false }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+
+      setTimeout(() => {
+        this.$nuxt.$loading.finish()
+        this.loading = true
+      }, 500)
+    })
+  }
+}
 </script>
 
 <style>
