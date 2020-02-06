@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <div id="footer" class="text-center">
     <a href="https://github.com/mouse484" aria-label="github.com/mouse484">
       <font-icon :icon="['fab', 'github']" size="2x" />
     </a>
@@ -14,6 +14,14 @@
 </template>
 
 <style scoped>
+#footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #181a1b;
+  z-index: 1;
+  display: block;
+  width: 100%;
+}
 a {
   padding: 1em;
 }

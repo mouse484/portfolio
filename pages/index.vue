@@ -23,16 +23,13 @@
       <h2>My Works</h2>
       <Works />
     </div>
-
-    <Footer class="mt-5 mb-4" />
   </div>
 </template>
 
 <script>
 import Skills from '../components/Skills.vue'
 import Works from '../components/Works.vue'
-import Footer from '../components/Footer.vue'
-export default { components: { Skills, Works, Footer } }
+export default { components: { Skills, Works } }
 </script>
 
 <style scoped>
