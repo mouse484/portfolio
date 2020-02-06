@@ -21,6 +21,7 @@
   z-index: 1;
   display: block;
   width: 100%;
+  box-shadow: 0px -5px 4px #181a1b;
 }
 a {
   padding: 1em;
