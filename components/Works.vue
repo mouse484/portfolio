@@ -26,8 +26,8 @@
         <font-icon :icon="['fab', 'github']" />
       </a>
       <a
-        href="https://portfolio.mouse-484.tk/"
-        aria-label="portfolio.mouse-484.tk"
+        href="https://portfolio.mouse484.tk/"
+        aria-label="portfolio.mouse484.tk"
       >
         <font-icon icon="link" />
       </a>
