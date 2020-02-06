@@ -34,3 +34,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+a > svg {
+  margin-right: 0.5em;
+}
+</style>
