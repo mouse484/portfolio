@@ -7,8 +7,8 @@
         programs such as Node.js/Vue.js/TypeScript and so on. I dropped out of
         junior high school and spent time on programs instead of studying.
         However, I need to study general education, so I will study at an online
-        high school from April 2020. Please wait because it will be an
-        unbelievable engineer.
+        high school from April 2020. Please wait because it will be an amazing
+        engineer.
       </p>
     </div>
 
