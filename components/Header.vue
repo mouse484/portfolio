@@ -6,11 +6,11 @@
           mouse's
         </b-navbar-brand>
       </transition>
-      <b-navbar-nav class="mx-auto">
-        <b-nav-item href="#">Home</b-nav-item>
-        <b-nav-item href="#about">About Me</b-nav-item>
-        <b-nav-item href="#skills">Skills</b-nav-item>
-        <b-nav-item href="#works">Works</b-nav-item>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item href="#" right>Home</b-nav-item>
+        <b-nav-item href="#about" right>About Me</b-nav-item>
+        <b-nav-item href="#skills" right>Skills</b-nav-item>
+        <b-nav-item href="#works" right>Works</b-nav-item>
       </b-navbar-nav>
     </b-navbar>
     <transition name="title">
@@ -52,6 +52,8 @@ export default {
   top: 0;
   background-color: #181a1b;
   z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
 }
 .title-enter-active {
   transition: all 0.3s ease;

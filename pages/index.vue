@@ -35,6 +35,7 @@ export default {
 <style scoped>
 h2 {
   border-bottom: solid 2px yellow;
+  padding-bottom: 10px;
   width: 10rem;
 }
 div > h2 {

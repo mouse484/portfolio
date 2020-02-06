@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <nuxt />
+    <nuxt class="main" />
     <Footer />
   </div>
 </template>
@@ -21,5 +21,9 @@ body {
 }
 a {
   color: #9cc2e2;
+}
+.main {
+  max-width: 750px;
+  margin: 0 auto;
 }
 </style>
