@@ -49,8 +49,7 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    'nuxt-webfontloader'
+    '@nuxtjs/pwa'
   ],
   /*
    ** Axios module configuration
