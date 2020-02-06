@@ -24,7 +24,7 @@
       <Works />
     </div>
 
-    <Footer class="mt-3 mb-5" />
+    <Footer class="mt-5 mb-4" />
   </div>
 </template>
 
