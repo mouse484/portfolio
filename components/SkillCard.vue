@@ -1,9 +1,9 @@
 <template>
   <div class="card bg-dark">
-    <img :src="imageUrl(skill)" :alt="name(skill)" class="float-left" />
+    <img :src="imageUrl" :alt="name" class="float-left" />
 
-    <div class="text-white">{{ name(skill) }}</div>
-    <b-progress :value="level(skill)" max="10" show-value variant="info" />
+    <div class="text-white">{{ name }}</div>
+    <b-progress :value="level" max="10" show-value variant="info" />
   </div>
 </template>
 
@@ -25,22 +25,18 @@ img {
 <script>
 export default {
   props: {
-    skill: {
-      type: Array,
-      default() {
-        return []
-      }
+    name: {
+      type: String,
+      default: 'name'
+    },
+    level: {
+      type: Number,
+      default: 0
     }
   },
-  methods: {
-    name(skill) {
-      return skill[0]
-    },
-    level(skill) {
-      return skill[1]
-    },
-    imageUrl(skill) {
-      return `./img/skills/${skill[0]}.svg`
+  computed: {
+    imageUrl() {
+      return `./img/skills/${this.name}.svg`
     }
   }
 }

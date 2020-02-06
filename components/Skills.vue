@@ -1,7 +1,7 @@
 <template>
   <b-row>
-    <b-col v-for="skill in skills" :key="skill" style="width: 10rem;">
-      <Card :skill="skill" />
+    <b-col v-for="(skill, index) in skills" :key="index" style="width: 10rem;">
+      <Card :name="skill[0]" :level="skill[1]" />
     </b-col>
   </b-row>
 </template>
