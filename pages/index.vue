@@ -19,7 +19,11 @@
       <skills />
     </div>
 
-    <Works class="mt-5" />
+    <div id="works" class="mt-5">
+      <h2>My Works</h2>
+      <Works />
+    </div>
+
     <Footer class="mt-3 mb-5" />
   </div>
 </template>

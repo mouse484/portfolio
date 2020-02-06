@@ -47,7 +47,7 @@ export default {
   ],
   webfontloader: {
     google: {
-      families: ['Livvic', 'Merienda', 'Noto+Sans+JP']
+      families: ['Livvic', 'Merienda']
     }
   },
   /*
