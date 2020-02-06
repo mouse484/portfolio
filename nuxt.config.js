@@ -13,6 +13,13 @@ export default {
         name: 'description',
         content: "Student web and robot engineer, mouse's Portfolio."
       }
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Livvic|Merienda&display=swap'
+      }
     ]
   },
   /*
@@ -45,11 +52,6 @@ export default {
     '@nuxtjs/pwa',
     'nuxt-webfontloader'
   ],
-  webfontloader: {
-    google: {
-      families: ['Livvic', 'Merienda']
-    }
-  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
