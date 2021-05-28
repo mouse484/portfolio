@@ -1,9 +1,9 @@
 <script lang="ts">
   import Top from '$lib/Top/index.svelte';
+  import MoveArrow from '$lib/MoveArrow.svelte';
   import About from '$lib/About/index.svelte';
   import Works from '$lib/Works/index.svelte';
   import Skills from '$lib/Skills/index.svelte';
-
   import Links from '$lib/Top/Links.svelte';
 </script>
 
@@ -14,6 +14,9 @@
 
 <div class="h-screen pt-30vh">
   <Top />
+  <div class="mt-48">
+    <MoveArrow />
+  </div>
 </div>
 
 <section class="space-y-20">
