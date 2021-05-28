@@ -1,5 +1,5 @@
 <script lang="ts">
-  import IconLink from './IconLink.svelte';
+  import IconLink from '../About/IconLink.svelte';
   import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 </script>

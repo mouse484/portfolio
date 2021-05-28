@@ -9,5 +9,7 @@
 </script>
 
 <a {href} aria-label={alt}>
-  <Icon {icon} />
+  <slot>
+    <Icon {icon} />
+  </slot>
 </a>
