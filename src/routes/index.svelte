@@ -5,6 +5,11 @@
   import Skills from '$lib/Skills/index.svelte';
 </script>
 
+<svelte:head>
+  <title>mouse's Portfolio.</title>
+  <html lang="ja" />
+</svelte:head>
+
 <div class="h-screen pt-30vh">
   <Top />
 </div>
