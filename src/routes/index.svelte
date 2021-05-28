@@ -15,11 +15,11 @@
 <div class="h-screen pt-30vh">
   <Top />
   <div class="mt-48">
-    <MoveArrow />
+    <MoveArrow to="main" />
   </div>
 </div>
 
-<section class="space-y-20">
+<section id="main" class="space-y-20 p-y-10">
   <About />
   <Works />
   <Skills />

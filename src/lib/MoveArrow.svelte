@@ -1,9 +1,18 @@
 <script lang="ts">
   import Icon from '$lib/Icon.svelte';
   import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
+  export let to: string;
+
+  const scroll = () => {
+    document.getElementById(to)?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  };
 </script>
 
-<div class="w-4 mx-auto text-gray-500 scroll">
+<div class="w-4 mx-auto text-gray-500 cursor-pointer" on:click={scroll}>
   <Icon icon={faChevronDown} />
 </div>
 
