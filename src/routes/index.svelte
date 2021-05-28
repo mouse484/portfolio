@@ -3,6 +3,8 @@
   import About from '$lib/About/index.svelte';
   import Works from '$lib/Works/index.svelte';
   import Skills from '$lib/Skills/index.svelte';
+
+  import Links from '$lib/Top/Links.svelte';
 </script>
 
 <svelte:head>
@@ -19,3 +21,7 @@
   <Works />
   <Skills />
 </section>
+
+<footer class="mt-20 mb-8">
+  <Links />
+</footer>
