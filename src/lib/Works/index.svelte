@@ -1,11 +1,9 @@
 <script lang="ts">
-  export let className = '';
-
   import Project from './Project.svelte';
   import Link from '$lib/Link.svelte';
 </script>
 
-<section class="mx-auto text-center {className}">
+<section class="mx-auto text-center">
   <h3 class="text-3xl">My Works</h3>
 
   <div class="flex flex-wrap justify-center gap-2 mt-8">
