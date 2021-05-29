@@ -12,7 +12,10 @@
   };
 </script>
 
-<div class="w-4 mx-auto text-gray-500 cursor-pointer" on:click={scroll}>
+<div
+  class="w-4 mx-auto text-gray-500 cursor-pointer move-arrow"
+  on:click={scroll}
+>
   <Icon icon={faChevronDown} />
 </div>
 
@@ -29,7 +32,7 @@
       transform: translateY(0);
     }
   }
-  .scroll {
+  .move-arrow {
     visibility: hidden;
     animation-name: moveArrow;
     animation-duration: 1.5s;
