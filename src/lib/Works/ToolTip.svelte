@@ -5,7 +5,11 @@
 
 <a href={value} aria-label={alt} class="relative group">
   <slot />
-  <span class="invisible tooltip group-hover:visible">{value}</span>
+  <span
+    class="invisible bg-white tooltip group-hover:visible dark:bg-dark dark:text-gray-50"
+  >
+    {value}
+  </span>
 </a>
 
 <style>
@@ -24,7 +28,6 @@
     @apply whitespace-nowrap;
     @apply max-w-max;
 
-    @apply bg-white;
     @apply p-2;
     @apply rounded;
     @apply border;

@@ -25,6 +25,6 @@
   <Skills />
 </section>
 
-<footer class="mt-20 mb-8">
+<footer class="pb-8 mt-20">
   <Links />
 </footer>
