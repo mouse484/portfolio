@@ -6,7 +6,7 @@
 <a href={value} aria-label={alt} class="relative group">
   <slot />
   <span
-    class="invisible bg-white tooltip group-hover:visible dark:bg-hex-2d2d2d dark:text-blue-gray-200"
+    class="invisible bg-white tooltip group-hover:visible dark:bg-dark dark:text-gray-50"
   >
     {value}
   </span>
