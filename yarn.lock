@@ -139,10 +139,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/simple-icons@^4.17.0":
-  version "4.17.0"
-  resolved "https://registry.yarnpkg.com/@types/simple-icons/-/simple-icons-4.17.0.tgz#3818b4fc6856050391ebc0baa00e67acb91287e7"
-  integrity sha512-O5lzofiRRDWfUWnTkAk9N4MDaHxqe+TfrKFlEaz8rgRlav5UWAtLF8TnyeTsuTU3mjjDRm5UpMv4uydkF7ZBQQ==
+"@types/simple-icons@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@types/simple-icons/-/simple-icons-5.0.0.tgz#9316cd2fba6b2b49feae2740abf938ea6f95749b"
+  integrity sha512-IYUA5DPdIs+LoptVS1NNGXnBTtqctYR9t4MHQ9Xb38WCC4lJtsmYkFnOYSidKBrg+2C/Ll1NW1TmLX1sMPQuCA==
 
 "@typescript-eslint/eslint-plugin@^4.19.0":
   version "4.25.0"
