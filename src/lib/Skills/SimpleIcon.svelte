@@ -3,14 +3,20 @@
 
   export let name: string;
 
-  $: icon = icons.get(name);
+  $: slug = name
+    .toLowerCase()
+    .replace(/ /g, '')
+    .replace(/\./g, 'dot')
+    .replace(/\+/g, 'plus');
+
+  $: icon = icons.Get(slug);
 </script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
   width="24"
   height="24"
-  fill="#{icon.hex}"
+  fill="#{icon?.hex}"
   viewBox="0 0 24 24"
 >
   <title>{icon?.title}</title>
