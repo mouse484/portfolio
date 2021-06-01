@@ -214,10 +214,10 @@
     "@typescript-eslint/types" "4.26.0"
     eslint-visitor-keys "^2.0.0"
 
-"@windicss/plugin-animations@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@windicss/plugin-animations/-/plugin-animations-1.0.8.tgz#c8ad24a407692e5ec88410819022d924b25822ee"
-  integrity sha512-cr3pxtRM7VxgEeKjWZS7baBItL2AQgtfXdgsGWNAA0Z89NilHH90sE2IC3SNRcp/vQxfvJz005ivpYCMHLH++Q==
+"@windicss/plugin-animations@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@windicss/plugin-animations/-/plugin-animations-1.0.9.tgz#abd7c82d906ebd7d61cdc62a3019b60e8c57ca72"
+  integrity sha512-9WsQsPzLurkwV5zaMCwmylxfSHlQ1pPmzud4ysvMkMBRB7obub9ESmqlHefcCjEhatz/ZROi1U1XOuOPPUO1nA==
 
 "@windicss/plugin-utils@0.15.10":
   version "0.15.10"
