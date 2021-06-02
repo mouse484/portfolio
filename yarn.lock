@@ -86,10 +86,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-vercel@^1.0.0-next.19":
-  version "1.0.0-next.19"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.19.tgz#3fd840365a65cdae6e363e6826e1e39ca5d12c59"
-  integrity sha512-A2fTQDTTARahncaW5qP5sOyyw3xrCFj4rORw9dh819AvpajzO5PLwmQiAm2Fj2D8hrG7cnU0c30g89RsPsQ+OA==
+"@sveltejs/adapter-vercel@^1.0.0-next.21":
+  version "1.0.0-next.21"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.21.tgz#f737b1be0295f1b956ce2cdcad4687a475e10193"
+  integrity sha512-4fQpCWUOj1P7t6XhvHEIVGrfMF9UtlX8ra5m4vAlgARYPWHihKriAr39Dr/Wtx36Q6SY8cw6z1AERNjLRDnl9Q==
   dependencies:
     esbuild "^0.11.18"
 
