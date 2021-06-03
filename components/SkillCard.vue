@@ -27,17 +27,17 @@ export default {
   props: {
     name: {
       type: String,
-      default: 'name'
+      default: 'name',
     },
     level: {
       type: Number,
-      default: 0
-    }
+      default: 0,
+    },
   },
   computed: {
     imageUrl() {
       return `./img/skills/${this.name}.svg`
-    }
-  }
+    },
+  },
 }
 </script>

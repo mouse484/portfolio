@@ -28,7 +28,7 @@
 export default {
   data() {
     return {
-      scrolled: false
+      scrolled: false,
     }
   },
   mounted() {
@@ -37,8 +37,8 @@ export default {
   methods: {
     handleScroll() {
       if (!this.scrolled) this.scrolled = window.scrollY > 10
-    }
-  }
+    },
+  },
 }
 </script>
 

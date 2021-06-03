@@ -11,16 +11,16 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: "Student web and robot engineer, mouse's Portfolio."
-      }
+        content: "Student web and robot engineer, mouse's Portfolio.",
+      },
     ],
     link: [
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Livvic|Merienda&display=swap'
-      }
-    ]
+          'https://fonts.googleapis.com/css?family=Livvic|Merienda&display=swap',
+      },
+    ],
   },
   /*
    ** Customize the progress-bar color
@@ -39,7 +39,7 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
   ],
   /*
    ** Nuxt.js modules
@@ -49,7 +49,7 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
   ],
   /*
    ** Axios module configuration
@@ -63,5 +63,5 @@ export default {
     /*
      ** You can extend webpack config here
      */
-  }
+  },
 }

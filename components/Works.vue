@@ -1,5 +1,5 @@
 <template>
-  <div style="disply:block;" class="mb-3">
+  <div style="disply: block;" class="mb-3">
     <div>
       <h3 class="mt-3">Ecstar</h3>
       <p style="font-style: italic;">

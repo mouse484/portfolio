@@ -23,7 +23,7 @@ export default {
         this.loading = true
       }, 500)
     })
-  }
+  },
 }
 </script>
 

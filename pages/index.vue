@@ -28,7 +28,7 @@
 import Skills from '../components/Skills.vue'
 import Works from '../components/Works.vue'
 export default {
-  components: { Skills, Works }
+  components: { Skills, Works },
 }
 </script>
 

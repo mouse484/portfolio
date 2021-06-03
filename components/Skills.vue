@@ -22,8 +22,8 @@ export default {
   components: { Card },
   data() {
     return {
-      skills
+      skills,
     }
-  }
+  },
 }
 </script>
