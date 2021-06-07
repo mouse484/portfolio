@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SimpleIcon from './SimpleIcon.svelte';
+  import SimpleIcon from '$lib/SimpleIcon.svelte';
 
   const skills = [
     'JavaScript',
