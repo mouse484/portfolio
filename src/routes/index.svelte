@@ -1,10 +1,11 @@
 <script lang="ts">
-  import Top from '$lib/Top/index.svelte';
-  import MoveArrow from '$lib/MoveArrow.svelte';
   import About from '$lib/About/index.svelte';
-  import Works from '$lib/Works/index.svelte';
+  import MoveArrow from '$lib/MoveArrow.svelte';
+  import Posts from '$lib/Posts/index.svelte';
   import Skills from '$lib/Skills/index.svelte';
+  import Top from '$lib/Top/index.svelte';
   import Links from '$lib/Top/Links.svelte';
+  import Works from '$lib/Works/index.svelte';
 </script>
 
 <svelte:head>
@@ -23,6 +24,7 @@
   <About />
   <Works />
   <Skills />
+  <Posts />
 </section>
 
 <footer class="pb-8 mt-20">
