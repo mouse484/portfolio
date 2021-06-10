@@ -1,0 +1,12 @@
+tasks:
+  - init: yarn install
+    command: yarn dev
+
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - svelte.svelte-vscode
+    - voorjaar.windicss-intellisense
