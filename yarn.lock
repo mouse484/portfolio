@@ -1091,10 +1091,10 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-simple-icons@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.0.0.tgz#c47d06ee4efd62cc610565678bfbcac97bebf987"
-  integrity sha512-GO1/oSE8MRAoxd+S8L9JHh48lJ+C2a5Uvq2+lF2bImFG/7joAEA7MfzSiTTcyAW6gVTEyIqe6OiGOQIHwdq3ew==
+simple-icons@^5.17.0:
+  version "5.17.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.17.0.tgz#7d643fe0dd5e3d0a6b4e138723026beb8d7de8e3"
+  integrity sha512-36ioBzflfG9MisXA0NwTpi5xq169awYXgKwhFhGSLyRz4+l7sZ53P9JrPXS4E4lguxd6LykJMpEH4yNhT6ooJg==
 
 slash@^3.0.0:
   version "3.0.0"
