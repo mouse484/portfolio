@@ -12,6 +12,7 @@
     'Svelte',
     'React',
     'Next.js',
+    'Angular',
     'Gatsby',
     'jQuery',
     'Babel',
@@ -53,7 +54,7 @@
 <section>
   <h3 class="text-3xl text-center">My Skills</h3>
 
-  <div class="flex flex-wrap justify-center max-w-2xl gap-4 px-8 mx-auto mt-8">
+  <div class="flex flex-wrap gap-4 justify-center px-8 mx-auto mt-8 max-w-2xl">
     {#each skills as skill}
       <div class="flex space-x-2">
         <SimpleIcon name={skill} />
