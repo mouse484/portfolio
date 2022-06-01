@@ -177,10 +177,12 @@
   dependencies:
     "@types/node" "*"
 
-"@types/simple-icons@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@types/simple-icons/-/simple-icons-5.0.0.tgz#9316cd2fba6b2b49feae2740abf938ea6f95749b"
-  integrity sha512-IYUA5DPdIs+LoptVS1NNGXnBTtqctYR9t4MHQ9Xb38WCC4lJtsmYkFnOYSidKBrg+2C/Ll1NW1TmLX1sMPQuCA==
+"@types/simple-icons@^5.21.1":
+  version "5.21.1"
+  resolved "https://registry.yarnpkg.com/@types/simple-icons/-/simple-icons-5.21.1.tgz#d80b05d50312f841b0bf77d7e3b005fb5ed52091"
+  integrity sha512-exnKcr2DxKe0UsGIjvw/hv88OAWkxwPped5iq7YlgC9flaxAJHHvsjmq45Sr7FYjjyrwJI8VFh85xzY6k+L5WQ==
+  dependencies:
+    simple-icons "*"
 
 "@typescript-eslint/eslint-plugin@^4.33.0":
   version "4.33.0"
@@ -1864,7 +1866,7 @@ signal-exit@^3.0.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-icons@^7.0.0:
+simple-icons@*, simple-icons@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-7.0.0.tgz#deb87a417387daead745eb084f88face6e47bc15"
   integrity sha512-5jwnZ04C2PmdKrLe6HSZLmsmP77WvZtNau0hGgSqEi2pplcP3yiiE4/f0Emgix8tItWKsYkS1TQI75yZhr8Xjw==
