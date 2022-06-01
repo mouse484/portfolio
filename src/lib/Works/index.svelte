@@ -6,10 +6,10 @@
 <section class="mx-auto text-center">
   <h3 class="text-3xl">My Works</h3>
 
-  <div class="flex flex-wrap justify-center gap-2 mt-8">
+  <div class="flex flex-wrap gap-2 justify-center mt-8">
     <Project
       name="Ecstar"
-      github={{ username: 'Ecstar-js' }}
+      github={{ username: 'Ecstarjs' }}
       link="https://ecstar.js.org"
       libraries={['Discord', 'Node.js', 'TypeScript']}
     >
