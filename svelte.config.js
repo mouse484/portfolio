@@ -9,6 +9,11 @@ const config = {
     adapter: vercel(),
     vite: {
       plugins: [WindiCSS()],
+      ssr: {
+        // https://github.com/FortAwesome/Font-Awesome/issues/18677
+        // https://github.com/FortAwesome/Font-Awesome/issues/18514
+        noExternal: ['@fortawesome/*'],
+      },
     },
   },
 };

@@ -30,9 +30,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fortawesome/free-brands-svg-icons": "^5.15.3",
-		"@fortawesome/free-solid-svg-icons": "^5.15.3",
-		"simple-icons": "^7.0.0",
-		"svelte-fa": "^2.4.0"
+		"@fortawesome/free-brands-svg-icons": "^6.1.1",
+		"@fortawesome/free-solid-svg-icons": "^6.1.1",
+		"simple-icons": "^7.0.0"
 	}
 }
