@@ -6,6 +6,8 @@
   const size = { lg: '1.25em' };
 
   export let icon: IconDefinition;
+  export let className = "";
+
   const {
     icon: [width, height, , _unicode, d],
   } = icon;
@@ -16,7 +18,7 @@
   viewBox="0 0 {width} {height}"
   width={size.lg}
   height={size.lg}
-  class="fill-black dark:fill-white"
+  class="fill-black dark:fill-white {className}"
 >
   <path d={typeof d === 'string' ? d : d.join('')} />
 </svg>
