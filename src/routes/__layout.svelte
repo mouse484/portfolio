@@ -22,7 +22,12 @@
     <slot />
   </div>
 {:else}
-  <div class="h-screen flex justify-center items-center">
-    <Icon icon={faCircleNotch} className="animate-spin" />
+  <div class="flex justify-center items-center h-screen">
+    <div class="flex-none text-xl">
+      <p class="font-bold">Loading... Mouse's Portfolio.</p>
+      <p class="flex justify-center mt-5">
+        <Icon icon={faCircleNotch} size="2xl" className="animate-spin" />
+      </p>
+    </div>
   </div>
 {/if}

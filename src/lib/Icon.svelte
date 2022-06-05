@@ -3,10 +3,18 @@
   import type { IconDefinition } from '@fortawesome/fontawesome-common-types';
 
   // https://fontawesome.com/docs/web/style/size
-  const size = { lg: '1.25em' };
+  const iconSize = {
+    '2xs': '0.625em',
+    xs: '0.75em',
+    sm: '0.875em',
+    lg: '1.25em',
+    xl: '1.5em',
+    '2xl': '2em',
+  };
 
   export let icon: IconDefinition;
-  export let className = "";
+  export let size: keyof typeof iconSize = 'lg';
+  export let className = '';
 
   const {
     icon: [width, height, , _unicode, d],
@@ -16,8 +24,8 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 {width} {height}"
-  width={size.lg}
-  height={size.lg}
+  width={iconSize[size]}
+  height={iconSize[size]}
   class="fill-black dark:fill-white {className}"
 >
   <path d={typeof d === 'string' ? d : d.join('')} />
