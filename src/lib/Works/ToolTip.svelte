@@ -3,7 +3,13 @@
   export let alt: string;
 </script>
 
-<a href={value} aria-label={alt} class="relative group">
+<a
+  href={value}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label={alt}
+  class="relative group"
+>
   <slot />
   <span
     class="invisible bg-white tooltip group-hover:visible dark:bg-dark dark:text-gray-50"
