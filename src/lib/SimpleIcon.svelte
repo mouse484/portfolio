@@ -3,6 +3,8 @@
 
   export let name: string;
 
+  export let status = true;
+
   $: slug = name
     .toLowerCase()
     .replace(/ /g, '')
@@ -10,6 +12,8 @@
     .replace(/\+/g, 'plus');
 
   $: icon = icons.Get(slug);
+
+  $: status = !!icon;
 </script>
 
 <svg

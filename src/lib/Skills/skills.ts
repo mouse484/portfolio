@@ -24,11 +24,11 @@ const skills = {
     Application: {
       Electron: {},
     },
-    'linter/formatter': {
+    'Linter/Formatter': {
       ESLint: {},
       Prettier: {},
     },
-    test: {
+    Test: {
       Jest: {},
       Mocha: {},
     },
