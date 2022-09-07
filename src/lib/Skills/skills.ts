@@ -1,7 +1,8 @@
 const skills = {
   JavaScript: {
-    TypeScript: {},
     'Node.js': { npm: {}, yarn: {} },
+    TypeScript: {},
+    Deno: {},
     Web: {
       React: { 'Next.js': {}, Gatsby: {} },
       'Vue.js': { 'Nuxt.js': {} },
@@ -40,12 +41,6 @@ const skills = {
     'Tailwind CSS': {},
     PostCSS: {},
   },
-  Hosting: {
-    Vercel: {},
-    Netlify: {},
-    'GitHub Pages': {},
-    heroku: {},
-  },
   Go: {},
   Python: {},
   Ruby: {},
@@ -56,6 +51,22 @@ const skills = {
   Git: {
     GitHub: {},
     GitLab: {},
+  },
+  'CI/CD': {
+    'GitHub Actions': {},
+    CircleCI: {},
+    'Travis CI': {},
+  },
+  Hosting: {
+    Vercel: {},
+    Netlify: {},
+    'GitHub Pages': {},
+    heroku: {},
+  },
+  Database: {
+    MySQL: {},
+    SQLite: {},
+    MongoDB: {},
   },
   Editor: {
     'Visual Studio Code': { Gitpod: {} },
