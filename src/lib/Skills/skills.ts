@@ -66,10 +66,14 @@ const skills = {
   Database: {
     MySQL: {},
     SQLite: {},
+    PostgreSQL: {},
     MongoDB: {},
   },
   Editor: {
-    'Visual Studio Code': { Gitpod: {} },
+    'Visual Studio Code': {},
+    JetBrains: {},
+    'Sublime Text': {},
+    Gitpod: {},
   },
   Chat: {
     Discord: {},
