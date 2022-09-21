@@ -1,11 +1,12 @@
 const skills = {
   JavaScript: {
-    'Node.js': { npm: {}, yarn: {} },
+    'Node.js': { npm: {}, yarn: {}, Framework: { Express: {}, Fastify: {} } },
     TypeScript: {},
     Deno: {},
+    Bun: {},
     Web: {
       React: { 'Next.js': {}, Gatsby: {} },
-      'Vue.js': { 'Nuxt.js': {} },
+      'Vue.js': { 'Nuxt.js': {}, Vuetify: {} },
       Svelte: { SvelteKit: { _icon: 'svelte' } },
       Angular: {},
       jQuery: {},
@@ -17,10 +18,6 @@ const skills = {
       'rollup.js': {},
       gulp: {},
       esbuild: {},
-    },
-    Server: {
-      Express: {},
-      Fastify: {},
     },
     Application: {
       Electron: {},
@@ -40,6 +37,8 @@ const skills = {
     Bootstrap: {},
     'Tailwind CSS': {},
     PostCSS: {},
+    Sass: {},
+    Element: {},
   },
   Go: {},
   Python: {},
@@ -75,8 +74,15 @@ const skills = {
     'Sublime Text': {},
     Gitpod: {},
   },
+  Others: {
+    Docker: {},
+    FireBase: {},
+    Jupyter: {},
+  },
   Chat: {
-    Discord: {},
+    Discord: {
+      Bot: { 'Discord.js': {} },
+    },
     Slack: {},
   },
 };
