@@ -19,8 +19,8 @@
   }
 </script>
 
-<div class="m-3 rounded border-2 border-blue-200">
-  <div class="flex m-3 space-x-2">
+<div class="flex m-1 rounded shadow shadow-gray-50 min-w-30">
+  <div class="flex p-1 m-1">
     <div class="">
       {#if iconStatus}
         <SimpleIcon name={icon} bind:status={iconStatus} />
@@ -32,7 +32,7 @@
   </div>
 
   {#if Object.keys(useSkills).length}
-    <div class="flex flex-wrap gap-4 justify-center items-center ml-6">
+    <div class="flex flex-wrap">
       {#each Object.entries(useSkills) as [skillName, inSkills]}
         <svelte:self name={skillName} skills={inSkills} />
       {/each}
