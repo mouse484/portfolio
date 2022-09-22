@@ -1,7 +1,7 @@
 <script lang="ts">
   import SimpleIcon from '$lib/SimpleIcon.svelte';
   import Icon from '$lib/Icon.svelte';
-  import { faCircle } from '@fortawesome/free-solid-svg-icons';
+  import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
 
   export let name = '';
   export let skills = {};
@@ -19,18 +19,20 @@
   }
 </script>
 
-<div class="flex m-1 rounded shadow shadow-gray-50 min-w-30">
-  <div class="flex p-1 m-1">
+<div class="flex p-1.5 mx-1 ml-2 text-base border-b-1">
+  <!-- item 1 -->
+  <div class="flex items-center mt-0.5">
     <div class="">
       {#if iconStatus}
-        <SimpleIcon name={icon} bind:status={iconStatus} />
+        <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
       {:else}
-        <Icon icon={faCircle} />
+        <Icon icon={faEllipsis} />
       {/if}
     </div>
     <div class="pl-2">{name}</div>
   </div>
 
+  <!-- item 2+n -->
   {#if Object.keys(useSkills).length}
     <div class="flex flex-wrap">
       {#each Object.entries(useSkills) as [skillName, inSkills]}

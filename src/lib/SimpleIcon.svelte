@@ -2,6 +2,7 @@
   import icons from 'simple-icons';
 
   export let name: string;
+  export let size = 24;
 
   export let status = true;
 
@@ -18,8 +19,8 @@
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
+  width={size}
+  height={size}
   fill="#{icon?.hex}"
   viewBox="0 0 24 24"
 >

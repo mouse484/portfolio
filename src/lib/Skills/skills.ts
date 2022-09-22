@@ -1,7 +1,7 @@
 const skills = {
   JavaScript: {
-    'Node.js': { npm: {}, yarn: {}, Framework: { Express: {}, Fastify: {} } },
     TypeScript: {},
+    'Node.js': { npm: {}, yarn: {}, Framework: { Express: {}, Fastify: {} } },
     Deno: {},
     Bun: {},
     Web: {
