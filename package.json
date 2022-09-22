@@ -9,7 +9,7 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@fortawesome/fontawesome-common-types": "^6.1.1",
+		"@fortawesome/fontawesome-common-types": "^6.2.0",
 		"@sveltejs/adapter-vercel": "^1.0.0-next.22",
 		"@sveltejs/kit": "^1.0.0-next.358",
 		"@types/simple-icons": "^5.21.1",
