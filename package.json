@@ -30,7 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fortawesome/free-brands-svg-icons": "^6.1.1",
+		"@fortawesome/free-brands-svg-icons": "^6.2.0",
 		"@fortawesome/free-solid-svg-icons": "^6.2.0",
 		"simple-icons": "^7.12.0"
 	}
