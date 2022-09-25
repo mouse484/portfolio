@@ -5,8 +5,10 @@
 
   export let name = '';
   export let skills = {};
+  export let nested = false;
+
   let icon = name;
-  let useSkills: {};
+  let useSkills: { [key: string]: {} };
   let iconStatus = true;
   $: {
     if (skills.hasOwnProperty('_icon')) {
@@ -19,9 +21,12 @@
   }
 </script>
 
-<div class="flex p-1.5 mx-1 ml-2 text-base border-b-1">
+<div
+  class="flex flex-wrap rounded  p-1.5 mx-1 ml-2 w-full text-base {nested ||
+    'border'}"
+>
   <!-- item 1 -->
-  <div class="flex items-center mt-0.5">
+  <div class="flex items-center mt-0.5 mb-1">
     <div class="">
       {#if iconStatus}
         <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
@@ -34,9 +39,16 @@
 
   <!-- item 2+n -->
   {#if Object.keys(useSkills).length}
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap gap-3 w-full">
       {#each Object.entries(useSkills) as [skillName, inSkills]}
-        <svelte:self name={skillName} skills={inSkills} />
+        <div class="min-w-1/3">
+          <svelte:self
+            name={skillName}
+            skills={inSkills}
+            nested={Object.keys(inSkills).length <=
+              (inSkills.hasOwnProperty('_icon') ? 1 : 0)}
+          />
+        </div>
       {/each}
     </div>
   {/if}
