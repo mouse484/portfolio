@@ -31,6 +31,7 @@
 
 <button
   class="focus:outline-none"
+  aria-label="ThemeSwitch"
   on:click={() => theme.set($theme === 'light' ? 'dark' : 'light')}
 >
   <Icon icon={$theme === 'light' ? faMoon : faSun} />
