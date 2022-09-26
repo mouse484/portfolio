@@ -33,6 +33,6 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
-    "simple-icons": "^7.12.0"
+    "simple-icons": "^7.13.0"
   }
 }
