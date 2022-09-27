@@ -11,7 +11,7 @@
   "devDependencies": {
     "@fortawesome/fontawesome-common-types": "^6.1.1",
     "@sveltejs/adapter-vercel": "^1.0.0-next.77",
-    "@sveltejs/kit": "^1.0.0-next.499",
+    "@sveltejs/kit": "^1.0.0-next.504",
     "@types/simple-icons": "^5.21.1",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
