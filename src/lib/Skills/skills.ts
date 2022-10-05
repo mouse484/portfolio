@@ -80,9 +80,7 @@ const skills = {
     Jupyter: {},
   },
   Chat: {
-    Discord: {
-      Bot: { 'Discord.js': {} },
-    },
+    Discord: {},
     Slack: {},
   },
 };
