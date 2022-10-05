@@ -41,7 +41,7 @@
   {#if Object.keys(useSkills).length}
     <div class="flex flex-wrap gap-3 w-full">
       {#each Object.entries(useSkills) as [skillName, inSkills]}
-        <div class="min-w-1/3">
+        <div class="min-w-1/6">
           <svelte:self
             name={skillName}
             skills={inSkills}
