@@ -78,6 +78,7 @@ const skills = {
     Docker: {},
     FireBase: {},
     Jupyter: {},
+    WSL: { _icon: 'Linux' },
   },
   Chat: {
     Discord: {},
