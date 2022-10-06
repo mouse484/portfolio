@@ -22,7 +22,7 @@
 </script>
 
 <div
-  class="flex flex-wrap rounded  p-1.5 mx-1 ml-2 w-full text-base {nested ||
+  class="flex flex-wrap rounded  p-1.5 mx-1 w-full text-base {nested ||
     'border'}"
 >
   <!-- item 1 -->
