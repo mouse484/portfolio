@@ -78,11 +78,10 @@ const skills = {
     Docker: {},
     FireBase: {},
     Jupyter: {},
+    WSL: { _icon: 'Linux' },
   },
   Chat: {
-    Discord: {
-      Bot: { 'Discord.js': {} },
-    },
+    Discord: {},
     Slack: {},
   },
 };
