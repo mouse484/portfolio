@@ -27,7 +27,7 @@
 >
   <!-- item 1 -->
   <div class="flex items-center mt-0.5 mb-1">
-    <div class="">
+    <div class="pl-10">
       {#if iconStatus}
         <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
       {:else}
@@ -39,7 +39,7 @@
 
   <!-- item 2+n -->
   {#if Object.keys(useSkills).length}
-    <div class="flex flex-wrap gap-3 w-full">
+    <div class="flex flex-wrap gap-3 m-2 w-full">
       {#each Object.entries(useSkills) as [skillName, inSkills]}
         <div class="min-w-1/6">
           <svelte:self
