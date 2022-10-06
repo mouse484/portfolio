@@ -27,7 +27,7 @@
 >
   <!-- item 1 -->
   <div class="flex items-center mt-0.5 mb-1">
-    <div class="pl-10">
+    <div class="pl-3">
       {#if iconStatus}
         <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
       {:else}
