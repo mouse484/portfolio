@@ -1,11 +1,11 @@
 <script lang="ts">
-  import About from '$lib/About/index.svelte';
+  import About from '$lib/About/About.svelte';
   import MoveArrow from '$lib/MoveArrow.svelte';
-  import Posts from '$lib/Posts/index.svelte';
-  import Skills from '$lib/Skills/index.svelte';
+  import Posts from '$lib/Posts/Posts.svelte';
+  import Skills from '$lib/Skills/Skills.svelte';
   import Top from '$lib/Top/index.svelte';
   import Links from '$lib/Top/Links.svelte';
-  import Works from '$lib/Works/index.svelte';
+  import Works from '$lib/Works/Works.svelte';
 </script>
 
 <svelte:head>

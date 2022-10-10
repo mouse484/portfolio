@@ -3,7 +3,7 @@
   import Link from '$lib/Link.svelte';
 </script>
 
-<section class="mx-auto text-center">
+<section id="works" class="mx-auto text-center">
   <h3 class="text-3xl">My Works</h3>
 
   <div class="flex flex-wrap gap-2 justify-center mt-8">
