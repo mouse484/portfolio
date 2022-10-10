@@ -16,7 +16,7 @@
   import { faLink } from '@fortawesome/free-solid-svg-icons';
 </script>
 
-<section class="flex flex-col p-4 px-4 border-blue-400 rounded border-3">
+<section class="flex flex-col p-4 px-4 border-blue-400 rounded border-3 z-20">
   <h1 class="text-2xl">{name}</h1>
 
   <div class="mx-auto mt-4 max-w-80"><slot /></div>
