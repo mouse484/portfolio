@@ -1,10 +1,11 @@
 <script lang="ts">
   import Project from './Project.svelte';
   import Link from '$lib/Link.svelte';
+  import SectionName from '$lib/SectionName.svelte';
 </script>
 
 <section id="works" class="mx-auto text-center">
-  <h3 class="text-3xl">My Works</h3>
+  <SectionName>My Works</SectionName>
 
   <div class="flex flex-wrap gap-2 justify-center mt-8">
     <Project

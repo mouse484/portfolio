@@ -1,10 +1,11 @@
 <script lang="ts">
   import Box from './Box.svelte';
   import skills from './skills';
+  import SectionName from '$lib/SectionName.svelte';
 </script>
 
 <section id="skills">
-  <h3 class="text-3xl text-center">My Skills</h3>
+  <SectionName>My Skills</SectionName>
 
   <div class="flex flex-wrap gap-4 mx-auto mt-6 w-full max-w-3xl">
     {#each Object.entries(skills) as [skillName, inSkills]}

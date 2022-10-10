@@ -1,6 +1,7 @@
 <script lang="ts">
   import Link from '$lib/Link.svelte';
   import SimpleIcon from '$lib/SimpleIcon.svelte';
+  import SectionName from '$lib/SectionName.svelte';
 
   const fetchPosts = (async () => {
     const response = await fetch(
@@ -16,7 +17,7 @@
 </script>
 
 <section id="posts">
-  <h3 class="mx-4 text-3xl text-center">My Posts</h3>
+  <SectionName>My Posts</SectionName>
 
   <div class="max-w-lg mx-auto mt-8">
     {#await fetchPosts}
