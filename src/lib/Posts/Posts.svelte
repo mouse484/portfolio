@@ -15,7 +15,7 @@
   })();
 </script>
 
-<section>
+<section id="posts">
   <h3 class="mx-4 text-3xl text-center">My Posts</h3>
 
   <div class="max-w-lg mx-auto mt-8">

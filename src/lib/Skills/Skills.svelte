@@ -3,7 +3,7 @@
   import skills from './skills';
 </script>
 
-<section>
+<section id="skills">
   <h3 class="text-3xl text-center">My Skills</h3>
 
   <div class="flex flex-wrap gap-4 mx-auto mt-6 w-full max-w-3xl">
