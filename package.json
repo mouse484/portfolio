@@ -14,7 +14,7 @@
     "@sveltejs/kit": "^1.0.0-next.510",
     "@types/simple-icons": "^5.21.1",
     "@typescript-eslint/eslint-plugin": "^5.39.0",
-    "@typescript-eslint/parser": "^5.39.0",
+    "@typescript-eslint/parser": "^5.40.0",
     "@windicss/plugin-animations": "^1.0.9",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
