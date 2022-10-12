@@ -11,7 +11,8 @@
       "groupName": "linters/formater",
       "extends": ["packages:linters"],
       "matchPackagePatterns": ["prettier"],
-      "matchPackagePrefixes": ["@typescript-eslint/"]
+      "matchPackagePrefixes": ["@typescript-eslint/"],
+      "automerge": true,
     },
     {
       "groupName": "svelte",
