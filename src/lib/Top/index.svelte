@@ -28,6 +28,6 @@
 
 <style>
   .animation {
-    @apply animate-animated;
+    /* @apply animate-animated; */
   }
 </style>
