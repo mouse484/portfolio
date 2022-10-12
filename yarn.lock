@@ -124,18 +124,18 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/adapter-vercel@1.0.0-next.77":
-  version "1.0.0-next.77"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.77.tgz#be9bfa2b46fd63723893d37ecdacbb1d735515c3"
-  integrity sha512-r4MqtP+lzx83HfcvI8PU0Yxzmxt6WQq9nzZETLboJouJzhSBUFIN5RmNZfEn6nNIlUwZbGQUEK/FxsRnnxI/Ig==
+"@sveltejs/adapter-vercel@1.0.0-next.78":
+  version "1.0.0-next.78"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.78.tgz#f5e3560e21c497355ab4f743279dc90da1e2687d"
+  integrity sha512-K7zOlVwX/MV/b6iUbrY7QVn+v8ABBSEi6rjIfYiXCZc+j0nS5WNrcH1/Qdk/pzxK+7O5OuaNZAw3QylJDV5CZw==
   dependencies:
     "@vercel/nft" "^0.22.0"
     esbuild "^0.15.7"
 
-"@sveltejs/kit@1.0.0-next.510":
-  version "1.0.0-next.510"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.510.tgz#edcec8b8314155d316845c8194f98575b5f9e0e9"
-  integrity sha512-i96sRqEzNP1dOaQQ2aR38H6emdQJhc1qr5KqNyjqi3Wb0sDAG49cQxMRUOdydkVKZkG/o7PvC5qdyblVfalAdA==
+"@sveltejs/kit@1.0.0-next.514":
+  version "1.0.0-next.514"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.514.tgz#301df9feff7da3b248057d134bc86a5530128e4f"
+  integrity sha512-1vBKNeLkaQGz/QEQ9bxWwqHwJbBQJTVKReFoFQugGBhiT/Q39Uv+FpXWh+XND9OxMJ947ndqp/EiQj0IAmPwhg==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.5"
     "@types/cookie" "^0.5.1"
@@ -1642,10 +1642,10 @@ svelte-preprocess@4.10.7:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@3.50.1:
-  version "3.50.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.50.1.tgz#b35fbc5e79ddd71e8bb27c3149ee6ff903841239"
-  integrity sha512-bS4odcsdj5D5jEg6riZuMg5NKelzPtmsCbD9RG+8umU03TeNkdWnP6pqbCm0s8UQNBkqk29w/Bdubn3C+HWSwA==
+svelte@3.51.0:
+  version "3.51.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.51.0.tgz#a1a0afb25dc518217f353dd73ea6471c128ddf84"
+  integrity sha512-PBITYIrsNOuW+Dtds00gSY68raNZQn7i59Dg/fjgf6WwyawPKeBwle692coO7ILZqSO+UJe9899aDn9sMdeOHA==
 
 tar@^6.1.11:
   version "6.1.11"
