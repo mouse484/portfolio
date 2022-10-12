@@ -10,7 +10,7 @@
     {
       "groupName": "linters/formater",
       "extends": ["packages:linters"],
-      "matchPackageNames": ["prettier"],
+      "matchPackagePatterns": ["prettier"],
       "matchPackagePrefixes": ["@typescript-eslint/"]
     },
     {
