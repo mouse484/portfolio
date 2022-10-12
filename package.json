@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-common-types": "6.2.0",
-    "@sveltejs/adapter-vercel": "1.0.0-next.78",
-    "@sveltejs/kit": "1.0.0-next.514",
+    "@sveltejs/adapter-vercel": "1.0.0-next.79",
+    "@sveltejs/kit": "1.0.0-next.515",
     "@types/simple-icons": "5.21.1",
     "@typescript-eslint/eslint-plugin": "5.40.0",
     "@typescript-eslint/parser": "5.40.0",
