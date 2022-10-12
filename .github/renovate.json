@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", "group:fortawesome"],
+  "packageRules": [
+    {
+      "groupName": "linters/formater",
+      "extends": ["packages:linters"],
+      "matchPackageNames": ["prettier"],
+      "matchPackagePrefixes": ["@typescript-eslint/"]
+    },
+    {
+      "groupName": "svelte",
+      "matchPackageNames": ["svelte"],
+      "matchPackagePrefixes": ["@sveltejs/"]
+    },
+    {
+      "groupName": "windicss",
+      "matchPackageNames": ["windicss"]
+    },
+    {
+      "groupName": "simple-icons",
+      "matchPackageNames": "simple-icons"
+    }
+  ]
+}
