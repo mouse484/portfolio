@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
+  "extends": ["config:base", "group:fortawesome"],
   "packageRules": [
     {
       "groupName": "linters/formater",
@@ -16,9 +16,6 @@
     {
       "groupName": "windicss",
       "matchPackageNames": ["windicss"]
-    },
-    {
-      "extends": "group:fortawesome"
     },
     {
       "groupName": "simple-icons",
