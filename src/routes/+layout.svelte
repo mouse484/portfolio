@@ -3,7 +3,7 @@
   import { onMount } from 'svelte';
   import Header from '$lib/header/Header.svelte';
   import Loading from '$lib/components/element/Loading.svelte';
-
+  import Footer from '$lib/templates/Footer.svelte';
   export let onLoad = false;
 
   onMount(() => {
@@ -15,6 +15,7 @@
   <div class="background-color">
     <Header />
     <slot />
+    <Footer />
   </div>
 {:else}
   <Loading />

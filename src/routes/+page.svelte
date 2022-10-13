@@ -4,7 +4,6 @@
   import Posts from '$lib/Posts/Posts.svelte';
   import Skills from '$lib/Skills/Skills.svelte';
   import Top from '$lib/Top/index.svelte';
-  import Links from '$lib/Top/Links.svelte';
   import Works from '$lib/Works/Works.svelte';
 </script>
 
@@ -27,6 +26,3 @@
   <Posts />
 </section>
 
-<footer class="pb-8 mt-20">
-  <Links />
-</footer>
