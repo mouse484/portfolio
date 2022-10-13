@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SimpleIcon from '$lib/SimpleIcon.svelte';
+  import SimpleIcon from '$lib/components/element/SimpleIcon.svelte';
   import Icon from '$lib/Icon.svelte';
   import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
 
