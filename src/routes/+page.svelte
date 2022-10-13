@@ -13,14 +13,14 @@
   <html lang="ja" />
 </svelte:head>
 
-<div class="h-screen pt-30vh">
+<div class="h-screen pt-[30vh]">
   <Top />
   <div class="mt-48">
     <MoveArrow to="main" />
   </div>
 </div>
 
-<section id="main" class="space-y-20 p-y-10">
+<section id="main" class="space-y-20 py-10">
   <About />
   <Works />
   <Skills />

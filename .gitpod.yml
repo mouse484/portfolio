@@ -9,4 +9,6 @@ ports:
 vscode:
   extensions:
     - svelte.svelte-vscode
-    - voorjaar.windicss-intellisense
+    - bradlc.vscode-tailwindcss
+    - heybourn.headwind
+    - csstools.postcss
