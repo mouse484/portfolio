@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Link from '$lib/Link.svelte';
+  import Link from '$lib/components/element/Link.svelte';
   import SimpleIcon from '$lib/SimpleIcon.svelte';
   import SectionName from '$lib/components/element/SectionName.svelte';
 

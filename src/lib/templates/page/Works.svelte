@@ -1,6 +1,6 @@
 <script lang="ts">
   import Project from '../../Works/Project.svelte';
-  import Link from '$lib/Link.svelte';
+  import Link from '$lib/components/element/Link.svelte';
   import SectionName from '$lib/components/element/SectionName.svelte';
 </script>
 
