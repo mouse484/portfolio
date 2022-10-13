@@ -11,7 +11,7 @@
   class="relative group"
 >
   <slot />
-  <span class="tooltip">
+  <span class="tooltip invisible">
     {value}
   </span>
 </a>
@@ -22,7 +22,7 @@
     @apply rounded border;
     @apply absolute left-1/2 -top-12 -translate-x-1/2;
     @apply p-2 max-w-max whitespace-nowrap z-50;
-    @apply invisible group-hover:visible;
+    @apply group-hover:visible;
     @apply group-hover:animate-slideInUp animate-delay-1s;
   }
   :global(.dark) .tooltip {

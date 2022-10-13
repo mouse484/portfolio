@@ -13,7 +13,7 @@
 </script>
 
 {#if onLoad}
-  <div class="dark:bg-dark dark:text-gray-50">
+  <div class="background-color">
     <Header />
     <slot />
   </div>
