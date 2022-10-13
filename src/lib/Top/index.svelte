@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import Links from './Links.svelte';
+
+  import MyLinks from '$lib/components/modules/MyLinks.svelte';
 
   let mounted = false;
 
@@ -23,5 +24,5 @@
   class="mt-8 text-center animate-backInUp animate-delay-1s"
   class:animation={mounted}
 >
-  <Links />
+  <MyLinks />
 </div>

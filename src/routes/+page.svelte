@@ -1,10 +1,10 @@
 <script lang="ts">
   import About from '$lib/templates/page/About.svelte';
+  import Works from '$lib/templates/page/Works.svelte';
   import MoveArrow from '$lib/MoveArrow.svelte';
   import Posts from '$lib/Posts/Posts.svelte';
   import Skills from '$lib/Skills/Skills.svelte';
   import Top from '$lib/Top/index.svelte';
-  import Works from '$lib/Works/Works.svelte';
 </script>
 
 <svelte:head>
@@ -25,4 +25,3 @@
   <Skills />
   <Posts />
 </section>
-

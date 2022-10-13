@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Project from './Project.svelte';
+  import Project from '../../Works/Project.svelte';
   import Link from '$lib/Link.svelte';
   import SectionName from '$lib/components/element/SectionName.svelte';
 </script>
