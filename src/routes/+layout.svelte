@@ -18,11 +18,11 @@
     <slot />
   </div>
 {:else}
-  <div class="flex justify-center items-center h-screen">
+  <div class="flex h-screen justify-center items-center">
     <div class="flex-none text-xl">
       <p class="font-bold">Loading... Mouse's Portfolio.</p>
-      <p class="flex justify-center mt-5">
-        <Icon icon={faCircleNotch} size="2xl" className="animate-spin" />
+      <p class="flex mt-5 justify-center">
+        <Icon icon={faCircleNotch} size="2xl" className="animate-twSpin" />
       </p>
     </div>
   </div>

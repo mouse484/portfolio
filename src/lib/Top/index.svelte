@@ -8,13 +8,13 @@
 </script>
 
 <h1
-  class="text-4xl font-bold text-center md:text-7xl animate-fadeInDownBig"
+  class="font-bold text-center animate-fadeInDownBig text-4xl md:text-7xl"
   class:animation={mounted}
 >
   Hi, I'm Mouse
 </h1>
 <h2
-  class="pb-4 mt-8 text-2xl text-center border-b-4 border-blue-200 animate-backInLeft animate-delay"
+  class="border-b-4 border-blue-200 mt-8 text-center pb-4 animate-backInLeft animate-delay text-2xl"
   class:animation={mounted}
 >
   I'm a student in Japan.
@@ -25,9 +25,3 @@
 >
   <Links />
 </div>
-
-<style>
-  .animation {
-    /* @apply animate-animated; */
-  }
-</style>

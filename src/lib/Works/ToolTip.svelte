@@ -12,13 +12,13 @@
 >
   <slot />
   <span
-    class="invisible bg-white tooltip group-hover:visible dark:bg-dark dark:text-gray-50"
+    class="bg-white invisible tooltip dark:bg-dark dark:text-gray-50 group-hover:visible"
   >
     {value}
   </span>
 </a>
 
-<style>
+<!-- <style>
   .tooltip {
     @apply absolute;
     @apply z-50;
@@ -38,4 +38,4 @@
     @apply rounded;
     @apply border;
   }
-</style>
+</style> -->
