@@ -1,6 +1,6 @@
 <script lang="ts">
-  import ScrollTo from './ScrollTo.svelte';
-  import ThemeSwitch from '$lib/ThemeSwitch.svelte';
+  import ScrollTo from '../components/element/ScrollTo.svelte';
+  import ThemeSwitch from '$lib/components/element/ThemeSwitch.svelte';
   import {
     Navbar,
     NavBrand,

@@ -1,11 +1,9 @@
 <script lang="ts">
-  import About from '$lib/About/About.svelte';
-  import MoveArrow from '$lib/MoveArrow.svelte';
-  import Posts from '$lib/Posts/Posts.svelte';
-  import Skills from '$lib/Skills/Skills.svelte';
-  import Top from '$lib/Top/index.svelte';
-  import Links from '$lib/Top/Links.svelte';
-  import Works from '$lib/Works/Works.svelte';
+  import Hero from '$lib/templates/page/Hero.svelte';
+  import About from '$lib/templates/page/About.svelte';
+  import Works from '$lib/templates/page/Works.svelte';
+  import Skills from '$lib/templates/page/Skills.svelte';
+  import Posts from '$lib/templates/page/Posts.svelte';
 </script>
 
 <svelte:head>
@@ -13,20 +11,13 @@
   <html lang="ja" />
 </svelte:head>
 
-<div class="h-screen pt-[30vh]">
-  <Top />
-  <div class="mt-48">
-    <MoveArrow to="main" />
-  </div>
-</div>
+<section class="h-screen pt-[30vh]">
+  <Hero />
+</section>
 
-<section id="main" class="space-y-20 py-10">
+<section id="main" class="py-10 space-y-20">
   <About />
   <Works />
   <Skills />
   <Posts />
 </section>
-
-<footer class="pb-8 mt-20">
-  <Links />
-</footer>
