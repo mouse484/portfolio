@@ -10,8 +10,8 @@
   libraries = libraries || [];
   const githubUrl = `https://github.com/${github.username}/${github.repo}`;
 
-  import Icon from '$lib/Icon.svelte';
-  import ToolTip from '../../Works/ToolTip.svelte';
+  import Icon from '$lib/components/element/Icon.svelte';
+  import ToolTip from '../element/ToolTip.svelte';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faLink } from '@fortawesome/free-solid-svg-icons';
 </script>

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from '$lib/Icon.svelte';
+  import Icon from '$lib/components/element/Icon.svelte';
   import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
   export let to: string;

@@ -5,7 +5,7 @@
   export let href: string;
   export let alt: string;
 
-  import Icon from '$lib/Icon.svelte';
+  import Icon from '$lib/components/element/Icon.svelte';
 </script>
 
 <a {href} aria-label={alt}>

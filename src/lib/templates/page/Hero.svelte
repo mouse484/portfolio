@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import MyLinks from '$lib/components/modules/MyLinks.svelte';
-  import MoveArrow from '$lib/MoveArrow.svelte';
+  import MoveArrow from '$lib/components/element/MoveArrow.svelte';
 
   let mounted = false;
 
