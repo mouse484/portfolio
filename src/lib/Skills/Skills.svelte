@@ -1,7 +1,7 @@
 <script lang="ts">
   import Box from './Box.svelte';
   import skills from './skills';
-  import SectionName from '$lib/SectionName.svelte';
+  import SectionName from '$lib/components/element/SectionName.svelte';
 </script>
 
 <section id="skills">

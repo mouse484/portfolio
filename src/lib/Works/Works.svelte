@@ -1,7 +1,7 @@
 <script lang="ts">
   import Project from './Project.svelte';
   import Link from '$lib/Link.svelte';
-  import SectionName from '$lib/SectionName.svelte';
+  import SectionName from '$lib/components/element/SectionName.svelte';
 </script>
 
 <section id="works" class="mx-auto text-center">

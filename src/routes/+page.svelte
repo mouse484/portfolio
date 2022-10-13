@@ -1,5 +1,5 @@
 <script lang="ts">
-  import About from '$lib/About/About.svelte';
+  import About from '$lib/templates/page/About.svelte';
   import MoveArrow from '$lib/MoveArrow.svelte';
   import Posts from '$lib/Posts/Posts.svelte';
   import Skills from '$lib/Skills/Skills.svelte';
@@ -19,7 +19,7 @@
   </div>
 </div>
 
-<section id="main" class="space-y-20 py-10">
+<section id="main" class="py-10 space-y-20">
   <About />
   <Works />
   <Skills />
