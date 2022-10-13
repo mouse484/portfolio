@@ -11,31 +11,21 @@
   class="relative group"
 >
   <slot />
-  <span
-    class="bg-white invisible tooltip dark:bg-dark dark:text-gray-50 group-hover:visible"
-  >
+  <span class="tooltip">
     {value}
   </span>
 </a>
 
-<!-- <style>
+<style lang="postcss">
   .tooltip {
-    @apply absolute;
-    @apply z-50;
-
-    left: 50%;
-    transform: translateX(-50%);
-    top: -50px;
-
-    @apply transition;
-    @apply duration-300;
-    @apply ease-in;
-
-    @apply whitespace-nowrap;
-    @apply max-w-max;
-
-    @apply p-2;
-    @apply rounded;
-    @apply border;
+    @apply bg-white;
+    @apply rounded border;
+    @apply absolute left-1/2 -top-12 -translate-x-1/2;
+    @apply p-2 max-w-max whitespace-nowrap z-50;
+    @apply invisible group-hover:visible;
+    @apply group-hover:animate-slideInUp animate-delay-1s;
   }
-</style> -->
+  :global(.dark) .tooltip {
+    @apply text-gray-50 bg-dark;
+  }
+</style>

@@ -16,21 +16,23 @@
   import { faLink } from '@fortawesome/free-solid-svg-icons';
 </script>
 
-<section class="flex flex-col p-4 px-4 border-blue-400 rounded border-3 z-20">
+<section
+  class="rounded flex flex-col border-blue-400 border-2 p-4 px-4 z-20 flex-1 max-w-xs"
+>
   <h1 class="text-2xl">{name}</h1>
 
-  <div class="mx-auto mt-4 max-w-80"><slot /></div>
+  <div class="mx-auto mt-4"><slot /></div>
 
   <div class="mt-auto">
-    <p class="mt-4 space-x-1">
+    <p class="space-x-1 mt-4">
       {#each libraries as library}
-        <span class="p-1 px-2 text-sm border rounded-sm shadow">
+        <span class="border rounded-sm shadow text-sm p-1 px-2">
           {library}
         </span>
       {/each}
     </p>
 
-    <div class="flex justify-center gap-4 mt-8">
+    <div class="flex mt-8 gap-4 justify-center">
       <ToolTip value={githubUrl} alt="GitHub Repository">
         <Icon icon={faGithub} />
       </ToolTip>
