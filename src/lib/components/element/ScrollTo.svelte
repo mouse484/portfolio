@@ -9,6 +9,6 @@
   };
 </script>
 
-<div on:click={scroll} class="cursor-pointer">
+<button on:click={scroll} class="cursor-pointer">
   <slot />
-</div>
+</button>
