@@ -28,7 +28,10 @@
 </script>
 
 {#if name}
-  <Button color="alternative" class="flex-1 m-1 w-full outline-none">
+  <Button
+    color="alternative"
+    class="flex-1 !justify-start !items-start m-1 w-full outline-none !text-start"
+  >
     {#if iconStatus}
       <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
     {:else}
@@ -36,7 +39,9 @@
     {/if}
     <span class="pl-2">{name}</span>
     {#if nested}
-      <Chevron placement={isRoot ? 'bottom' : 'right'} />
+      <span class="ml-auto">
+        <Chevron placement={isRoot ? 'bottom' : 'right'} />
+      </span>
     {/if}
   </Button>
 
