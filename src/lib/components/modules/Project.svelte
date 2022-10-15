@@ -17,11 +17,13 @@
 </script>
 
 <section
-  class="rounded flex flex-col border-blue-400 border-2 p-4 px-4 z-20 flex-1 max-w-xs"
+  class="rounded flex flex-col border-blue-400 border-2 p-4 z-20 flex-1 max-w-xs"
 >
   <h1 class="text-2xl">{name}</h1>
 
-  <div class="mx-auto mt-4"><slot /></div>
+  <div class="mt-4 mx-6 text-justify text-">
+    <slot />
+  </div>
 
   <div class="mt-auto">
     <p class="space-x-1 mt-4">
