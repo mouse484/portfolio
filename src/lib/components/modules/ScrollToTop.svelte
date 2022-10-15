@@ -1,11 +1,18 @@
-<script>
+<script lang="ts">
   import { ChevronUp } from 'flowbite-svelte';
   import ScrollTo from '../element/ScrollTo.svelte';
+
+  let scroll: number;
+  $: visible = scroll > 200;
 </script>
 
 <ScrollTo
   to="top"
-  class="rounded-full border border-cyan-200 w-fit p-3 fixed bottom-0 right-0 m-4"
+  class="fixed right-0 bottom-0 p-3 m-4 rounded-full border border-cyan-200 duration-1000 w-fit {visible
+    ? 'opacity-100'
+    : 'opacity-0'}"
 >
   <ChevronUp />
 </ScrollTo>
+
+<svelte:window bind:scrollY={scroll} />
