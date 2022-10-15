@@ -14,27 +14,31 @@
   import ToolTip from '../element/ToolTip.svelte';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faLink } from '@fortawesome/free-solid-svg-icons';
+  import SimpleIcon from '../element/SimpleIcon.svelte';
 </script>
 
 <section
-  class="rounded flex flex-col border-blue-400 border-2 p-4 z-20 flex-1 max-w-xs"
+  class="flex z-20 flex-col flex-1 p-4 max-w-xs rounded border-2 border-blue-400"
 >
   <h1 class="text-2xl">{name}</h1>
 
-  <div class="mt-4 mx-6 text-justify text-">
+  <div class="mx-6 mt-4 text-justify">
     <slot />
   </div>
 
   <div class="mt-auto">
-    <p class="space-x-1 mt-4">
+    <div class="flex flex-wrap justify-center m-4 space-x-1">
       {#each libraries as library}
-        <span class="border rounded-sm shadow text-sm p-1 px-2">
-          {library}
-        </span>
+        <div
+          class="flex px-2 py-1 m-1 text-sm rounded-md border shadow border-slate-800"
+        >
+          <SimpleIcon size={16} name={library} />
+          <p class="ml-2 whitespace-nowrap">{library}</p>
+        </div>
       {/each}
-    </p>
+    </div>
 
-    <div class="flex mt-8 gap-4 justify-center">
+    <div class="flex gap-4 justify-center mt-8">
       <ToolTip value={githubUrl} alt="GitHub Repository">
         <Icon icon={faGithub} />
       </ToolTip>

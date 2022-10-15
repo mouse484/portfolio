@@ -11,7 +11,7 @@
     <Project
       name="Portfolio"
       link="https://portfolio.mouse484.vercel.app/"
-      libraries={['SvelteKit', 'Svelte', 'Vite', 'Windi CSS']}
+      libraries={['Svelte', 'TypeScript', 'Vite', 'Tailwind CSS']}
     >
       <p>ポートフォリオサイト</p>
       <p>
