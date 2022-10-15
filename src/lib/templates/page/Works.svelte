@@ -9,6 +9,25 @@
 
   <div class="flex flex-wrap gap-2 justify-center mt-8">
     <Project
+      name="Portfolio"
+      link="https://portfolio.mouse484.vercel.app/"
+      libraries={['SvelteKit', 'Svelte', 'Vite', 'Windi CSS']}
+    >
+      <p>ポートフォリオサイト</p>
+      <p>
+        気になっていたVueやReactの変わりになるだろう
+        <Link href="https://svelte.dev">Svelte</Link>を使って開発しました。
+      </p>
+      <p>
+        <Link href="https://vitejs.dev/">Vite</Link>の
+        <Link
+          href="https://vitejs.dev/guide/features.html#hot-module-replacement"
+          >HMR</Link
+        >
+        のおかげで素早い開発ができました。
+      </p>
+    </Project>
+    <Project
       name="Ecstar"
       github={{ username: 'Ecstarjs' }}
       link="https://ecstar.js.org"
@@ -22,28 +41,6 @@
       </p>
       <p><span class="font-bold">最も簡単</span>を目標に作成している。</p>
     </Project>
-
-    <Project
-      name="Portfolio"
-      link="https://portfolio.mouse484.vercel.app/"
-      libraries={['SvelteKit', 'Svelte', 'Vite', 'Windi CSS']}
-    >
-      <p>ポートフォリオサイト</p>
-      <p>
-        気になっていたVueやReactの変わりになるだろう<Link
-          href="https://svelte.dev">Svelte</Link
-        >と Tailwind CSSに機能追加して早くなったらしい
-        <Link href="https://windicss.org/">Windi CSS</Link>
-        を使って開発しました。
-        <Link href="https://vitejs.dev/">Vite</Link>の
-        <Link
-          href="https://vitejs.dev/guide/features.html#hot-module-replacement"
-          >HMR</Link
-        >
-        のおかげで素早い開発ができました。
-      </p>
-    </Project>
-
     <Project
       name="eslint-config"
       link="https://eslint-config.mouse484.vercel.app"
