@@ -11,6 +11,7 @@
   $: {
     transform = name
       .replace(/ /g, '')
+      .replace(/-/g, '')
       .replace(/\./g, 'dot')
       .replace(/\+/g, 'plus');
   }
