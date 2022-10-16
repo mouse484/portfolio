@@ -1,7 +1,15 @@
 const skills = {
   JavaScript: {
-    TypeScript: {},
-    'Node.js': { npm: {}, yarn: {}, Framework: { Express: {}, Fastify: {} } },
+    TypeScript: {
+      'ts-node': { 'tsconfig-paths': {} },
+      ttypescript: { 'typescript-transform-paths': {} },
+    },
+    'Node.js': {
+      npm: {},
+      yarn: {},
+      Framework: { Express: {}, Fastify: {} },
+      tools: { Nodemon: {} },
+    },
     Deno: {},
     Bun: {},
     Web: {
@@ -22,6 +30,7 @@ const skills = {
     Application: {
       Electron: {},
     },
+    HTTP: { Axios: {} },
     'Linter/Formatter': {
       ESLint: {},
       Prettier: {},
@@ -34,15 +43,19 @@ const skills = {
   HTML: { _icon: 'HTML5' },
   CSS: {
     _icon: 'CSS3',
-    Bootstrap: {},
     'Tailwind CSS': {},
+    'Windi CSS': {},
     PostCSS: {},
     Sass: {},
-    Element: {},
+    Framework: { Bootstrap: {}, MUI: {}, Element: {} },
+    icons: {
+      'Font Awesome': {},
+      'Simple Icons': {},
+    },
   },
   Go: {},
   Python: {},
-  Ruby: {},
+  Ruby: { 'Ruby on Rails': {} },
   C: {},
   'C++': {},
   R: {},
@@ -50,6 +63,11 @@ const skills = {
   Git: {
     GitHub: {},
     GitLab: {},
+    tools: {
+      commitlint: {},
+      'Conventional Commits': {},
+      'semantic-release': {},
+    },
   },
   'CI/CD': {
     'GitHub Actions': {},
@@ -67,6 +85,10 @@ const skills = {
     SQLite: {},
     PostgreSQL: {},
     MongoDB: {},
+  },
+  CMS: {
+    contentful: {},
+    microCMS: {},
   },
   Editor: {
     'Visual Studio Code': {},
