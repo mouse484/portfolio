@@ -4,9 +4,7 @@
   import SectionName from '$lib/components/element/SectionName.svelte';
 
   const fetchPosts = (async () => {
-    const response = await fetch(
-      'https://portfolio-api.mouse484.vercel.app/posts'
-    );
+    const response = await fetch('api/posts');
     return (await response.json()) as {
       title: string;
       link: string;
