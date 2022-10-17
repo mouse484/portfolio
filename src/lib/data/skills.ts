@@ -1,19 +1,30 @@
 const skills = {
   JavaScript: {
-    TypeScript: {
-      'ts-node': { 'tsconfig-paths': {} },
-      ttypescript: { 'typescript-transform-paths': {} },
+    AltJS: {
+      TypeScript: {
+        'ts-node': { 'tsconfig-paths': {} },
+        ttypescript: { 'typescript-transform-paths': {} },
+      },
+      CoffeeScript: {},
     },
-    'Node.js': {
-      npm: {},
-      yarn: {},
-      Framework: { Express: {}, Fastify: {} },
-      tools: { Nodemon: {} },
+    Runtime: {
+      'Node.js': {
+        npm: {},
+        yarn: {},
+        pnpm: {},
+        Framework: { Express: {}, Fastify: {} },
+        tools: { Nodemon: {} },
+      },
+      Deno: {},
+      Bun: {},
     },
-    Deno: {},
-    Bun: {},
     Web: {
-      React: { 'Next.js': {}, Gatsby: {} },
+      React: {
+        'Next.js': {},
+        Gatsby: {},
+        'Create React App': {},
+        'React Hook Form': {},
+      },
       'Vue.js': { 'Nuxt.js': {}, Vuetify: {} },
       Svelte: { SvelteKit: { _icon: 'svelte' } },
       Angular: {},
@@ -30,7 +41,7 @@ const skills = {
     Application: {
       Electron: {},
     },
-    HTTP: { Axios: {} },
+    HTTP: { Axios: {}, got: {}, 'node-fetch': {} },
     'Linter/Formatter': {
       ESLint: {},
       Prettier: {},
@@ -40,14 +51,14 @@ const skills = {
       Mocha: {},
     },
   },
-  HTML: { _icon: 'HTML5' },
+  HTML: { _icon: 'HTML5', EJS: {}, Pug: {} },
   CSS: {
     _icon: 'CSS3',
     'Tailwind CSS': {},
     'Windi CSS': {},
     PostCSS: {},
     Sass: {},
-    Framework: { Bootstrap: {}, MUI: {}, Element: {} },
+    Framework: { Bootstrap: {}, MUI: {}, Element: {}, Flowbite: {} },
     icons: {
       'Font Awesome': {},
       'Simple Icons': {},
@@ -58,6 +69,7 @@ const skills = {
   Ruby: { 'Ruby on Rails': {} },
   C: {},
   'C++': {},
+  'C#': { _icon: 'C Sharp' },
   R: {},
   Arduino: {},
   Git: {
@@ -79,6 +91,7 @@ const skills = {
     Netlify: {},
     'GitHub Pages': {},
     heroku: {},
+    Glitch: {},
   },
   Database: {
     MySQL: {},
@@ -96,15 +109,38 @@ const skills = {
     'Sublime Text': {},
     Gitpod: {},
   },
+  OS: {
+    Windows: {},
+    Linux: {
+      Ubuntu: {},
+      Debian: {},
+      CentOS: {},
+      'Alpine Linux': {},
+    },
+  },
+  Browser: {
+    'Google Chrome': {},
+    Vivaldi: {},
+    FireFox: {},
+    Brave: {},
+    Opera: {},
+    'Tor Browser': {},
+  },
+  Chat: {
+    Discord: {
+      Bot: {
+        'Discord.js': {},
+        'Discord.py': {},
+      },
+    },
+    Slack: {},
+    LINE: {},
+  },
   Others: {
     Docker: {},
     FireBase: {},
     Jupyter: {},
     WSL: { _icon: 'Linux' },
-  },
-  Chat: {
-    Discord: {},
-    Slack: {},
   },
 };
 
