@@ -2,7 +2,7 @@
   "name": "@mouse_484/portfolio",
   "private": "true",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "vercel dev",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
@@ -33,12 +33,14 @@
     "tailwindcss": "3.1.8",
     "tslib": "2.4.0",
     "typescript": "4.8.4",
+    "vercel": "^28.4.11",
     "vite": "3.1.8"
   },
   "type": "module",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "6.2.0",
     "@fortawesome/free-solid-svg-icons": "6.2.0",
+    "rss-parser": "^3.12.0",
     "simple-icons": "7.16.0"
   }
 }
