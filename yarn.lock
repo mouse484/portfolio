@@ -2410,7 +2410,7 @@ rollup@~2.78.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rss-parser@^3.12.0:
+rss-parser@3.12.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/rss-parser/-/rss-parser-3.12.0.tgz#b8888699ea46304a74363fbd8144671b2997984c"
   integrity sha512-aqD3E8iavcCdkhVxNDIdg1nkBI17jgqF+9OqPS1orwNaOgySdpvq6B+DoONLhzjzwV8mWg37sb60e4bmLK117A==
@@ -2859,7 +2859,7 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vercel@^28.4.11:
+vercel@28.4.11:
   version "28.4.11"
   resolved "https://registry.yarnpkg.com/vercel/-/vercel-28.4.11.tgz#9c4da92621c373d8b5cca767ac6d57a9222221e6"
   integrity sha512-4dBJxufZgmo9ZU3tfSjeQKTqRcVyvhj/iqCe/TDXtQdhlYFA1GPEgioPb+ipNJpbEoJ6a87DAkjCwkQrUMU/4g==
