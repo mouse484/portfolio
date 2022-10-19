@@ -14,7 +14,7 @@
     "@fortawesome/fontawesome-common-types": "6.2.0",
     "@popperjs/core": "2.11.6",
     "@sveltejs/adapter-vercel": "1.0.0-next.80",
-    "@sveltejs/kit": "1.0.0-next.519",
+    "@sveltejs/kit": "1.0.0-next.520",
     "@types/simple-icons": "5.21.1",
     "@typescript-eslint/eslint-plugin": "5.40.1",
     "@typescript-eslint/parser": "5.40.1",
