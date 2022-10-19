@@ -12,3 +12,4 @@ vscode:
     - bradlc.vscode-tailwindcss
     - heybourn.headwind
     - csstools.postcss
+    - ZixuanChen.vitest-explorer
