@@ -8,11 +8,11 @@ const feeds = [
 
 const parser = new Parser();
 
-const isPlatform = (link = '') => {
+export const isPlatform = (link = '') => {
   return ['qiita', 'zenn'].find((value) => link.includes(value));
 };
 
-const getDate = (isoData = '') => {
+export const getTime = (isoData = '') => {
   return new Date(isoData).getTime();
 };
 
@@ -27,7 +27,7 @@ export const GET: RequestHandler = async () => {
   ).flat();
 
   const result = allfeed
-    .sort((a, b) => getDate(b.isoDate) - getDate(a.isoDate))
+    .sort((a, b) => getTime(b.isoDate) - getTime(a.isoDate))
     .map(({ title, link, isoDate }) => {
       return {
         title,
