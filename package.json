@@ -6,7 +6,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --write --plugin-search-dir=. ."
+    "format": "prettier --write --plugin-search-dir=. .",
+    "test": "vitest run",
+    "test:w": "vitest"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-common-types": "6.2.0",
@@ -24,6 +26,7 @@
     "eslint-plugin-svelte3": "4.0.0",
     "flowbite": "1.5.3",
     "flowbite-svelte": "0.27.8",
+    "happy-dom": "^7.6.0",
     "postcss": "8.4.18",
     "postcss-load-config": "4.0.1",
     "prettier": "2.7.1",
@@ -34,7 +37,8 @@
     "tslib": "2.4.0",
     "typescript": "4.8.4",
     "vercel": "28.4.12",
-    "vite": "3.1.8"
+    "vite": "3.1.8",
+    "vitest": "^0.24.3"
   },
   "type": "module",
   "dependencies": {
