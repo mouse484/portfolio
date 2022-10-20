@@ -1,6 +1,6 @@
 tasks:
   - init: yarn install
-    command: yarn dev
+    command: yarn dev:vc
 
 ports:
   - port: 3000

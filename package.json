@@ -2,7 +2,8 @@
   "name": "@mouse_484/portfolio",
   "private": "true",
   "scripts": {
-    "dev": "vercel dev",
+    "dev": "vite dev",
+    "dev:vc": "vercel dev --token $VERCEL_TOKEN",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
