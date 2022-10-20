@@ -12,20 +12,29 @@
       "extends": ["packages:linters"],
       "matchPackagePatterns": ["prettier"],
       "matchPackagePrefixes": ["@typescript-eslint/"],
-      "automerge": true,
+      "automerge": true
     },
     {
       "groupName": "svelte",
-      "matchPackageNames": ["svelte"],
+      "matchPackagePatterns": ["^svelte"],
       "matchPackagePrefixes": ["@sveltejs/"]
     },
     {
-      "groupName": "windicss",
-      "matchPackageNames": ["windicss"]
+      "groupName": "TypeScript",
+      "matchPackageNames": ["typescript", "tslib"]
+    },
+    {
+      "groupName": "css",
+      "matchPackageNames": ["tailwindcss", "animated-tailwindcss"],
+      "matchPackagePatterns": ["^postscss", "^flowbite"]
     },
     {
       "groupName": "simple-icons",
-      "matchPackageNames": "simple-icons"
+      "matchPackageNames": ["simple-icons"]
+    },
+    {
+      "groupName": "test",
+      "matchPackageNames": ["vitest", "happy-dom"]
     }
   ]
 }
