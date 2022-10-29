@@ -1560,10 +1560,10 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
   integrity sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==
 
-flowbite-svelte@0.27.11:
-  version "0.27.11"
-  resolved "https://registry.yarnpkg.com/flowbite-svelte/-/flowbite-svelte-0.27.11.tgz#b48f9fe7c752af9cd50fc61e0f91e944dddd4a94"
-  integrity sha512-Pw4KQlVFkFamc3qWRFSOc7CIadTZV1CMF3pQIKdiAQrRAmOf2PI6EdSnj4rfE5lnNzSOvfAOUdMHGBEKXPkEIQ==
+flowbite-svelte@0.27.12:
+  version "0.27.12"
+  resolved "https://registry.yarnpkg.com/flowbite-svelte/-/flowbite-svelte-0.27.12.tgz#7ddfac76eb8b0cffd35b9a7c47ac9ba3afcfb616"
+  integrity sha512-7S5P4rinZmxEpjlL8iHcj501V1m2hXCxYdvnYp1CBiIEgqWl5bU35C/C534AFjd39ge65/MyZt0/n8zEZk1kzQ==
   dependencies:
     "@popperjs/core" "^2.11.6"
     classnames "^2.3.2"
