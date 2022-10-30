@@ -1,5 +1,6 @@
 <script>
-  import { Spinner } from 'flowbite-svelte';
+  import Icon from '$lib/components/element/Icon.svelte';
+  import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
 </script>
 
 <div class="flex flex-col justify-center items-center h-screen">
@@ -9,7 +10,6 @@
     Mouse's Portfolio.
   </p>
   <p class="mt-5 animate-twSpin animate-infinite">
-    <Spinner color="gray" />
+    <Icon icon={faCircleNotch} />
   </p>
 </div>
-
