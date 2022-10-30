@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { ChevronUp } from 'flowbite-svelte';
+  import Icon from '$lib/components/element/Icon.svelte';
+  import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
   import ScrollTo from '../element/ScrollTo.svelte';
 
   let scroll: number;
@@ -12,7 +13,7 @@
     ? 'opacity-100'
     : 'opacity-0'}"
 >
-  <ChevronUp />
+  <Icon icon={faChevronUp} />
 </ScrollTo>
 
 <svelte:window bind:scrollY={scroll} />
