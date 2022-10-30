@@ -1,13 +1,6 @@
 <script lang="ts">
   import ScrollTo from '../components/element/ScrollTo.svelte';
   import ThemeSwitch from '$lib/components/element/ThemeSwitch.svelte';
-  import {
-    Navbar,
-    NavBrand,
-    NavLi,
-    NavUl,
-    NavHamburger,
-  } from 'flowbite-svelte';
 
   const naviList = {
     about: 'About Me',
@@ -17,15 +10,12 @@
   };
 </script>
 
-<header class="sticky top-0 border-b z-50 background-color">
-  <Navbar let:hidden let:toggle color="">
-    <NavBrand>mouse's Portfolio</NavBrand>
-    <NavHamburger on:click={toggle} />
-    <NavUl {hidden}>
-      {#each Object.entries(naviList) as [to, name]}
-        <NavLi><ScrollTo {to}>{name}</ScrollTo></NavLi>
-      {/each}
-      <NavLi><ThemeSwitch /></NavLi>
-    </NavUl>
-  </Navbar>
+<header class="flex sticky top-0 z-50 px-2 py-4 border-b background-color">
+  <h1 class="text-2xl">mouse's Portfolio</h1>
+  <div class="flex mr-4 ml-auto">
+    {#each Object.entries(naviList) as [to, name]}
+      <ScrollTo class="px-3" {to}>{name}</ScrollTo>
+    {/each}
+    <div><ThemeSwitch /></div>
+  </div>
 </header>
