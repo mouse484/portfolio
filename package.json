@@ -36,7 +36,7 @@
     "tslib": "2.4.0",
     "typescript": "4.8.4",
     "vercel": "28.4.12",
-    "vite": "3.2.1",
+    "vite": "3.2.2",
     "vitest": "0.24.3"
   },
   "type": "module",
