@@ -10,12 +10,14 @@
   };
 </script>
 
-<header class="flex sticky top-0 z-50 px-2 py-4 border-b background-color">
+<header
+  class="flex sticky top-0 z-50 items-center px-2 py-4 border-b background-color"
+>
   <h1 class="text-2xl">mouse's Portfolio</h1>
   <div class="flex mr-4 ml-auto">
     {#each Object.entries(naviList) as [to, name]}
       <ScrollTo class="px-3" {to}>{name}</ScrollTo>
     {/each}
-    <div><ThemeSwitch /></div>
+    <ThemeSwitch />
   </div>
 </header>
