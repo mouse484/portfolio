@@ -1,25 +1,18 @@
 <script lang="ts">
   import Icon from '$lib/components/element/Icon.svelte';
   import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+  import ScrollTo from './ScrollTo.svelte';
 
   export let to: string;
-
-  const scroll = () => {
-    document.getElementById(to)?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
-  };
 </script>
 
-<div
-  class="w-4 mx-auto text-gray-500 cursor-pointer move-arrow"
-  on:click={scroll}
->
-  <Icon icon={faChevronDown} />
+<div class="move-arrow">
+  <ScrollTo {to}>
+    <Icon icon={faChevronDown} />
+  </ScrollTo>
 </div>
 
-<style>
+<style lang="postcss">
   @keyframes moveArrow {
     0% {
       transform: translateY(0);
