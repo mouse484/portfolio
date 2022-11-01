@@ -22,7 +22,8 @@
   <div class="mt-8 text-center animate-backInUp animate-delay-2s">
     <MyLinks />
   </div>
-  <div class="mt-48">
-    <MoveArrow to="main" />
+  <div class="mt-48 w-4 mx-auto text-gray-500 cursor-pointer">
+    <!-- main > about -->
+    <MoveArrow to="about" />
   </div>
 </div>
