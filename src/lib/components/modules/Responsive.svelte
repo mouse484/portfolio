@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+
   // ref: https://tailwindcss.com/docs/responsive-design
   const breakpointList = {
     sm: '(min-width: 640px)',
@@ -10,10 +12,13 @@
 
   let result = false;
 
-  $: {
-    const matches = window.matchMedia(breakpointList[breakpoint]).matches;
-    result = visable ? !matches : matches;
-  }
+  onMount(() => {
+    const mql = window.matchMedia(breakpointList[breakpoint]);
+    update(mql.matches); // first
+    mql.addEventListener('change', ({ matches }) => update(matches)); // resize
+  });
+
+  $: update = (matches: boolean) => (result = visable ? !matches : matches);
 </script>
 
 {#if result}
