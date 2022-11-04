@@ -18,7 +18,7 @@
   <Responsive breakpoint="sm" visable>
     <Menu items={naviList} />
   </Responsive>
-  <h1 class="ml-2 text-2xl">mouse's Portfolio</h1>
+  <h1 class="ml-4 text-2xl">mouse's Portfolio</h1>
   <div class="flex mr-4 ml-auto">
     <Responsive breakpoint="sm">
       {#each Object.entries(naviList) as [to, name]}
