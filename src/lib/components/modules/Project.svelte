@@ -18,7 +18,7 @@
 </script>
 
 <section
-  class="flex z-20 flex-col flex-1 p-4 max-w-xs rounded border-2 border-blue-400"
+  class="flex z-20 flex-col flex-1 p-4 min-w-[18rem] max-w-xs rounded border-2 border-blue-400"
 >
   <h1 class="text-2xl">{name}</h1>
 

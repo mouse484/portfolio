@@ -7,7 +7,7 @@
 <section id="works" class="mx-auto text-center">
   <SectionName>My Works</SectionName>
 
-  <div class="flex flex-wrap gap-2 justify-center mt-8">
+  <div class="flex flex-wrap gap-2 justify-center mx-10 mt-8 overflow-clip">
     <Project
       name="Portfolio"
       link="https://portfolio.mouse484.vercel.app/"
