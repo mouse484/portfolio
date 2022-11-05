@@ -1,6 +1,6 @@
 <script lang="ts">
   import Dropdown from '$lib/components/element/Dropdown/Dropdown.svelte';
-  import NameAndIcon from './SkillList/NameAndIcon.svelte';
+  import NameAndIcon from './NameAndIcon.svelte';
 
   export let skills: { [key: string]: {} };
   export let name: string = '';
