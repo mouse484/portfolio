@@ -6,19 +6,21 @@
     faChevronDown,
     faChevronRight,
   } from '@fortawesome/free-solid-svg-icons';
+  import Dropdown from '$lib/components/element/Dropdown/Dropdown.svelte';
 
   export let skills: { [key: string]: {} };
   export let name: string = '';
-  export let nested = true;
-  export let isRoot = false;
+  export let nested = 0;
 
   let useSkills: { [key: string]: {} };
   let icon = name;
   let iconStatus = true;
-  let vis = false;
+  // let vis = false;
 
   const isNested = (skills: typeof useSkills) =>
-    Object.keys(skills).length > (skills.hasOwnProperty('_icon') ? 1 : 0);
+    Object.keys(skills).length > (skills.hasOwnProperty('_icon') ? 1 : 0)
+      ? nested + 1
+      : 0;
 
   $: {
     if (skills.hasOwnProperty('_icon')) {
@@ -32,46 +34,28 @@
 </script>
 
 {#if name}
-  <div class="relative">
-    <button
-      class="flex flex-nowrap items-center p-2 m-1 min-w-min rounded-md border grow"
-      on:click={() => (vis = !vis)}
-    >
+  <Dropdown side={nested <= 1 ? 'bottom' : 'right'}>
+    <div slot="name" class="flex gap-2 items-center">
       {#if iconStatus}
         <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
       {:else}
         <Icon icon={faEllipsis} />
       {/if}
-      <span class="px-2">{name}</span>
+      <span>{name}</span>
       {#if nested}
         <span class="ml-auto">
-          <Icon icon={isRoot ? faChevronDown : faChevronRight} size="sm" />
+          <Icon icon={nested <= 1 ? faChevronDown : faChevronRight} size="sm" />
         </span>
       {/if}
-    </button>
-
+    </div>
     {#if nested}
-      <div class="absolute top-14 z-50 {vis ? 'visible' : 'invisible'}">
-        {#each Object.entries(useSkills) as [skillName, next]}
-          <div class="background-color">
-            <svelte:self
-              name={skillName}
-              skills={next}
-              nested={isNested(next)}
-            />
-          </div>
-        {/each}
-      </div>
+      {#each Object.entries(useSkills) as [skillName, next]}
+        <svelte:self name={skillName} skills={next} nested={isNested(next)} />
+      {/each}
     {/if}
-  </div>
+  </Dropdown>
 {:else}
-  <!-- init -->
   {#each Object.entries(useSkills) as [skillName, next]}
-    <svelte:self
-      name={skillName}
-      skills={next}
-      nested={isNested(next)}
-      isRoot
-    />
+    <svelte:self name={skillName} skills={next} nested={isNested(next)} />
   {/each}
 {/if}
