@@ -7,7 +7,7 @@
 <section id="skills">
   <SectionName>My Skills</SectionName>
 
-  <div class="flex flex-wrap justify-center px-10 mx-auto mt-6 max-w-3xl">
+  <div class="flex flex-wrap gap-2 justify-center px-10 mx-auto mt-6 max-w-3xl">
     <SkillList {skills} />
   </div>
 </section>
