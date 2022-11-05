@@ -2,7 +2,7 @@
   import SimpleIcon from '$lib/components/element/SimpleIcon.svelte';
   import Icon from '$lib/components/element/Icon.svelte';
   import {
-    faEllipsis,
+    faDiamond,
     faChevronDown,
     faChevronRight,
   } from '@fortawesome/free-solid-svg-icons';
@@ -18,7 +18,7 @@
   {#if iconStatus}
     <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
   {:else}
-    <Icon icon={faEllipsis} />
+    <Icon icon={faDiamond} size="xs" className="dark:fill-gray-500" />
   {/if}
   <span class="w-max">{name}</span>
   {#if nested}

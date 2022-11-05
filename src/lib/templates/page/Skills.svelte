@@ -1,6 +1,6 @@
 <script lang="ts">
   import SectionName from '$lib/components/element/SectionName.svelte';
-  import SkillList from '$lib/components/modules/SkillList.svelte';
+  import SkillList from '$lib/components/modules/SkillList/SkillList.svelte';
   import skills from '$lib/data/skills';
 </script>
 
