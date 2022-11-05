@@ -13,7 +13,7 @@
 </script>
 
 {#if onLoad}
-  <div class="background-color">
+  <div class="background-color overflow-x-clip">
     <Header />
     <div id="top">
       <slot />
