@@ -48,6 +48,7 @@ const skills = {
     },
     Test: {
       Jest: {},
+      Vitest: {},
       Mocha: {},
     },
   },
@@ -139,6 +140,7 @@ const skills = {
   Others: {
     Docker: {},
     FireBase: {},
+    RenovateBot: {},
     Jupyter: {},
     WSL: { _icon: 'Linux' },
   },
