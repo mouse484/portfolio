@@ -1,5 +1,5 @@
 <script lang="ts">
-  import '../app.postcss';
+  import '../app.css';
   import { onMount } from 'svelte';
   import Header from '$lib/templates/Header.svelte';
   import Loading from '$lib/components/element/Loading.svelte';
@@ -13,7 +13,7 @@
 </script>
 
 {#if onLoad}
-  <div class="background-color overflow-x-clip">
+  <div class="overflow-x-clip default-color">
     <Header />
     <div id="top">
       <slot />

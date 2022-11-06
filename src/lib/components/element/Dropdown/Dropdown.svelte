@@ -8,7 +8,7 @@
     <slot name="name" />
   </div>
   <div
-    class="absolute invisible z-50 p-2 rounded-md peer-hover:visible hover:visible background-color {style}"
+    class="absolute invisible z-50 p-2 rounded-md peer-hover:visible hover:visible default-color {style}"
   >
     <slot />
   </div>

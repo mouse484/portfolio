@@ -29,7 +29,7 @@
   {#if nested}
     <Dropdown side={nested <= 1 ? 'bottom' : 'right'}>
       <NameAndIcon slot="name" {name} {icon} {nested} />
-      <div class="p-1 drop-shadow-2xl background-color">
+      <div class="p-1 drop-shadow-2xl default-color">
         {#each Object.entries(useSkills) as [skillName, next]}
           <svelte:self name={skillName} skills={next} nested={isNested(next)} />
         {/each}

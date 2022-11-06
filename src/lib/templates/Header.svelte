@@ -13,7 +13,7 @@
 </script>
 
 <header
-  class="flex sticky top-0 z-50 items-center px-2 py-4 border-b background-color"
+  class="flex sticky top-0 z-50 items-center px-2 py-4 border-b default-color"
 >
   <Responsive breakpoint="sm" visable>
     <Menu items={naviList} />

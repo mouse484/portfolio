@@ -10,6 +10,7 @@
   @apply leading-relaxed;
 }
 
-.background-color {
+.default-color {
   @apply dark:bg-dark dark:text-gray-50;
+  @apply bg-white text-black;
 }
