@@ -14,7 +14,7 @@
   let iconStatus = true;
 </script>
 
-<div class="flex gap-2 items-center">
+<div class="flex gap-3 items-center">
   {#if iconStatus}
     <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
   {:else}
