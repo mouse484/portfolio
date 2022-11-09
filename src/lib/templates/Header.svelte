@@ -1,7 +1,7 @@
 <script lang="ts">
   import Menu from '$lib/components/element/Menu.svelte';
   import ScrollTo from '$lib/components/element/ScrollTo.svelte';
-  import ThemeSwitch from '$lib/components/element/ThemeSwitch.svelte';
+  import ThemeSwitch from '$lib/components/modules/ThemeSwitch.svelte';
   import Responsive from '$lib/components/modules/Responsive.svelte';
 
   const naviList = {
