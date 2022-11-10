@@ -1,9 +1,4 @@
 <script lang="ts">
-  // import { onMount } from 'svelte';
-
-  // onMount(() => {
-  //   document.querySelector('html')?.classList.add('dark');
-  // });
   import Icon from '$lib/components/element/Icon.svelte';
   import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
   import { onMount } from 'svelte';
