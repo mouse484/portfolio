@@ -5,9 +5,12 @@
   import Loading from '$lib/components/element/Loading.svelte';
   import Footer from '$lib/templates/Footer.svelte';
   import ScrollToTop from '$lib/components/modules/ScrollToTop.svelte';
+  import { initTheme } from '$lib/store/theme';
+
   export let onLoad = false;
 
   onMount(() => {
+    initTheme();
     onLoad = true;
   });
 </script>
