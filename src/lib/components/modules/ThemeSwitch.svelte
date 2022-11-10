@@ -1,27 +1,7 @@
 <script lang="ts">
   import Icon from '$lib/components/element/Icon.svelte';
   import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
-  import { onMount } from 'svelte';
-
-  import { writable } from 'svelte/store';
-
-  export const theme = writable<'light' | 'dark'>('light');
-
-  onMount(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      theme.set('dark');
-    }
-  });
-
-  $: {
-    if (typeof document !== 'undefined') {
-      if ($theme === 'dark') {
-        document.querySelector('html')?.classList.add('dark');
-      } else {
-        document.querySelector('html')?.classList.remove('dark');
-      }
-    }
-  }
+  import { theme } from '$lib/store/theme';
 </script>
 
 <button
