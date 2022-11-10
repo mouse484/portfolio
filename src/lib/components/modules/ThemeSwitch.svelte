@@ -34,5 +34,7 @@
   aria-label="ThemeSwitch"
   on:click={() => theme.set($theme === 'light' ? 'dark' : 'light')}
 >
-  <Icon icon={$theme === 'light' ? faMoon : faSun} />
+  {#key $theme}
+    <Icon icon={$theme === 'light' ? faMoon : faSun} />
+  {/key}
 </button>
