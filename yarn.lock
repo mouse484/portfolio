@@ -138,18 +138,18 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@sveltejs/adapter-vercel@1.0.0-next.81":
-  version "1.0.0-next.81"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.81.tgz#99ecb17e389ef9724c0544cc8a7ab49165e0ca07"
-  integrity sha512-cuNolQSqabSs97J2hn9bnRDOscihIO+VEYltsc+POLU/ecv7pbUm1qdRakeG3+ehK1mfZ9dub6vEVuLKhm+Qng==
+"@sveltejs/adapter-vercel@1.0.0-next.84":
+  version "1.0.0-next.84"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.84.tgz#57273863dc5a72cdb890922134414a35af32f4ff"
+  integrity sha512-1HoUDSG6EDydRfvrgwlNSlGjCw3vUtSk55ipm6OUVujg2oRve9Ge2+kK2w8ojkZiMuTpWu+plbQMr8yuktoeJQ==
   dependencies:
     "@vercel/nft" "^0.22.1"
     esbuild "^0.15.12"
 
-"@sveltejs/kit@1.0.0-next.553":
-  version "1.0.0-next.553"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.553.tgz#5c3a4b013a80a8d8c542087245d7723ab8350101"
-  integrity sha512-6gUPzmry+j/0uFJnGAJNru3lUpGY12We1Vsom5nDeRaG/Cs2wCwK8gMO2B5taZsHmryIB8zA+v0QCcu5kClmWA==
+"@sveltejs/kit@1.0.0-next.556":
+  version "1.0.0-next.556"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.556.tgz#b52a26150cec09983b38b21dbafa1e9c72f5caa9"
+  integrity sha512-poCCk0Eqd5uFwEzeoi2KsP+RtjeEoYsg+UMDIEZiNIZtM6lw2CPDZS98TYOFAdLN+pQJJAji8ZNfvcE/rJN+jA==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.1.0"
     "@types/cookie" "^0.5.1"
