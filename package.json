@@ -42,6 +42,6 @@
     "@fortawesome/free-brands-svg-icons": "6.2.1",
     "@fortawesome/free-solid-svg-icons": "6.2.1",
     "rss-parser": "3.12.0",
-    "simple-icons": "7.20.0"
+    "simple-icons": "7.21.0"
   }
 }
