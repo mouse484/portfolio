@@ -22,7 +22,7 @@
 >
   <h1 class="text-2xl">{name}</h1>
 
-  <div class="mx-6 mt-4 text-justify">
+  <div class="mx-6 mt-8 text-justify text-japanese">
     <slot />
   </div>
 

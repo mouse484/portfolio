@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .text-japanese {
-  @apply text-base;
   /* 文字間隔 5% */
   @apply tracking-wider;
   /* 行間隔 1.625 */
