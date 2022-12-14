@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-common-types": "6.2.1",
-    "@sveltejs/adapter-vercel": "1.0.0-next.87",
+    "@sveltejs/adapter-vercel": "1.0.0-next.88",
     "@sveltejs/kit": "1.0.0-next.587",
     "@types/simple-icons": "5.21.1",
     "@typescript-eslint/eslint-plugin": "5.46.1",
