@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Hero from '$lib/templates/page/Hero.svelte';
+  import Hero from '$lib/templates/page/Hero/Hero.svelte';
   import About from '$lib/templates/page/About.svelte';
   import Works from '$lib/templates/page/Works.svelte';
   import Skills from '$lib/templates/page/Skills.svelte';
@@ -11,11 +11,9 @@
   <html lang="ja" />
 </svelte:head>
 
-<section class="h-screen pt-[30vh]">
-  <Hero />
-</section>
+<Hero />
 
-<section id="main" class="py-10 space-y-20">
+<section id="main">
   <About />
   <Works />
   <Skills />

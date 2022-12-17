@@ -36,4 +36,7 @@
     background-color: #121212;
     color: #ffffff;
   }
+  div {
+    padding: 2em;
+  }
 </style>
