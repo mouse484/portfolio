@@ -16,7 +16,7 @@
   </span>
 </a>
 
-<style lang="postcss">
+<!-- <style lang="postcss">
   .tooltip {
     @apply bg-white;
     @apply rounded border;
@@ -28,4 +28,4 @@
   :global(.dark) .tooltip {
     @apply text-gray-50 bg-dark;
   }
-</style>
+</style> -->
