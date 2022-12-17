@@ -27,19 +27,27 @@
   </div>
 </header>
 
-<style>
+<style lang="postcss">
   #header {
     display: flex;
     align-items: center;
     border-bottom: 1px solid;
     justify-content: space-between;
 
+    padding: 0 4em;
+
     position: sticky;
     top: 0;
     z-index: 50;
     background-color: inherit;
   }
+  h1 {
+    font-size: 1.7em;
+    font-weight: normal;
+  }
   .items {
+    column-gap: 0.5em;
     display: flex;
+    font-size: 1.1em;
   }
 </style>

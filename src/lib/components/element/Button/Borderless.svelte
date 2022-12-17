@@ -13,5 +13,6 @@
     background: transparent;
     color: currentcolor;
     cursor: pointer;
+    font-size: inherit;
   }
 </style>
