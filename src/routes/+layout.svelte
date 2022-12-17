@@ -1,5 +1,6 @@
 <script lang="ts">
   import 'reseter.css';
+  import "../app.css"
   import { onMount } from 'svelte';
   import Header from '$lib/templates/Header.svelte';
   import Loading from '$lib/components/element/Loading.svelte';

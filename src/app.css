@@ -1,13 +1,4 @@
-/* 
 .text-japanese {
-  文字間隔 5% 
-  @apply tracking-wider;
-  行間隔 1.625 
-  @apply leading-relaxed;
+  letter-spacing: 0.05em;
+  line-height: 1.5;
 }
-
-.default-color {
-  @apply dark:bg-dark dark:text-gray-50;
-  @apply bg-white text-black;
-} 
-*/
