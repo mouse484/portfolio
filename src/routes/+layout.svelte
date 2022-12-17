@@ -30,14 +30,8 @@
 </main>
 
 <style>
-  main {
-    padding: 4em;
-  }
   main.dark {
     background-color: #121212;
     color: #ffffff;
-  }
-  div {
-    padding: 2em;
   }
 </style>
