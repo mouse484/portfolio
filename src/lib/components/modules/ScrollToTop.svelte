@@ -1,7 +1,7 @@
 <script lang="ts">
   import Icon from '$lib/components/element/Icon.svelte';
   import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
-  import ScrollTo from '../element/ScrollTo.svelte';
+  import ScrollTo from './ScrollTo.svelte';
 
   let scroll: number;
   $: visible = scroll > 200;

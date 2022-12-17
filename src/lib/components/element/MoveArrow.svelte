@@ -1,7 +1,7 @@
 <script lang="ts">
   import Icon from '$lib/components/element/Icon.svelte';
   import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-  import ScrollTo from './ScrollTo.svelte';
+  import ScrollTo from '../modules/ScrollTo.svelte';
 
   export let to: string;
 </script>
