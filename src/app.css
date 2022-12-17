@@ -1,15 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* 
 .text-japanese {
-  /* 文字間隔 5% */
+  文字間隔 5% 
   @apply tracking-wider;
-  /* 行間隔 1.625 */
+  行間隔 1.625 
   @apply leading-relaxed;
 }
 
 .default-color {
   @apply dark:bg-dark dark:text-gray-50;
   @apply bg-white text-black;
-}
+} 
+*/
