@@ -6,7 +6,7 @@
   import Loading from '$lib/components/element/Loading.svelte';
   import Footer from '$lib/templates/Footer.svelte';
   import ScrollToTop from '$lib/components/modules/ScrollToTop.svelte';
-  import { initTheme, theme } from '$lib/store/theme';
+  import { initTheme } from '$lib/store/theme';
 
   export let onLoad = false;
 
@@ -16,7 +16,7 @@
   });
 </script>
 
-<main class={$theme ? 'dark' : ''}>
+<main>
   {#if onLoad}
     <Header />
     <div id="top">
@@ -29,9 +29,9 @@
   {/if}
 </main>
 
-<style>
-  main.dark {
-    background-color: #121212;
-    color: #ffffff;
+<style lang="postcss">
+  main {
+    background-color: var(--background-color);
+    color: var(--font-color);
   }
 </style>
