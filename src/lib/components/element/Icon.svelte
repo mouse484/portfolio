@@ -26,7 +26,13 @@
   viewBox="0 0 {width} {height}"
   width={iconSize[size]}
   height={iconSize[size]}
-  class="fill-black dark:fill-white {className}"
+  class={className}
 >
   <path d={typeof d === 'string' ? d : d.join('')} />
 </svg>
+
+<style>
+  svg {
+    fill: currentColor;
+  }
+</style>

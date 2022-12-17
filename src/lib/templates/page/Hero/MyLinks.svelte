@@ -4,7 +4,7 @@
   import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 </script>
 
-<div class="flex justify-center space-x-6">
+<div>
   <IconLink
     icon={faTwitter}
     href="https://twitter.com/mouse_484"
@@ -21,3 +21,11 @@
     alt="mailto:escmouse484+dev@gmail.com"
   />
 </div>
+
+<style>
+  div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+</style>
