@@ -13,10 +13,18 @@
 </svelte:head>
 
 <Hero />
-<Spaser size={16}/>
+<Spaser size={16} />
 <section id="main">
   <About />
   <Works />
   <Skills />
   <Posts />
 </section>
+
+<style>
+  section#main {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+  }
+</style>

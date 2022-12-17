@@ -2,12 +2,13 @@
   import Project from '$lib/components/modules/Project.svelte';
   import Link from '$lib/components/element/Link.svelte';
   import SectionName from '$lib/components/element/SectionName.svelte';
+  import Spaser from '$lib/components/element/Spaser.svelte';
 </script>
 
-<section id="works" class="mx-auto text-center">
+<section id="works">
   <SectionName>My Works</SectionName>
-
-  <div class="flex flex-wrap gap-2 justify-center mx-10 mt-8 overflow-clip">
+  <Spaser size={4} />
+  <div>
     <Project
       name="Portfolio"
       link="https://portfolio.mouse484.vercel.app/"
@@ -63,3 +64,14 @@
     </Project>
   </div>
 </section>
+
+<style>
+  section {
+    text-align: center;
+  }
+  section > div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+</style>
