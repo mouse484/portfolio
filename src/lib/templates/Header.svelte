@@ -30,11 +30,14 @@
 <style>
   #header {
     display: flex;
-    position: sticky;
-    top: 0;
     align-items: center;
     border-bottom: 1px solid;
     justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: inherit;
   }
   .items {
     display: flex;
