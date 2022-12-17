@@ -15,38 +15,69 @@
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faLink } from '@fortawesome/free-solid-svg-icons';
   import SimpleIcon from '../element/SimpleIcon.svelte';
+  import Spaser from '../element/Spaser.svelte';
 </script>
 
-<section
-  class="flex z-20 flex-col flex-1 p-4 min-w-[18rem] max-w-xs rounded border-2 border-blue-400"
->
-  <h1 class="text-2xl">{name}</h1>
-
-  <div class="mx-6 mt-8 text-justify text-japanese">
+<section class="rounded">
+  <Spaser size={2} />
+  <h4>{name}</h4>
+  <Spaser size={2} />
+  <div class="text-japanese">
     <slot />
   </div>
-
-  <div class="mt-auto">
-    <div class="flex flex-wrap justify-center m-4 space-x-1">
-      {#each libraries as library}
-        <div
-          class="flex px-2 py-1 m-1 text-sm rounded-md border shadow border-slate-800"
-        >
-          <SimpleIcon size={16} name={library} />
-          <p class="ml-2 whitespace-nowrap">{library}</p>
-        </div>
-      {/each}
-    </div>
-
-    <div class="flex gap-4 justify-center mt-8">
-      <ToolTip value={githubUrl} alt="GitHub Repository">
-        <Icon icon={faGithub} />
+  <Spaser size={2} />
+  <div class="libraries">
+    {#each libraries as library}
+      <div class="library rounded">
+        <SimpleIcon size={16} name={library} />
+        <p>{library}</p>
+      </div>
+    {/each}
+  </div>
+  <Spaser size={2} />
+  <div>
+    <ToolTip value={githubUrl} alt="GitHub Repository">
+      <Icon icon={faGithub} />
+    </ToolTip>
+    {#if link}
+      <ToolTip value={link} alt="Link">
+        <Icon icon={faLink} />
       </ToolTip>
-      {#if link}
-        <ToolTip value={link} alt="Link">
-          <Icon icon={faLink} />
-        </ToolTip>
-      {/if}
-    </div>
+    {/if}
   </div>
 </section>
+
+<style lang="postcss">
+  section {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--blue);
+    max-width: 24em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  div.text-japanese {
+    padding: 0 2em;
+    text-align: justify;
+  }
+  .libraries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+
+    & .library {
+      padding: 0.2em;
+      font-size: 0.7em;
+      border: 1px solid var(--gray);
+      display: flex;
+      align-items: center;
+
+      & p {
+        margin-left: 0.5em;
+      }
+    }
+  }
+</style>

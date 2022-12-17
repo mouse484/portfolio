@@ -2,6 +2,16 @@
   export let href: string;
 </script>
 
-<a {href} class="text-blue-600 dark:text-light-blue-500 hover:underline">
+<a {href}>
   <slot />
 </a>
+
+<style lang="postcss">
+  a {
+    color: #0284c7;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+</style>
