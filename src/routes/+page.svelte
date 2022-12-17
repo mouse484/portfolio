@@ -4,6 +4,7 @@
   import Works from '$lib/templates/page/Works.svelte';
   import Skills from '$lib/templates/page/Skills.svelte';
   import Posts from '$lib/templates/page/Posts.svelte';
+  import Spaser from '$lib/components/element/Spaser.svelte';
 </script>
 
 <svelte:head>
@@ -12,7 +13,7 @@
 </svelte:head>
 
 <Hero />
-
+<Spaser size={16}/>
 <section id="main">
   <About />
   <Works />
