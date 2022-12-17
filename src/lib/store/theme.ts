@@ -16,9 +16,11 @@ theme.subscribe((theme) => {
     if (theme === 'dark') {
       document.querySelector('html')?.classList.add('dark');
       localStorage.setItem('theme', 'dark');
+      document.documentElement.setAttribute('data-theme', 'dark');
     } else {
       document.querySelector('html')?.classList.remove('dark');
       localStorage.setItem('theme', 'light');
+      document.documentElement.setAttribute('data-theme', 'light');
     }
   }
 });
