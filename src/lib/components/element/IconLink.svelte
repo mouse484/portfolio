@@ -13,3 +13,9 @@
     <Icon {icon} />
   </slot>
 </a>
+
+<style>
+  a {
+    color: currentColor;
+  }
+</style>
