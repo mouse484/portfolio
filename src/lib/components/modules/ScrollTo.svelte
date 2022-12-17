@@ -1,8 +1,7 @@
 <script lang="ts">
-  export let to: string;
+  import BorderLessButton from '$lib/components/element/Button/Borderless.svelte';
 
-  let classNames = '';
-  export { classNames as class };
+  export let to: string;
 
   const scroll = () => {
     document.getElementById(to)?.firstElementChild?.scrollIntoView({
@@ -12,6 +11,6 @@
   };
 </script>
 
-<button on:click={scroll} class="cursor-pointer {classNames}">
+<BorderLessButton on:click={scroll}>
   <slot />
-</button>
+</BorderLessButton>

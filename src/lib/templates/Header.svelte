@@ -1,6 +1,6 @@
 <script lang="ts">
   import Menu from '$lib/components/element/Menu.svelte';
-  import ScrollTo from '$lib/components/element/ScrollTo.svelte';
+  import ScrollTo from '$lib/components/modules/ScrollTo.svelte';
   import ThemeSwitch from '$lib/components/modules/ThemeSwitch.svelte';
   import Responsive from '$lib/components/modules/Responsive.svelte';
 
@@ -12,19 +12,31 @@
   };
 </script>
 
-<header
-  class="flex sticky top-0 z-50 items-center px-2 py-4 border-b default-color"
->
+<header id="header">
   <Responsive breakpoint="sm" visable>
     <Menu items={naviList} />
   </Responsive>
-  <h1 class="ml-4 text-2xl">mouse's Portfolio</h1>
-  <div class="flex mr-4 ml-auto">
+  <h1>mouse's Portfolio</h1>
+  <div class="items">
     <Responsive breakpoint="sm">
       {#each Object.entries(naviList) as [to, name]}
-        <ScrollTo class="px-3" {to}>{name}</ScrollTo>
+        <ScrollTo {to}>{name}</ScrollTo>
       {/each}
     </Responsive>
     <ThemeSwitch />
   </div>
 </header>
+
+<style>
+  #header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    border-bottom: 1px solid;
+    justify-content: space-between;
+  }
+  .items {
+    display: flex;
+  }
+</style>

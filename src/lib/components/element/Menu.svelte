@@ -1,7 +1,7 @@
 <script lang="ts">
   import Icon from '$lib/components/element/Icon.svelte';
   import { faBars } from '@fortawesome/free-solid-svg-icons';
-  import ScrollTo from '$lib/components/element/ScrollTo.svelte';
+  import ScrollTo from '$lib/components/modules/ScrollTo.svelte';
 
   let visable = false;
   export let items: { [key: string]: string };

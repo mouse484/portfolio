@@ -1,11 +1,11 @@
 <script lang="ts">
-  import '../app.css';
+  import 'reseter.css';
   import { onMount } from 'svelte';
   import Header from '$lib/templates/Header.svelte';
   import Loading from '$lib/components/element/Loading.svelte';
   import Footer from '$lib/templates/Footer.svelte';
   import ScrollToTop from '$lib/components/modules/ScrollToTop.svelte';
-  import { initTheme } from '$lib/store/theme';
+  import { initTheme, theme } from '$lib/store/theme';
 
   export let onLoad = false;
 
@@ -15,15 +15,25 @@
   });
 </script>
 
-{#if onLoad}
-  <div class="overflow-x-clip default-color">
+<main class={$theme ? 'dark' : ''}>
+  {#if onLoad}
     <Header />
     <div id="top">
       <slot />
     </div>
     <Footer />
     <ScrollToTop />
-  </div>
-{:else}
-  <Loading />
-{/if}
+  {:else}
+    <Loading />
+  {/if}
+</main>
+
+<style>
+  main {
+    padding: 4em;
+  }
+  main.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+</style>
