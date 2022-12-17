@@ -4,12 +4,13 @@
   import MoveArrow from '$lib/components/element/MoveArrow.svelte';
   import Spaser from '$lib/components/element/Spaser.svelte';
 
-  let mounted = false;
+  // let mounted = false;
 
-  onMount(() => (mounted = true));
+  // onMount(() => (mounted = true));
 </script>
 
 <section>
+  <Spaser size={'20vh'} />
   <h1>Hi, I'm Mouse</h1>
   <h3>I'm a student in Japan.</h3>
   <Spaser size={2} />
