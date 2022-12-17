@@ -1,5 +1,5 @@
 <script lang="ts">
-  import * as icons from 'simple-icons/icons';
+  import * as icons from 'simple-icons';
 
   export let name: string;
   export let size = 24;
