@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@csstools/selector-specificity@^2.0.0":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
+  integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
+
 "@edge-runtime/format@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@edge-runtime/format/-/format-1.1.0.tgz#5a209221a8bae7791d6e465c480f146249d1e15f"
@@ -893,6 +898,11 @@ css.escape@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/css.escape/-/css.escape-1.5.1.tgz#42e27d4fa04ae32f931a4b4d4191fa9cddee97cb"
   integrity sha512-YUifsXXuknHlUsmlgyY0PKzgPOr7/FjCePfHNt0jxm83wHZi44VDMQ7/fGNkjY3/jV1MC+1CmZbaHzugyeRtpg==
+
+cssesc@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
+  integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
 debug@4, debug@^4.1.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
@@ -2153,6 +2163,22 @@ postcss-load-config@^4.0.1:
     lilconfig "^2.0.5"
     yaml "^2.1.1"
 
+postcss-nesting@^10.2.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-10.2.0.tgz#0b12ce0db8edfd2d8ae0aaf86427370b898890be"
+  integrity sha512-EwMkYchxiDiKUhlJGzWsD9b2zvq/r2SSubcRrgP+jujMXFzqvANLt16lJANC+5uZ6hjI7lpRmI6O8JIl+8l1KA==
+  dependencies:
+    "@csstools/selector-specificity" "^2.0.0"
+    postcss-selector-parser "^6.0.10"
+
+postcss-selector-parser@^6.0.10:
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/postcss-selector-parser/-/postcss-selector-parser-6.0.11.tgz#2e41dc39b7ad74046e1615185185cd0b17d0c8dc"
+  integrity sha512-zbARubNdogI9j7WY4nQJBiNqQf3sLS3wCP4WfOidu+p28LofJqDH1tcXypGrcmMHhDk2t9wGhCsYe/+szLTy1g==
+  dependencies:
+    cssesc "^3.0.0"
+    util-deprecate "^1.0.2"
+
 postcss-value-parser@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
@@ -2767,7 +2793,7 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
-util-deprecate@^1.0.1:
+util-deprecate@^1.0.1, util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
