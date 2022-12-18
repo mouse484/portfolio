@@ -2,6 +2,7 @@
   const sizeList = {
     2: '2em',
     4: '4em',
+    12: '12em',
     16: '16em',
     24: '24em',
   } as const;
