@@ -18,24 +18,26 @@
   import Spaser from '../element/Spaser.svelte';
 </script>
 
-<section class="rounded">
-  <Spaser size={2} />
-  <h4>{name}</h4>
-  <Spaser size={2} />
-  <div class="text-japanese">
-    <slot />
+<section class="rounded flex">
+  <div>
+    <h4>{name}</h4>
+    <Spaser size={2} />
+    <div class="text-japanese">
+      <slot />
+    </div>
   </div>
-  <Spaser size={2} />
-  <div class="libraries flex flex-wrap">
-    {#each libraries as library}
-      <div class="library rounded">
-        <SimpleIcon size={16} name={library} />
-        <p>{library}</p>
-      </div>
-    {/each}
+  <div>
+    <div class="libraries flex flex-wrap">
+      {#each libraries as library}
+        <div class="library rounded">
+          <SimpleIcon size={16} name={library} />
+          <p>{library}</p>
+        </div>
+      {/each}
+    </div>
   </div>
-  <Spaser size={2} />
   <div class="project-links flex">
+    <Spaser size={2} />
     <ToolTip value={githubUrl} alt="GitHub Repository">
       <Icon icon={faGithub} />
     </ToolTip>
@@ -49,8 +51,9 @@
 
 <style lang="postcss">
   section {
-    padding: 1em;
+    padding: 3em 1.5em;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     border: 2px solid var(--blue);
     max-width: 24em;
