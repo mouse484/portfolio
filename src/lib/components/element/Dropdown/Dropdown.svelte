@@ -21,12 +21,13 @@
     visibility: hidden;
     background-color: var(--background-color);
     z-index: 50;
+    padding: 1em;
+    &.right {
+      top: -1em;
+      left: 100%;
+    }
   }
   .dropdown:hover > .item {
     visibility: visible;
-  }
-  .right {
-    top: 0.5em;
-    left: 100%;
   }
 </style>
