@@ -29,7 +29,7 @@
   {#if nested}
     <Dropdown side={nested <= 1 ? 'bottom' : 'right'}>
       <NameAndIcon slot="root" {name} {icon} {nested} />
-      <div>
+      <div class="flex items">
         {#each Object.entries(useSkills) as [skillName, next]}
           <svelte:self name={skillName} skills={next} nested={isNested(next)} />
         {/each}
@@ -43,3 +43,9 @@
     <svelte:self name={skillName} skills={next} nested={isNested(next)} />
   {/each}
 {/if}
+
+<style>
+  .items {
+    flex-direction: column;
+  }
+</style>

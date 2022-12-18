@@ -14,8 +14,8 @@
   let iconStatus: boolean;
 </script>
 
-<div class="flex">
-  <div>
+<div class="container flex">
+  <div class="flex">
     {#if iconStatus === undefined || iconStatus}
       <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
     {:else}
@@ -29,9 +29,11 @@
 </div>
 
 <style lang="postcss">
-  div {
-    & span {
-      width: max-content;
-    }
+  .container {
+    justify-content: space-between;
+  }
+  div > span {
+    width: max-content;
+    white-space: nowrap;
   }
 </style>
