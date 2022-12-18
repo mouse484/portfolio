@@ -1,20 +1,23 @@
 <script lang="ts">
+  import Link from './Link.svelte';
   export let value: string;
   export let alt: string;
 </script>
 
-<a
+<Link
+  --color="inherit"
   href={value}
   target="_blank"
   rel="noopener noreferrer"
-  aria-label={alt}
-  class="relative group"
+  ariaLabel={alt}
 >
-  <slot />
-  <span class="tooltip invisible">
-    {value}
-  </span>
-</a>
+  <div class="tooltip">
+    <slot />
+    <span class="popup rounded">
+      {value}
+    </span>
+  </div>
+</Link>
 
 <!-- <style lang="postcss">
   .tooltip {
@@ -28,4 +31,22 @@
   :global(.dark) .tooltip {
     @apply text-gray-50 bg-dark;
   }
-</style> -->
+</!-->
+<style lang="postcss">
+  .tooltip {
+    position: relative;
+  }
+  .popup {
+    visibility: hidden;
+    position: absolute;
+    top: -3em;
+    left: 50%;
+    transform: translateX(-50%);
+    /* reverse color */
+    background-color: var(--font-color);
+    padding: 0.5em;
+  }
+  .tooltip:hover .popup {
+    visibility: visible;
+  }
+</style>
