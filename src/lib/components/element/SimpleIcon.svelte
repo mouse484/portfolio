@@ -4,7 +4,7 @@
   export let name: string;
   export let size = 24;
 
-  export let status: boolean;
+  export let status: boolean = true;
 
   let transform = '';
 
