@@ -5,5 +5,6 @@
 <style>
   h2 {
     scroll-margin-top: 4em;
+    text-align: center;
   }
 </style>

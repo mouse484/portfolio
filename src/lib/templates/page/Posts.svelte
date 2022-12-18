@@ -2,6 +2,7 @@
   import Link from '$lib/components/element/Link.svelte';
   import SimpleIcon from '$lib/components/element/SimpleIcon.svelte';
   import SectionName from '$lib/components/element/SectionName.svelte';
+  import Spaser from '$lib/components/element/Spaser.svelte';
 
   const fetchPosts = (async () => {
     const response = await fetch('api/posts');
@@ -16,34 +17,56 @@
 
 <section id="posts">
   <SectionName>My Posts</SectionName>
-
-  <div class="mx-auto mt-8 max-w-lg">
-    {#await fetchPosts}
-      <p class="text-center">loading...</p>
-    {:then data}
-      {#each data as { platform, title, link, isoDate }}
-        <div class="mx-4">
-          <div class="text-sm">
-            {new Date(isoDate).toLocaleDateString()}
-          </div>
-
-          <div class="flex gap-4">
-            <span class="flex-initial">
-              <SimpleIcon name={platform} />
-            </span>
-            <span class="min-w-0 text-left">
-              <Link href={link}>
-                <p class="truncate hover:break-words hover:whitespace-normal">
-                  {title}
-                </p>
-              </Link>
-            </span>
-          </div>
-        </div>
-      {/each}
-    {:catch error}
-      {console.log(error)}
-      <p>An error occurred!</p>
-    {/await}
-  </div>
+  <Spaser size={4} />
+  {#await fetchPosts}
+    <p class="text-center">loading...</p>
+  {:then data}
+    {#each data as { platform, title, link, isoDate }}
+      <div class="date">
+        {new Date(isoDate).toLocaleDateString()}
+      </div>
+      <div class="flex">
+        <span>
+          <SimpleIcon name={platform} />
+        </span>
+        <span>
+          <Link href={link}>
+            <p class="truncate">
+              {title}
+            </p>
+          </Link>
+        </span>
+      </div>
+    {/each}
+  {:catch error}
+    {console.log(error)}
+    <p>An error occurred!</p>
+  {/await}
 </section>
+
+<style lang="postcss">
+  section {
+    margin: auto;
+    max-width: 24em;
+  }
+  .flex {
+    justify-content: start;
+    align-items: start;
+    & span {
+      flex: 0 1 auto;
+      min-width: 0;
+    }
+  }
+  .date {
+    font-size: 0.7em;
+  }
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    &:hover {
+      overflow-wrap: break-word;
+      white-space: normal;
+    }
+  }
+</style>
