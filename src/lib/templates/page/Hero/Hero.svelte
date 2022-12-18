@@ -29,6 +29,6 @@
   h3 {
     font-weight: normal;
     padding: 1em;
-    border-bottom: 4px solid var(--sky-bule);
+    border-bottom: 4px solid var(--sky-blue);
   }
 </style>
