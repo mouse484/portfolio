@@ -14,7 +14,7 @@
 
 <Hero />
 <Spaser size={16} />
-<section id="main">
+<section id="main" class="flex">
   <About />
   <Works />
   <Skills />
@@ -23,8 +23,8 @@
 
 <style>
   section#main {
-    display: flex;
     flex-direction: column;
     gap: 4em;
+    margin: 2em 4em;
   }
 </style>
