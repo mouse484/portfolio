@@ -8,7 +8,7 @@
 <section id="works">
   <SectionName>My Works</SectionName>
   <Spaser size={4} />
-  <div>
+  <div class="flex">
     <Project
       name="Portfolio"
       link="https://portfolio.mouse484.vercel.app/"
@@ -65,13 +65,8 @@
   </div>
 </section>
 
-<style>
-  section {
-    text-align: center;
-  }
-  section > div {
-    display: flex;
+<style lang="postcss">
+  div.flex {
     justify-content: center;
-    gap: 1em;
   }
 </style>

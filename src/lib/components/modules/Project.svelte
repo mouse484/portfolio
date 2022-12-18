@@ -57,9 +57,12 @@
     flex-direction: column;
     border: 2px solid var(--blue);
     max-width: 24em;
+    /* プロジェクトのサイズを同じにする */
+    flex: 1;
   }
   h4 {
     font-size: 1.5em;
+    text-align: center;
   }
   div.text-japanese {
     padding: 0 2em;
