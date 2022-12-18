@@ -26,7 +26,7 @@
     <slot />
   </div>
   <Spaser size={2} />
-  <div class="libraries">
+  <div class="libraries flex flex-wrap">
     {#each libraries as library}
       <div class="library rounded">
         <SimpleIcon size={16} name={library} />
@@ -35,7 +35,7 @@
     {/each}
   </div>
   <Spaser size={2} />
-  <div>
+  <div class="project-links flex">
     <ToolTip value={githubUrl} alt="GitHub Repository">
       <Icon icon={faGithub} />
     </ToolTip>
@@ -63,10 +63,7 @@
     text-align: justify;
   }
   .libraries {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 1em;
 
     & .library {
       padding: 0.2em;
@@ -79,5 +76,8 @@
         margin-left: 0.5em;
       }
     }
+  }
+  .project-links {
+    justify-content: center;
   }
 </style>
