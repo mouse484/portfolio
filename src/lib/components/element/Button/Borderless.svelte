@@ -14,6 +14,5 @@
     color: currentcolor;
     cursor: pointer;
     font-size: inherit;
-    width: 100%;
   }
 </style>

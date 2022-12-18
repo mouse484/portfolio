@@ -12,7 +12,7 @@
   };
 </script>
 
-<header id="header">
+<header id="header" class="flex">
   <Responsive breakpoint="sm" visable>
     <Menu items={naviList} />
   </Responsive>
@@ -29,7 +29,6 @@
 
 <style lang="postcss">
   #header {
-    display: flex;
     align-items: center;
     border-bottom: 1px solid;
     justify-content: space-between;
