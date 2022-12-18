@@ -4,7 +4,7 @@
   export let name: string;
   export let size = 24;
 
-  export let status = true;
+  export let status: boolean;
 
   let transform = '';
 
@@ -15,13 +15,10 @@
       .replace(/\./g, 'dot')
       .replace(/\+/g, 'plus');
   }
-
   $: slug = ('si' +
     transform.charAt(0).toUpperCase() +
     transform.slice(1).toLowerCase()) as keyof typeof icons;
-
   $: icon = icons[slug];
-
   $: status = !!icon;
 </script>
 

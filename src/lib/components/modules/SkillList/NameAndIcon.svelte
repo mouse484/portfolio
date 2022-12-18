@@ -2,7 +2,7 @@
   import SimpleIcon from '$lib/components/element/SimpleIcon.svelte';
   import Icon from '$lib/components/element/Icon.svelte';
   import {
-    faDiamond,
+    faSquare,
     faChevronDown,
     faChevronRight,
   } from '@fortawesome/free-solid-svg-icons';
@@ -11,19 +11,27 @@
   export let icon: string;
   export let nested: number;
 
-  let iconStatus = true;
+  let iconStatus: boolean;
 </script>
 
-<div class="flex gap-3 items-center">
-  {#if iconStatus}
-    <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
-  {:else}
-    <Icon icon={faDiamond} size="xs" className="dark:fill-gray-500" />
-  {/if}
-  <span class="w-max">{name}</span>
+<div class="flex">
+  <div>
+    {#if iconStatus === undefined || iconStatus}
+      <SimpleIcon name={icon} size={18} bind:status={iconStatus} />
+    {:else}
+      <Icon icon={faSquare} size="sm" />
+    {/if}
+    <span>{name}</span>
+  </div>
   {#if nested}
-    <span class="ml-auto">
-      <Icon icon={nested <= 1 ? faChevronDown : faChevronRight} size="sm" />
-    </span>
+    <Icon icon={nested <= 1 ? faChevronDown : faChevronRight} size="sm" />
   {/if}
 </div>
+
+<style lang="postcss">
+  div {
+    & span {
+      width: max-content;
+    }
+  }
+</style>
