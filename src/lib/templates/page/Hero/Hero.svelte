@@ -15,7 +15,7 @@
   <h3>I'm a student in Japan.</h3>
   <Spaser size={2} />
   <MyLinks />
-  <Spaser size={2} />
+  <Spaser size={12} />
   <MoveArrow to="about" />
 </section>
 
