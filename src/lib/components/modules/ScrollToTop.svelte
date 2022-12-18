@@ -7,13 +7,35 @@
   $: visible = scroll > 200;
 </script>
 
-<ScrollTo
-  to="top"
-  class="fixed right-0 bottom-0 p-3 m-4 rounded-full border border-cyan-200 duration-1000 w-fit {visible
-    ? 'opacity-100'
-    : 'opacity-0'}"
->
-  <Icon icon={faChevronUp} />
+<ScrollTo to="top">
+  <div class="circle {visible ? 'visable' : ''}">
+    <Icon icon={faChevronUp} />
+  </div>
 </ScrollTo>
 
 <svelte:window bind:scrollY={scroll} />
+
+<style>
+  .circle {
+    position: fixed;
+    z-index: 100;
+    background-color: inherit;
+
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    border: 1px solid var(--sky-blue);
+
+    width: fit-content;
+    height: fit-content;
+
+    margin: 2em;
+    padding: 1%;
+
+    opacity: 0;
+    transition-duration: 1000ms;
+  }
+  .visable {
+    opacity: 1;
+  }
+</style>
