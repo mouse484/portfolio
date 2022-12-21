@@ -22,7 +22,7 @@
     "eslint": "8.30.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-svelte3": "4.0.0",
-    "happy-dom": "8.1.0",
+    "happy-dom": "8.1.1",
     "postcss": "^8.4.14",
     "postcss-load-config": "^4.0.1",
     "postcss-nesting": "^10.2.0",
