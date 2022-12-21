@@ -34,7 +34,7 @@
     "typescript": "4.9.4",
     "vercel": "28.9.0",
     "vite": "4.0.2",
-    "vitest": "0.26.1"
+    "vitest": "0.26.2"
   },
   "type": "module",
   "dependencies": {
