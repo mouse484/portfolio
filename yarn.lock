@@ -1453,6 +1453,11 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
+gardevoir@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gardevoir/-/gardevoir-1.0.0.tgz#1a9a3b3d709fbe4fc4507ec59eef7916e0cc574c"
+  integrity sha512-pzJpUwu56U9pqRM46gcT/sASx5FNcqWfDSQKvtr639yRFnvT8HsHuOYn3AAeYRWzTiZOaqA3sRoyZmupQX2+aw==
+
 gauge@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-3.0.2.tgz#03bf4441c044383908bcfa0656ad91803259b395"
@@ -2326,11 +2331,6 @@ require-from-string@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
-
-reseter.css@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/reseter.css/-/reseter.css-2.0.0.tgz#6832a057d14a8ad3e9e578a8bebf3c4279a4cae5"
-  integrity sha512-u98r3v0drXwxwRFhBywZOk+9LWoNVMy+tSClR6wJG+XXbrR/fpuuzbWQ8N5Uxczp3xMUX86E4PCWzitzsZ5GOg==
 
 resolve-from@^4.0.0:
   version "4.0.0"

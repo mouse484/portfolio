@@ -1,5 +1,5 @@
 <script lang="ts">
-  import 'reseter.css';
+  import 'gardevoir';
   import '../app.postcss';
   import { onMount } from 'svelte';
   import Header from '$lib/templates/Header.svelte';
