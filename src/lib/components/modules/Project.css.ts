@@ -6,7 +6,7 @@ import { style } from '@vanilla-extract/css';
 export const section = style([
   flex,
   rounded,
-  sprinkles({ paddingY: 'large', paddingX: 'small' }),
+  sprinkles({ padding: 'small' }),
   {
     justifyContent: 'space-between',
     flexDirection: 'column',
