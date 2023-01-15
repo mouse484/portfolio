@@ -3,8 +3,8 @@
   import ScrollTo from '$lib/components/modules/ScrollTo.svelte';
   import ThemeSwitch from '$lib/components/modules/ThemeSwitch.svelte';
   import Responsive from '$lib/components/modules/Responsive.svelte';
-  import { flex } from '$lib/style/flex.css';
-  import { container, h1,items } from './Header.css';
+  import { flex } from '$lib/style/utils.css';
+  import { container, h1, items } from './Header.css';
 
   const naviList = {
     about: 'About Me',

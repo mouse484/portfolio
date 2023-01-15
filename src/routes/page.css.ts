@@ -1,4 +1,4 @@
-import { flex } from '$lib/style/flex.css';
+import { flex } from '$lib/style/utils.css';
 import { sprinkles } from '$lib/style/sprinkles.css';
 import { style } from '@vanilla-extract/css';
 

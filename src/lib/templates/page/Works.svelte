@@ -3,7 +3,7 @@
   import Link from '$lib/components/element/Link.svelte';
   import SectionName from '$lib/components/element/SectionName.svelte';
   import Spaser from '$lib/components/element/Spaser.svelte';
-  import { flex } from '$lib/style/flex.css';
+  import { flex } from '$lib/style/utils.css';
 </script>
 
 <section id="works">

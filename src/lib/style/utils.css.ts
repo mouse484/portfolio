@@ -6,3 +6,7 @@ export const flex = style({
   rowGap: '1rem',
   columnGap: '1/2rem',
 });
+
+export const rounded = style({
+  borderRadius: '0.25rem',
+});
