@@ -5,6 +5,7 @@
   import Skills from '$lib/templates/page/Skills.svelte';
   import Posts from '$lib/templates/page/Posts.svelte';
   import Spaser from '$lib/components/element/Spaser.svelte';
+  import { main } from './page.css';
 </script>
 
 <svelte:head>
@@ -14,17 +15,9 @@
 
 <Hero />
 <Spaser size={16} />
-<section id="main" class="flex">
+<section id="main" class={main}>
   <About />
   <Works />
   <Skills />
   <Posts />
 </section>
-
-<style>
-  section#main {
-    flex-direction: column;
-    gap: 4em;
-    margin: 2em 4em;
-  }
-</style>
