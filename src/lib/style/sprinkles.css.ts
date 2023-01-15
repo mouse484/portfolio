@@ -13,6 +13,7 @@ const main = defineProperties({
     paddingBottom: space,
     paddingLeft: space,
     paddingRight: space,
+    gap: space,
     fontSize: { base: '1rem', xl: '1.2rem', '2xl': '1.7rem', x4: '4rem' },
   },
   shorthands: {

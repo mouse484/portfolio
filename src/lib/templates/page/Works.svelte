@@ -3,12 +3,13 @@
   import Link from '$lib/components/element/Link.svelte';
   import SectionName from '$lib/components/element/SectionName.svelte';
   import Spaser from '$lib/components/element/Spaser.svelte';
+  import { flex } from '$lib/style/flex.css';
 </script>
 
 <section id="works">
   <SectionName>My Works</SectionName>
   <Spaser size={4} />
-  <div class="flex">
+  <div class={flex}>
     <Project
       name="Portfolio"
       link="https://portfolio.mouse484.vercel.app/"
