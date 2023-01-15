@@ -4,7 +4,7 @@ export const flex = style({
   display: 'flex',
   justifyContent: 'center',
   rowGap: '1rem',
-  columnGap: '1/2rem',
+  columnGap: '0.5rem',
 });
 
 export const rounded = style({
