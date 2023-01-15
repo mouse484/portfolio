@@ -2,7 +2,8 @@
   import MyLinks from '$lib/templates/page/Hero/MyLinks.svelte';
   import MoveArrow from '$lib/components/element/MoveArrow.svelte';
   import Spaser from '$lib/components/element/Spaser.svelte';
-  import { section, h } from './Hero.css';
+  import { h } from './Hero.css';
+  import { section } from '../section.css';
 </script>
 
 <section class={section}>

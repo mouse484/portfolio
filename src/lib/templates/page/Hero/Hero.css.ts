@@ -1,10 +1,6 @@
 import { sprinkles } from '$lib/style/sprinkles.css';
 import { style } from '@vanilla-extract/css';
-import { vars } from 'src/app.css';
-
-export const section = style({
-  textAlign: 'center',
-});
+import { vars } from '../../../../app.css';
 
 export const h = {
   1: sprinkles({ fontSize: 'x4' }),
