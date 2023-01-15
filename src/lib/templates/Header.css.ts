@@ -1,0 +1,28 @@
+import { style } from '@vanilla-extract/css';
+import { sprinkles } from '$lib/style/sprinkles.css';
+import { flex } from '$lib/style/flex.css';
+
+export const container = style([
+  {
+    alignItems: 'center',
+    borderBottom: ['1px', 'solid'],
+    justifyContent: 'space-between',
+
+    position: 'sticky',
+    top: 0,
+    zIndex: 50,
+    backgroundColor: 'inherit',
+  },
+  sprinkles({
+    paddingX: 'small',
+  }),
+]);
+
+export const h1 = style([
+  { fontWeight: 'normal' },
+  sprinkles({
+    fontSize: '2xl',
+  }),
+]);
+
+export const items = style([flex, sprinkles({ fontSize: 'xl' })]);
