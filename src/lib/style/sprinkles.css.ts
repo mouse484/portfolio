@@ -14,10 +14,17 @@ const main = defineProperties({
     paddingLeft: space,
     paddingRight: space,
     gap: space,
-    fontSize: { base: '1rem', xl: '1.2rem', '2xl': '1.7rem', x4: '4rem' },
+    fontSize: {
+      xs: '0.7rem',
+      base: '1rem',
+      xl: '1.2rem',
+      '2xl': '1.7rem',
+      x4: '4rem',
+    },
   },
   shorthands: {
     padding: ['paddingTop', 'paddingBottom', 'paddingLeft', 'paddingRight'],
+    paddingY: ['paddingTop', 'paddingBottom'],
     paddingX: ['paddingLeft', 'paddingRight'],
   },
 });

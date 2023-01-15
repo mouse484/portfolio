@@ -4,6 +4,7 @@ const color = {
   white: '#ffffff',
   dark: '#121212',
   skyBlue: '#bfdbff',
+  gray: '#1e293b',
 };
 
 export const [themeClass, vars] = createTheme({
@@ -11,6 +12,7 @@ export const [themeClass, vars] = createTheme({
     background: color.white,
     text: color.dark,
     primary: color.skyBlue,
+    secondary: color.gray,
   },
 });
 
@@ -19,6 +21,7 @@ export const darkThemeClass = createTheme(vars, {
     background: color.dark,
     text: color.white,
     primary: color.skyBlue,
+    secondary: color.gray,
   },
 });
 

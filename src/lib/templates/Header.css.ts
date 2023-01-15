@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 import { sprinkles } from '$lib/style/sprinkles.css';
-import { flex } from '$lib/style/flex.css';
+import { flex } from '$lib/style/utils.css';
 
 export const container = style([
   {
