@@ -3,7 +3,6 @@
   import ScrollTo from '$lib/components/modules/ScrollTo.svelte';
   import ThemeSwitch from '$lib/components/modules/ThemeSwitch.svelte';
   import Responsive from '$lib/components/modules/Responsive.svelte';
-  import { flex } from '$lib/style/utils.css';
   import { container, h1, items } from './Header.css';
 
   const naviList = {
@@ -14,7 +13,7 @@
   };
 </script>
 
-<header class={`${flex} ${container}`}>
+<header class={container}>
   <Responsive breakpoint="sm" visable>
     <Menu items={naviList} />
   </Responsive>

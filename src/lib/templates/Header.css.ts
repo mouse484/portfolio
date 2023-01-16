@@ -3,6 +3,7 @@ import { sprinkles } from '$lib/style/sprinkles.css';
 import { flex } from '$lib/style/utils.css';
 
 export const container = style([
+  flex,
   {
     alignItems: 'center',
     borderBottom: ['1px', 'solid'],
