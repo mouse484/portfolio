@@ -2,6 +2,7 @@ import { defineProperties, createSprinkles } from '@vanilla-extract/sprinkles';
 
 const space = {
   none: 0,
+  little: '1rem',
   small: '2rem',
   medium: '4rem',
   large: '8rem',
