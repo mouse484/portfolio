@@ -1,4 +1,5 @@
 import { defineProperties, createSprinkles } from '@vanilla-extract/sprinkles';
+import { siSpacex } from 'simple-icons';
 
 const space = {
   none: 0,
@@ -14,6 +15,7 @@ const main = defineProperties({
     paddingBottom: space,
     paddingLeft: space,
     paddingRight: space,
+    margin: space,
     gap: space,
     fontSize: {
       xs: '0.7rem',
