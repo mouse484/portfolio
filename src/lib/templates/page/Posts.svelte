@@ -3,6 +3,13 @@
   import SimpleIcon from '$lib/components/element/SimpleIcon.svelte';
   import SectionName from '$lib/components/element/SectionName.svelte';
   import Spaser from '$lib/components/element/Spaser.svelte';
+  import {
+    dateClass,
+    description,
+    descriptionItem,
+    posts,
+    truncate,
+  } from './Posts.css';
 
   const fetchPosts = (async () => {
     const response = await fetch('api/posts');
@@ -15,23 +22,23 @@
   })();
 </script>
 
-<section id="posts">
+<section id="posts" class={posts}>
   <SectionName>My Posts</SectionName>
   <Spaser size={4} />
   {#await fetchPosts}
-    <p class="text-center">loading...</p>
+    <p>loading...</p>
   {:then data}
     {#each data as { platform, title, link, isoDate }}
-      <div class="date">
+      <div class={dateClass}>
         {new Date(isoDate).toLocaleDateString()}
       </div>
-      <div class="flex">
-        <span>
+      <div class={description}>
+        <span class={descriptionItem}>
           <SimpleIcon name={platform} />
         </span>
-        <span>
+        <span class={descriptionItem}>
           <Link href={link}>
-            <p class="truncate">
+            <p class={truncate}>
               {title}
             </p>
           </Link>
@@ -43,30 +50,3 @@
     <p>An error occurred!</p>
   {/await}
 </section>
-
-<style lang="postcss">
-  section {
-    margin: auto;
-    max-width: 24em;
-  }
-  .flex {
-    justify-content: start;
-    align-items: start;
-    & span {
-      flex: 0 1 auto;
-      min-width: 0;
-    }
-  }
-  .date {
-    font-size: 0.7em;
-  }
-  .truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    &:hover {
-      overflow-wrap: break-word;
-      white-space: normal;
-    }
-  }
-</style>
