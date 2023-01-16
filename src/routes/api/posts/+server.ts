@@ -8,11 +8,11 @@ const feeds = [
 
 const parser = new Parser();
 
-export const isPlatform = (link = '') => {
+const isPlatform = (link = '') => {
   return ['qiita', 'zenn'].find((value) => link.includes(value));
 };
 
-export const getTime = (isoData = '') => {
+const getTime = (isoData = '') => {
   return new Date(isoData).getTime();
 };
 
