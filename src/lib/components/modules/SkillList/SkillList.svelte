@@ -1,6 +1,7 @@
 <script lang="ts">
   import Dropdown from '$lib/components/element/Dropdown/Dropdown.svelte';
   import NameAndIcon from './NameAndIcon.svelte';
+  import { itemsClass } from './SkillList.css';
 
   export let skills: { [key: string]: {} };
   export let name: string = '';
@@ -29,7 +30,7 @@
   {#if nested}
     <Dropdown side={nested <= 1 ? 'bottom' : 'right'}>
       <NameAndIcon slot="root" {name} {icon} {nested} />
-      <div class="flex items">
+      <div class={itemsClass}>
         {#each Object.entries(useSkills) as [skillName, next]}
           <svelte:self name={skillName} skills={next} nested={isNested(next)} />
         {/each}
@@ -43,9 +44,3 @@
     <svelte:self name={skillName} skills={next} nested={isNested(next)} />
   {/each}
 {/if}
-
-<style>
-  .items {
-    flex-direction: column;
-  }
-</style>
