@@ -9,12 +9,12 @@
   <slot />
 </a>
 
-<style lang="postcss">
+<style>
   a {
     color: var(--color, #0284c7);
     text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
+  }
+  a:hover {
+    text-decoration: underline;
   }
 </style>

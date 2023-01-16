@@ -12,7 +12,7 @@
   </ScrollTo>
 </div>
 
-<style lang="postcss">
+<style>
   @keyframes moveArrow {
     0% {
       transform: translateY(0);

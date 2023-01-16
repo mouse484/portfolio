@@ -31,7 +31,7 @@
   <path d={typeof d === 'string' ? d : d.join('')} />
 </svg>
 
-<style lang="postcss">
+<style>
   svg {
     fill: var(--icon-color, currentColor);
     color: var(--icon-color, currentColor);

@@ -32,7 +32,7 @@
     @apply text-gray-50 bg-dark;
   }
 </!-->
-<style lang="postcss">
+<style>
   .tooltip {
     position: relative;
   }
