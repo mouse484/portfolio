@@ -28,4 +28,7 @@ export const darkThemeClass = createTheme(vars, {
 export const root = style({
   backgroundColor: vars.color.background,
   color: vars.color.text,
+
+  width: '100vw',
+  overflow: 'clip',
 });

@@ -12,7 +12,7 @@ export const section = style([
     flexDirection: 'column',
     border: `2px solid ${vars.color.primary}`,
     maxWidth: '24rem',
-    flex: 1,
+    flexGrow: 1,
   },
 ]);
 

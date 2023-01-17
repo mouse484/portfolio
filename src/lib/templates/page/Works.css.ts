@@ -4,6 +4,6 @@ import { style } from '@vanilla-extract/css';
 
 export const projects = style([
   flex,
-  { justifyContent: 'center' },
+  { flexWrap: 'wrap', justifyContent: 'center' },
   sprinkles({ gap: 'small' }),
 ]);
