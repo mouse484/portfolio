@@ -9,3 +9,8 @@ export const flex = style({
 export const rounded = style({
   borderRadius: '0.25rem',
 });
+
+export const buttonReset = style({
+  backgroundColor: 'inherit',
+  border: 'none',
+});
