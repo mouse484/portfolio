@@ -17,6 +17,7 @@ const main = defineProperties({
     paddingRight: space,
     margin: space,
     gap: space,
+    top: space,
     fontSize: {
       xs: '0.7rem',
       base: '1rem',

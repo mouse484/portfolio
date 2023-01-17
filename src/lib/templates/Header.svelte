@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Menu from '$lib/components/element/Menu.svelte';
+  import Menu from '$lib/components/modules/Menu.svelte';
   import ScrollTo from '$lib/components/modules/ScrollTo.svelte';
   import ThemeSwitch from '$lib/components/modules/ThemeSwitch.svelte';
   import Responsive from '$lib/components/modules/Responsive.svelte';
