@@ -3,7 +3,7 @@
   import { themeClass, darkThemeClass, root } from '$lib/style/app.css';
   import { onMount } from 'svelte';
   import Header from '$lib/templates/Header.svelte';
-  import Loading from '$lib/components/element/Loading.svelte';
+  import Loading from '$lib/components/modules/Loading.svelte';
   import Footer from '$lib/templates/Footer.svelte';
   import ScrollToTop from '$lib/components/modules/ScrollToTop.svelte';
   import { initTheme, theme } from '$lib/store/theme';
