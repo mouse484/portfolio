@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from '$lib/components/element/Icon.svelte';
+  import Icon from '$lib/components/modules/Icon.svelte';
   import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
   import ScrollTo from './ScrollTo.svelte';
   import { circle, visableClass } from './ScrollToTop.css';

@@ -1,6 +1,7 @@
 <script lang="ts">
   export const ssr = false;
   import type { IconDefinition } from '@fortawesome/fontawesome-common-types';
+  import { iconClass } from './Icon.css';
 
   // https://fontawesome.com/docs/web/style/size
   const iconSize = {
@@ -14,7 +15,6 @@
 
   export let icon: IconDefinition;
   export let size: keyof typeof iconSize = 'lg';
-  export let className = '';
 
   const {
     icon: [width, height, , _unicode, d],
@@ -26,14 +26,7 @@
   viewBox="0 0 {width} {height}"
   width={iconSize[size]}
   height={iconSize[size]}
-  class={className}
+  class={iconClass}
 >
   <path d={typeof d === 'string' ? d : d.join('')} />
 </svg>
-
-<style>
-  svg {
-    fill: var(--icon-color, currentColor);
-    color: var(--icon-color, currentColor);
-  }
-</style>
