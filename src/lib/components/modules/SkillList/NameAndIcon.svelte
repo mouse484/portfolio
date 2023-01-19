@@ -1,6 +1,6 @@
 <script lang="ts">
   import SimpleIcon from '$lib/components/element/SimpleIcon.svelte';
-  import Icon from '$lib/components/element/Icon.svelte';
+  import Icon from '$lib/components/modules/Icon.svelte';
   import {
     faSquare,
     faChevronDown,

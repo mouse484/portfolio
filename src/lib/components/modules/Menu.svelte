@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon from '$lib/components/element/Icon.svelte';
+  import Icon from '$lib/components/modules/Icon.svelte';
   import { faBars } from '@fortawesome/free-solid-svg-icons';
   import ScrollTo from '$lib/components/modules/ScrollTo.svelte';
   import { buttonClass, itemClass, itemsClass } from './Menu.css';
