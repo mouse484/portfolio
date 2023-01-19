@@ -11,6 +11,6 @@ export const rounded = style({
 });
 
 export const buttonReset = style({
-  backgroundColor: 'inherit',
+  backgroundColor: 'transparent',
   border: 'none',
 });
