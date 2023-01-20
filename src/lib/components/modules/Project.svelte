@@ -11,7 +11,7 @@
   const githubUrl = `https://github.com/${github.username}/${github.repo}`;
 
   import Icon from '$lib/components/modules/Icon.svelte';
-  import ToolTip from '../element/ToolTip.svelte';
+  import ToolTip from './ToolTip.svelte';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faLink } from '@fortawesome/free-solid-svg-icons';
   import SimpleIcon from '../element/SimpleIcon.svelte';
