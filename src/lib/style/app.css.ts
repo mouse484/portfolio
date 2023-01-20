@@ -29,6 +29,6 @@ export const root = style({
   backgroundColor: vars.color.background,
   color: vars.color.text,
 
-  width: '100vw',
+  width: '100%',
   overflow: 'clip',
 });

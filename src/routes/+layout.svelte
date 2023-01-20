@@ -17,7 +17,7 @@
   });
 </script>
 
-<main class={`${root} ${$theme === 'dark' ? darkThemeClass : themeClass}`}>
+<main class="{root} {$theme === 'dark' ? darkThemeClass : themeClass}">
   {#if onLoad}
     <Header />
     <div id="top">
