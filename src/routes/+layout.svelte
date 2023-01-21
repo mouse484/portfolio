@@ -7,7 +7,7 @@
   import Footer from '$lib/templates/Footer.svelte';
   import ScrollToTop from '$lib/components/modules/ScrollToTop.svelte';
   import { initTheme, theme } from '$lib/store/theme';
-  import Spaser from '$lib/components/element/Spaser.svelte';
+  import Spaser from '$lib/components/elements/Spaser.svelte';
 
   export let onLoad = false;
 

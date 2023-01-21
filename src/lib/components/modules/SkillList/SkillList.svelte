@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Dropdown from '$lib/components/element/Dropdown/Dropdown.svelte';
+  import Dropdown from '$lib/components/elements/Dropdown.svelte';
   import NameAndIcon from './NameAndIcon.svelte';
   import { itemsClass } from './SkillList.css';
 

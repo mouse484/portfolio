@@ -1,8 +1,8 @@
 <script lang="ts">
-  import SectionName from '$lib/components/element/SectionName.svelte';
+  import SectionName from '$lib/components/elements/SectionName.svelte';
   import SkillList from '$lib/components/modules/SkillList/SkillList.svelte';
   import skills from '$lib/data/skills';
-  import Spacer from '$lib/components/element/Spaser.svelte';
+  import Spacer from '$lib/components/elements/Spaser.svelte';
   import { section } from './section.css';
   import { skillList } from './Skills.css';
 </script>

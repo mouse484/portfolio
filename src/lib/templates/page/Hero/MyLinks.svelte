@@ -1,5 +1,5 @@
 <script>
-  import IconLink from '$lib/components/element/IconLink.svelte';
+  import IconLink from '$lib/components/elements/IconLink.svelte';
   import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 </script>

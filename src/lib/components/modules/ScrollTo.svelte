@@ -1,5 +1,5 @@
 <script lang="ts">
-  import BorderLessButton from '$lib/components/element/Button/Borderless.svelte';
+  import BorderLessButton from '$lib/components/elements/Button.svelte';
 
   export let to: string;
 

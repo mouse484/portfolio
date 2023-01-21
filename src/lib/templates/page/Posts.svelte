@@ -1,8 +1,8 @@
 <script lang="ts">
-  import Link from '$lib/components/element/Link.svelte';
-  import SimpleIcon from '$lib/components/element/SimpleIcon.svelte';
-  import SectionName from '$lib/components/element/SectionName.svelte';
-  import Spaser from '$lib/components/element/Spaser.svelte';
+  import Link from '$lib/components/elements/Link.svelte';
+  import SimpleIcon from '$lib/components/elements/SimpleIcon.svelte';
+  import SectionName from '$lib/components/elements/SectionName.svelte';
+  import Spaser from '$lib/components/elements/Spaser.svelte';
   import {
     dateClass,
     description,
