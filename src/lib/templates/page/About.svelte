@@ -1,6 +1,6 @@
 <script lang="ts">
-  import SectionName from '$lib/components/element/SectionName.svelte';
-  import Spaser from '$lib/components/element/Spaser.svelte';
+  import SectionName from '$lib/components/elements/SectionName.svelte';
+  import Spaser from '$lib/components/elements/Spaser.svelte';
   import { japanese } from '$lib/style/text.css';
   import { section } from './section.css';
 </script>

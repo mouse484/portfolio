@@ -1,5 +1,5 @@
 <script lang="ts">
-  import SimpleIcon from '$lib/components/element/SimpleIcon.svelte';
+  import SimpleIcon from '$lib/components/elements/SimpleIcon.svelte';
   import Icon from '$lib/components/modules/Icon.svelte';
   import {
     faSquare,

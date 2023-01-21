@@ -14,8 +14,8 @@
   import ToolTip from './ToolTip.svelte';
   import { faGithub } from '@fortawesome/free-brands-svg-icons';
   import { faLink } from '@fortawesome/free-solid-svg-icons';
-  import SimpleIcon from '../element/SimpleIcon.svelte';
-  import Spaser from '../element/Spaser.svelte';
+  import SimpleIcon from '../elements/SimpleIcon.svelte';
+  import Spaser from '../elements/Spaser.svelte';
   import {
     section,
     h4,

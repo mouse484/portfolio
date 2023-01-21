@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Link from '../element/Link.svelte';
+  import Link from '../elements/Link.svelte';
   import { popupClass, tooltipClass } from './ToolTip.css';
   export let value: string;
   export let alt: string;

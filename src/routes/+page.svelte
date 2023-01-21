@@ -4,7 +4,7 @@
   import Works from '$lib/templates/page/Works.svelte';
   import Skills from '$lib/templates/page/Skills.svelte';
   import Posts from '$lib/templates/page/Posts.svelte';
-  import Spaser from '$lib/components/element/Spaser.svelte';
+  import Spaser from '$lib/components/elements/Spaser.svelte';
   import { main } from './page.css';
 </script>
 
