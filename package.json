@@ -20,7 +20,6 @@
     "@typescript-eslint/parser": "5.48.2",
     "@vanilla-extract/sprinkles": "^1.5.1",
     "@vanilla-extract/vite-plugin": "^3.7.0",
-    "autoprefixer": "10.4.13",
     "eslint": "8.32.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-svelte3": "4.0.0",
