@@ -36,7 +36,10 @@
 
 {#if name}
   {#if nested}
-    <Dropdown side={isOutSide ? 'bottom' : nested <= 1 ? 'bottom' : 'right'}>
+    <Dropdown
+      side={isOutSide ? 'bottom' : nested <= 1 ? 'bottom' : 'right'}
+      aligin={isOutSide ? 'right' : 'default'}
+    >
       <NameAndIcon slot="root" {name} {icon} {nested} />
       <div class={itemsClass} bind:this={dropItem}>
         {#each Object.entries(useSkills) as [skillName, next]}
