@@ -1,11 +1,8 @@
 const skills = {
   JavaScript: {
-    AltJS: {
-      TypeScript: {
-        'ts-node': { 'tsconfig-paths': {} },
-        ttypescript: { 'typescript-transform-paths': {} },
-      },
-      CoffeeScript: {},
+    TypeScript: {
+      'ts-node': { 'tsconfig-paths': {} },
+      ttypescript: { 'typescript-transform-paths': {} },
     },
     Runtime: {
       'Node.js': {
@@ -18,6 +15,7 @@ const skills = {
       Deno: {},
       Bun: {},
     },
+    CoffeeScript: {},
     Web: {
       React: {
         'Next.js': {},
@@ -55,6 +53,7 @@ const skills = {
   HTML: { _icon: 'HTML5', EJS: {}, Pug: {} },
   CSS: {
     _icon: 'CSS3',
+    'vanilla-extract': {},
     'Tailwind CSS': {},
     'Windi CSS': {},
     PostCSS: {},
@@ -66,7 +65,9 @@ const skills = {
     },
   },
   Go: {},
+  Rust: {},
   Python: {},
+  PHP: { Laravel: {} },
   Ruby: { 'Ruby on Rails': {} },
   C: {},
   'C++': {},
@@ -118,6 +119,7 @@ const skills = {
       CentOS: {},
       'Alpine Linux': {},
     },
+    macOS: {},
   },
   Browser: {
     'Google Chrome': {},
