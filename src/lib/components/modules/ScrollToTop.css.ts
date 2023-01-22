@@ -17,11 +17,14 @@ export const circle = style([
     width: 'fit-content',
     height: 'fit-content',
 
+    display: 'flex',
+    justifyContent: 'center',
+
     opacity: 0,
     transitionDuration: '1000ms',
   },
   sprinkles({
-    margin: 'small',
+    margin: 'little',
     padding: 'little',
   }),
 ]);
