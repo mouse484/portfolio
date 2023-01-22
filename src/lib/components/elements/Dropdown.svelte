@@ -1,15 +1,21 @@
 <script lang="ts">
-  import { dropdown, item } from './Dropdown.css';
+  import { aliginRight, dropdown, item, right } from './Dropdown.css';
 
   export let side: 'bottom' | 'right' = 'bottom';
-  $: style = side === 'right' ? 'right' : '';
+  export let aligin: 'default' | 'right' = 'default';
 </script>
 
 <div class={dropdown}>
   <div>
     <slot name="root" />
   </div>
-  <div class="{item} {style}">
+  <div
+    class="
+    {item}
+    {side === 'right' && right}
+    {aligin === 'right' && aliginRight}
+    "
+  >
     <slot />
   </div>
 </div>

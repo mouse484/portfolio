@@ -19,10 +19,10 @@ export const item = style([
       [`${dropdown}:hover > &`]: {
         visibility: 'visible',
       },
-      '&.right': {
-        top: '-1em',
-        left: '100%',
-      },
     },
   },
 ]);
+
+export const right = style({ top: '-1em', left: '100%' });
+
+export const aliginRight = style({ right: '-2rem' });
