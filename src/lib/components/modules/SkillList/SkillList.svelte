@@ -1,5 +1,7 @@
 <script lang="ts">
   import Dropdown from '$lib/components/elements/Dropdown.svelte';
+  import { json } from '@sveltejs/kit';
+  import { onMount } from 'svelte';
   import NameAndIcon from './NameAndIcon.svelte';
   import { itemsClass } from './SkillList.css';
 
@@ -9,6 +11,12 @@
 
   let useSkills: { [key: string]: {} };
   let icon = name;
+
+  let dropItem: HTMLDivElement;
+
+  $: isOutSide =
+    dropItem &&
+    dropItem.getBoundingClientRect().right / document.body.clientWidth >= 1;
 
   const isNested = (skills: typeof useSkills) =>
     Object.keys(skills).length > (skills.hasOwnProperty('_icon') ? 1 : 0)
@@ -28,9 +36,9 @@
 
 {#if name}
   {#if nested}
-    <Dropdown side={nested <= 1 ? 'bottom' : 'right'}>
+    <Dropdown side={isOutSide ? 'bottom' : nested <= 1 ? 'bottom' : 'right'}>
       <NameAndIcon slot="root" {name} {icon} {nested} />
-      <div class={itemsClass}>
+      <div class={itemsClass} bind:this={dropItem}>
         {#each Object.entries(useSkills) as [skillName, next]}
           <svelte:self name={skillName} skills={next} nested={isNested(next)} />
         {/each}
