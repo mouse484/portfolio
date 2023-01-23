@@ -15,7 +15,7 @@ export const container = style([
     backgroundColor: 'inherit',
   },
   sprinkles({
-    paddingX: 'small',
+    paddingX: 'little',
   }),
 ]);
 
