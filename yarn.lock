@@ -506,10 +506,10 @@
     "@vercel/nft" "^0.22.1"
     esbuild "^0.16.3"
 
-"@sveltejs/kit@1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.2.3.tgz#ea1e3ac4195935be56eab642ac1f85de7ab74b2e"
-  integrity sha512-VyXiFoqoxV/2gNYPGsoreqGXRfUz1ASBKH+b+1VnF4LXnOvA2h1lTAgniotlamuC6yBM94DkztQSlIRwiS+REA==
+"@sveltejs/kit@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.2.4.tgz#b516d00213354e76ec3dace8bc8c19717fae1151"
+  integrity sha512-MUFH5ag6PuWDAVAU1iVICcXHqieZAkv268wT5xUTZoOKsAxalWH4ZrpmoSpAZUnvgPJcFJ+/fkcN3nosD89+Uw==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^2.0.0"
     "@types/cookie" "^0.5.1"
@@ -523,7 +523,7 @@
     set-cookie-parser "^2.5.1"
     sirv "^2.0.2"
     tiny-glob "^0.2.9"
-    undici "5.15.2"
+    undici "5.16.0"
 
 "@sveltejs/vite-plugin-svelte@^2.0.0":
   version "2.0.2"
@@ -3037,10 +3037,10 @@ ufo@^1.0.0, ufo@^1.0.1:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.0.1.tgz#64ed43b530706bda2e4892f911f568cf4cf67d29"
   integrity sha512-boAm74ubXHY7KJQZLlXrtMz52qFvpsbOxDcZOnw/Wf+LS4Mmyu7JxmzD4tDLtUQtmZECypJ0FrCz4QIe6dvKRA==
 
-undici@5.15.2:
-  version "5.15.2"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.15.2.tgz#97ac24def6cd0e04d20edec2ed58c25969282c83"
-  integrity sha512-JsN6meyJESMJaLqOuozstwrolSkLWlTIT4qpGoKepNdnZy7HJMPKB0v0Td/CepGgoiPpUSvVO9Nh/5N9QrmDgQ==
+undici@5.16.0:
+  version "5.16.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.16.0.tgz#6b64f9b890de85489ac6332bd45ca67e4f7d9943"
+  integrity sha512-KWBOXNv6VX+oJQhchXieUznEmnJMqgXMbs0xxH2t8q/FUAWSJvOSr/rMaZKnX5RIVq7JDn0JbP4BOnKG2SGXLQ==
   dependencies:
     busboy "^1.6.0"
 
