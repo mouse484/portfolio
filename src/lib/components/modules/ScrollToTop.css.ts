@@ -21,7 +21,7 @@ export const circle = style([
     justifyContent: 'center',
 
     opacity: 0,
-    transitionDuration: '1000ms',
+    transitionDuration: '3s',
   },
   sprinkles({
     margin: 'little',
