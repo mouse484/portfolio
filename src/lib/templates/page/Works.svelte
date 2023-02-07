@@ -12,7 +12,7 @@
   <div class={projects}>
     <Project
       name="Portfolio"
-      link="https://portfolio.mouse484.vercel.app/"
+      link="https://portfolio.mousedev.page/"
       libraries={['Svelte', 'TypeScript', 'Vite', 'Tailwind CSS']}
     >
       <p>ポートフォリオサイト</p>
@@ -57,10 +57,7 @@
       </p>
       <p>
         npm Registryに公開するのではなくGitHub上から取得してインストールできる
-        <Link href="https://eslint-config.mouse484.vercel.app"
-          >自作レジストリ</Link
-        >
-        からインストールできるようにしている。
+        自作レジストリ からインストールできるようにしている。
       </p>
     </Project>
   </div>
