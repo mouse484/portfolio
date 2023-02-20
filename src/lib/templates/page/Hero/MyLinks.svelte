@@ -17,8 +17,8 @@
   />
   <IconLink
     icon={faPaperPlane}
-    href="mailto:escmouse484+dev@gmail.com"
-    alt="mailto:escmouse484+dev@gmail.com"
+    href="mailto:me@mousedev.page"
+    alt="mailto:me@mousedev.page"
   />
 </div>
 
