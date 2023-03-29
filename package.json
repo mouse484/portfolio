@@ -20,7 +20,7 @@
     "@typescript-eslint/parser": "5.57.0",
     "@vanilla-extract/sprinkles": "^1.5.1",
     "@vanilla-extract/vite-plugin": "^3.7.0",
-    "eslint": "8.36.0",
+    "eslint": "8.37.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-svelte3": "4.0.0",
     "happy-dom": "8.9.0",
