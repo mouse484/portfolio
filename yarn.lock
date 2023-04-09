@@ -6476,10 +6476,10 @@ simple-icons@*:
   resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-8.1.0.tgz#4df9e13449ac2ce2797a4757b041791cc0443369"
   integrity sha512-N2JKvoRoiFqsRaHiKLNHf6GzpfLqO+Bgoijq54rzIosfQIhmxgCiAKYW9ejzw0arCAeoQ3RiG18fIZct6xBXFA==
 
-simple-icons@8.9.0:
-  version "8.9.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-8.9.0.tgz#904863203f2cd5201adbfc621cfbfa41350ba3e0"
-  integrity sha512-aJD8dhSzAUfLGzm8TOO8uPUIpYMnP3IUh8Zkc6TrYOPJ0RBcyR4VWtbRv3KbPY8xhQG8hBoGhKpk/kEe80BSgQ==
+simple-icons@8.10.0:
+  version "8.10.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-8.10.0.tgz#acedcd4ae6668c6d17616c0594edfacb0747bbde"
+  integrity sha512-q3MX9Og3ekffeY4vA2EEhKIzuVqARI4zAnK0wgQ1wJLIbzhspRrauRqd6eUO2YT3eH09uqRIVLphf0S0apBT/g==
 
 sirv@^2.0.2:
   version "2.0.2"
