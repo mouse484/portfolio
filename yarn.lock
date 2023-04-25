@@ -1822,12 +1822,12 @@
     "@vercel/nft" "^0.22.1"
     esbuild "^0.16.3"
 
-"@sveltejs/kit@1.15.7":
-  version "1.15.7"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.15.7.tgz#2183437632fb06c0e8fd76cfe9978da43178a8b3"
-  integrity sha512-dgdKExsMJ16X3q8tEcuDlv+QIWAlJcf7IqCU2HWV13nmtTzwSA2n4VtEx9Gy5OGhH0SUAGNIupmlf0TdFSMXbw==
+"@sveltejs/kit@1.15.8":
+  version "1.15.8"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.15.8.tgz#eaadf33de4d4731f79c45996eaacd1b0664d565c"
+  integrity sha512-xPIF3UbFEA5BBZWFTGGUtSZ0O3DAtmzIp/yZZVdLIfzZ9+geKG3iGSVFnOUdYstjU7JcvJg12UC5MD5xoED59A==
   dependencies:
-    "@sveltejs/vite-plugin-svelte" "^2.0.0"
+    "@sveltejs/vite-plugin-svelte" "^2.1.0"
     "@types/cookie" "^0.5.1"
     cookie "^0.5.0"
     devalue "^4.3.0"
@@ -1839,19 +1839,19 @@
     set-cookie-parser "^2.5.1"
     sirv "^2.0.2"
     tiny-glob "^0.2.9"
-    undici "5.20.0"
+    undici "~5.22.0"
 
-"@sveltejs/vite-plugin-svelte@^2.0.0":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.0.2.tgz#943090239a31b2e0546837ff7649b73aeb46614c"
-  integrity sha512-xCEan0/NNpQuL0l5aS42FjwQ6wwskdxC3pW1OeFtEKNZwRg7Evro9lac9HesGP6TdFsTv2xMes5ASQVKbCacxg==
+"@sveltejs/vite-plugin-svelte@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-2.1.0.tgz#d0a760f932ad3ff85c66dda24e09f0c47359017a"
+  integrity sha512-Bc9A8mtTGlhTICdLL/aZ+jyHI3kwtkcXremOH5xwjbNNKOTOtY8nMyG8/oZ5KK8IuUfAn1WL58Bp2tofDJBW0w==
   dependencies:
     debug "^4.3.4"
-    deepmerge "^4.2.2"
+    deepmerge "^4.3.1"
     kleur "^4.1.5"
-    magic-string "^0.27.0"
+    magic-string "^0.30.0"
     svelte-hmr "^0.15.1"
-    vitefu "^0.2.3"
+    vitefu "^0.2.4"
 
 "@szmarczak/http-timer@^4.0.5":
   version "4.0.6"
@@ -3166,7 +3166,7 @@ deep-object-diff@^1.1.9:
   resolved "https://registry.yarnpkg.com/deep-object-diff/-/deep-object-diff-1.1.9.tgz#6df7ef035ad6a0caa44479c536ed7b02570f4595"
   integrity sha512-Rn+RuwkmkDwCi2/oXOFS9Gsr5lJZu/yTGpK7wAaAIE75CC+LCGEZHpY6VQJa/RoJcrmaA/docWJZvYohlNkWPA==
 
-deepmerge@^4.2.2:
+deepmerge@^4.2.2, deepmerge@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.3.1.tgz#44b5f2147cd3b00d4b56137685966f26fd25dd4a"
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
@@ -7018,10 +7018,10 @@ ufo@^1.1.1:
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-1.1.1.tgz#e70265e7152f3aba425bd013d150b2cdf4056d7c"
   integrity sha512-MvlCc4GHrmZdAllBc0iUDowff36Q9Ndw/UzqmEKyrfSzokTd9ZCy1i+IIk5hrYKkjoYVQyNbrw7/F8XJ2rEwTg==
 
-undici@5.20.0:
-  version "5.20.0"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.20.0.tgz#6327462f5ce1d3646bcdac99da7317f455bcc263"
-  integrity sha512-J3j60dYzuo6Eevbawwp1sdg16k5Tf768bxYK4TUJRH7cBM4kFCbf3mOnM/0E3vQYXvpxITbbWmBafaDbxLDz3g==
+undici@~5.22.0:
+  version "5.22.0"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.22.0.tgz#5e205d82a5aecc003fc4388ccd3d2c6e8674a0ad"
+  integrity sha512-fR9RXCc+6Dxav4P9VV/sp5w3eFiSdOjJYsbtWfd4s5L5C4ogyuVpdKIVHeW0vV1MloM65/f7W45nR9ZxwVdyiA==
   dependencies:
     busboy "^1.6.0"
 
@@ -7301,10 +7301,10 @@ vite@^4.1.4:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitefu@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/vitefu/-/vitefu-0.2.3.tgz#512107a04d43e967e8b8de093121616f9518b2ee"
-  integrity sha512-75l7TTuU8isAhz1QFtNKjDkqjxvndfMC1AfIMjJ0ZQ59ZD0Ow9QOIsJJX16Wv9PS8f+zMzp6fHy5cCbKG/yVUQ==
+vitefu@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/vitefu/-/vitefu-0.2.4.tgz#212dc1a9d0254afe65e579351bed4e25d81e0b35"
+  integrity sha512-fanAXjSaf9xXtOOeno8wZXIhgia+CZury481LsDaV++lSvcU2R9Ch2bPh3PYFyoHW+w9LqAeYRISVQjUIew14g==
 
 vitest@0.30.1:
   version "0.30.1"
