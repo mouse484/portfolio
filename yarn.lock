@@ -2170,13 +2170,6 @@
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.3.13.tgz#da4bfd73f49bd541d28920ab0e2bf0ee80f71c91"
   integrity sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==
 
-"@types/simple-icons@5.21.1":
-  version "5.21.1"
-  resolved "https://registry.yarnpkg.com/@types/simple-icons/-/simple-icons-5.21.1.tgz#d80b05d50312f841b0bf77d7e3b005fb5ed52091"
-  integrity sha512-exnKcr2DxKe0UsGIjvw/hv88OAWkxwPped5iq7YlgC9flaxAJHHvsjmq45Sr7FYjjyrwJI8VFh85xzY6k+L5WQ==
-  dependencies:
-    simple-icons "*"
-
 "@types/unist@*", "@types/unist@^2.0.0":
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.6.tgz#250a7b16c3b91f672a24552ec64678eeb1d3a08d"
@@ -6668,15 +6661,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-icons@*:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-8.1.0.tgz#4df9e13449ac2ce2797a4757b041791cc0443369"
-  integrity sha512-N2JKvoRoiFqsRaHiKLNHf6GzpfLqO+Bgoijq54rzIosfQIhmxgCiAKYW9ejzw0arCAeoQ3RiG18fIZct6xBXFA==
-
-simple-icons@8.12.0:
-  version "8.12.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-8.12.0.tgz#ae7b3af9cc6387b9601a34b149e2fb99ab57287a"
-  integrity sha512-K1O8Tp0kidoxY72rd77tXTmZy1yT0cdfJQVPT9aUYR2YGQjBRsEE8FAz5xOt7Dg+uTtAWUnI7mK94DUgVVKiiA==
+simple-icons@8.12.1:
+  version "8.12.1"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-8.12.1.tgz#1ef356bda5d203f56fc7ce71f4dbdf52aee953b8"
+  integrity sha512-4h1rh9dFixdXMSZivOeVqx1gRExALHcZcSU4BtTeATVK3GFNrk44ySXj34yLa57a0pWwhWOiaZUzgVZiltLNqw==
 
 sirv@^2.0.2:
   version "2.0.2"
