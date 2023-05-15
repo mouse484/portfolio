@@ -36,10 +36,10 @@
       libraries={['Discord', 'Node.js', 'TypeScript']}
     >
       <p>
-        <Link href="https://discord.js.org">Discrod.js</Link>のフレームワーク
+        <Link href="https://discord.js.org">Discord.js</Link>のフレームワーク
       </p>
       <p>
-        Discrod.jsには簡単だけどしっかり使えるフレームワークが無かったので作成した。（使うまでのコストが大きい代わりに機能が豊富なものは多かった）
+        Discord.jsには簡単だけどしっかり使えるフレームワークが無かったので作成した。（使うまでのコストが大きい代わりに機能が豊富なものは多かった）
       </p>
       <p><span class="font-bold">最も簡単</span>を目標に作成している。</p>
     </Project>
