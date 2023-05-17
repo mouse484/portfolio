@@ -29,7 +29,7 @@
     "svelte-preprocess": "^5.0.0",
     "tslib": "2.5.0",
     "typescript": "5.0.4",
-    "vercel": "29.3.2",
+    "vercel": "29.3.3",
     "vite": "4.3.7",
     "vitest": "0.31.0"
   },
