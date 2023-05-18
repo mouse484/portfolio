@@ -73,8 +73,8 @@ devDependencies:
     specifier: 5.0.4
     version: 5.0.4
   vercel:
-    specifier: 29.3.3
-    version: 29.3.3(@types/node@14.18.33)
+    specifier: 29.3.4
+    version: 29.3.4(@types/node@14.18.33)
   vite:
     specifier: 4.3.8
     version: 4.3.8(@types/node@14.18.33)
@@ -1929,16 +1929,16 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@remix-run/router@1.6.0:
-    resolution: {integrity: sha512-N13NRw3T2+6Xi9J//3CGLsK2OqC8NMme3d/YX+nh05K9YHWGcv8DycHJrqGScSP4T75o8IN6nqIMhVFU8ohg8w==}
+  /@remix-run/router@1.6.2:
+    resolution: {integrity: sha512-LzqpSrMK/3JBAVBI9u3NWtOhWNw5AMQfrUFYB0+bDHTSw17z++WJLsPsxAuK+oSddsxk4d7F/JcdDPM1M5YAhA==}
     engines: {node: '>=14'}
     dev: true
 
-  /@remix-run/server-runtime@1.16.0:
-    resolution: {integrity: sha512-a8rfS2SJ2nWhyGikXo+uknOSl1gW1/maDYuiG4Ki2wbVmF0v5mhJhlyB+1l+BjvXw+ZTS9HIiSQkg6L6JWqEcQ==}
+  /@remix-run/server-runtime@1.16.1:
+    resolution: {integrity: sha512-HG+f3PGE9kzTTPe5i5Hv7UGrJLmFID1Ae4BMohP5e0xXOxbdlKDPj6NN6yGDgE7OqKFuDVliW2B5LlUdJZgUFw==}
     engines: {node: '>=14'}
     dependencies:
-      '@remix-run/router': 1.6.0
+      '@remix-run/router': 1.6.2
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.4.2
       set-cookie-parser: 2.6.0
@@ -2440,8 +2440,8 @@ packages:
     resolution: {integrity: sha512-1rzFB664G6Yzp7j4ezW9hvVjqnaU2BhyUdhchbsxtRuxkMpGgPBZKhjzRQHFvlmkz37XLC658T5Nb1P91b4sBw==}
     dev: true
 
-  /@vercel/next@3.8.3:
-    resolution: {integrity: sha512-7Cs6C1ft3Jq9lHKV7v+TVwIxIqfSbaS5iWbT6+vqZdWavzqE6amS0Nd9CIMjWCvjChM904+UrSwUfCnACYzO3Q==}
+  /@vercel/next@3.8.4:
+    resolution: {integrity: sha512-5pyeFap0aTFh0bBmP3fmFM2wiJTLqX7WLCy0T88kAEJpcuTeo4ez+e+fU8C5Y29eHjfTux2i0Ykl+l4x12t+jQ==}
     dev: true
 
   /@vercel/nft@0.22.5:
@@ -2528,10 +2528,10 @@ packages:
       - supports-color
     dev: true
 
-  /@vercel/remix-builder@1.8.8(@types/node@14.18.33):
-    resolution: {integrity: sha512-pXZ19gYVdrlLuxRlhrC5v1uYn53YdSLXSzbDlYgbWanE2dbMSRLIjhzq+GIow9TislkhZwJYEgaScho9dMQPDQ==}
+  /@vercel/remix-builder@1.8.9(@types/node@14.18.33):
+    resolution: {integrity: sha512-FJfdDZIz4zFGgoe/J02oHEiu/4Hh0pWCy3aeANT/lGdw1rOP71VtO+XlrW1ptOgNvmXSpJYHw1misQ4zvVgtHA==}
     dependencies:
-      '@remix-run/dev': /@vercel/remix-run-dev@1.16.0-patch.1(@types/node@14.18.33)
+      '@remix-run/dev': /@vercel/remix-run-dev@1.16.1(@types/node@14.18.33)
       '@vercel/build-utils': 6.7.2
       '@vercel/nft': 0.22.5
       '@vercel/static-config': 2.0.17
@@ -2554,12 +2554,12 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@vercel/remix-run-dev@1.16.0-patch.1(@types/node@14.18.33):
-    resolution: {integrity: sha512-W4ugL5WYJEye91kRsBnH2D3Ia+4nTN9IcCH72ykOr660svw9Xise0Zi5sPtV8FP2RncAVgs2wAyAblQzsm6IqQ==}
+  /@vercel/remix-run-dev@1.16.1(@types/node@14.18.33):
+    resolution: {integrity: sha512-b+gIUNqW9JwPKHSfGs0ylMk9U80dbvEmkjczNmyWvO7r1tz8O9dEmTUmbJ22/aRPPJQ/aEYosqP7UNJtDvieqw==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
-      '@remix-run/serve': ^1.16.0
+      '@remix-run/serve': ^1.16.1
     peerDependenciesMeta:
       '@remix-run/serve':
         optional: true
@@ -2574,7 +2574,7 @@ packages:
       '@babel/traverse': 7.21.5
       '@babel/types': 7.21.5
       '@npmcli/package-json': 2.0.0
-      '@remix-run/server-runtime': 1.16.0
+      '@remix-run/server-runtime': 1.16.1
       '@vanilla-extract/integration': 6.2.1(@types/node@14.18.33)
       arg: 5.0.2
       cacache: 15.3.0
@@ -7400,8 +7400,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vercel@29.3.3(@types/node@14.18.33):
-    resolution: {integrity: sha512-lpaooCGXxRc5+w33PnDjri2nXbF5mLbBKZLGVvVlCaY3PycRanFLHe8b1QLy0z0yifVxntea1LKIeyu9UeXrUw==}
+  /vercel@29.3.4(@types/node@14.18.33):
+    resolution: {integrity: sha512-ittJdZbhmjRhGRgvUUmNX9Q56rGbIyyK7a31OSi6yJz0Dtw9ojjGxmnvvFB1Xt8lU4LMZ/S2tPVhU1H/Pcqexg==}
     engines: {node: '>= 14'}
     hasBin: true
     requiresBuild: true
@@ -7409,11 +7409,11 @@ packages:
       '@vercel/build-utils': 6.7.2
       '@vercel/go': 2.5.1
       '@vercel/hydrogen': 0.0.64
-      '@vercel/next': 3.8.3
+      '@vercel/next': 3.8.4
       '@vercel/node': 2.14.2
       '@vercel/python': 3.1.60
       '@vercel/redwood': 1.1.15
-      '@vercel/remix-builder': 1.8.8(@types/node@14.18.33)
+      '@vercel/remix-builder': 1.8.9(@types/node@14.18.33)
       '@vercel/ruby': 1.3.76
       '@vercel/static-build': 1.3.30
     transitivePeerDependencies:
