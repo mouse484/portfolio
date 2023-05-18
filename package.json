@@ -27,7 +27,7 @@
     "prettier-plugin-svelte": "2.10.0",
     "svelte": "3.59.1",
     "svelte-preprocess": "^5.0.0",
-    "tslib": "2.5.0",
+    "tslib": "2.5.1",
     "typescript": "5.0.4",
     "vercel": "29.3.3",
     "vite": "4.3.7",
