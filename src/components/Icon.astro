@@ -1,0 +1,23 @@
+---
+import { Icon as AstroIcon } from 'astro-icon';
+
+export interface Props {
+  name: string;
+  size: keyof typeof sizes;
+}
+
+const sizes = {
+  md: 1.5,
+} as const;
+
+const { name, size } = Astro.props;
+---
+
+<AstroIcon {name} style={`--size: ${sizes[size]}rem;`} />
+
+<style>
+  [astro-icon] {
+    height: var(--size);
+    width: var(--size);
+  }
+</style>

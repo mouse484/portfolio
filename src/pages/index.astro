@@ -1,7 +1,38 @@
 ---
+import Icon from '../components/Icon.astro';
+import LinkWithContemt from '../components/LinkWithContemt.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-	<main>Home</main>
+	<main>
+		<section>
+			<h1 class="text-5xl text-center">Mouse's Portfolio.</h1>
+
+			<div class="text-center mt-8">
+				<p>JavaScript(Node.js/TypeScript)が好きな学生です。</p>
+			</div>
+
+			<div class="flex justify-center mt-8">
+				<div class="flex flex-col gap-2">
+					<LinkWithContemt href="https://twitter.com/mouse_484" target="blank">
+						<Icon name="mdi:twitter" size="md" />
+						@mouse_484
+					</LinkWithContemt>
+					<LinkWithContemt href="https://github.com/mouse484" target="blank">
+						<Icon name="mdi:github" size="md" />
+						mouse484
+					</LinkWithContemt>
+					<div class="flex gap-4">
+						<Icon name="ic:baseline-discord" size="md" />
+						mouse_484
+					</div>
+					<LinkWithContemt href="mailto:me@mousedev.page" target="blank">
+						<Icon name="mdi:email" size="md" />
+						me@mousedev.page
+					</LinkWithContemt>
+				</div>
+			</div>
+		</section>
+	</main>
 </Layout>
