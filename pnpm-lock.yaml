@@ -21,8 +21,8 @@ dependencies:
     specifier: 3.13.0
     version: 3.13.0
   simple-icons:
-    specifier: 8.15.0
-    version: 8.15.0
+    specifier: 9.3.0
+    version: 9.3.0
 
 devDependencies:
   '@fortawesome/fontawesome-common-types':
@@ -6720,8 +6720,8 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-icons@8.15.0:
-    resolution: {integrity: sha512-W9USb8Yic98wAZc9HpjMyH/wrJZx/BRqGK82SsmdApFaO5XqYe5peWV5A18XLYIgdcAsUC6PS2Z0STJoHdNXXQ==}
+  /simple-icons@9.3.0:
+    resolution: {integrity: sha512-T6x3teIpPdMc8nibYvE56Va1eF+l8Puk//1YYtCxQP4wbGRzYxgwZTl18YCjoFLnu/0exehwyR2hMEFZV3lflg==}
     engines: {node: '>=0.12.18'}
     dev: false
 
