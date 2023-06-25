@@ -1,0 +1,40 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Icon from '../Icon.astro';
+import LinkWithContent from '../LinkWithContent.astro';
+
+export interface Props {
+  work: CollectionEntry<'works'>['data'];
+}
+
+const { work } = Astro.props;
+---
+
+<div class="border rounded p-4">
+  <h5 class="text-2xl">
+    {work.title}
+  </h5>
+  <p class="mt-4 ml-4">
+    {work.description}
+  </p>
+  <div>
+    {
+      work.libraries.map((lib) => (
+        <div class="flex">
+          <Icon pack="logos" name={`${lib.toLowerCase()}-icon`} size="md" />
+          {lib}
+        </div>
+      ))
+    }
+  </div>
+  <div class="mt-2 flex flex-wrap gap-4">
+    <LinkWithContent href={`https://github.com/${work.repository}`}>
+      <Icon name="mdi:github" size="md" />
+      <span>{work.repository}</span>
+    </LinkWithContent>
+    <LinkWithContent href={work.url}>
+      <Icon name="mdi:link" size="md" />
+      <span>{work.url}</span>
+    </LinkWithContent>
+  </div>
+</div>

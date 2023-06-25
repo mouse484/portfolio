@@ -1,0 +1,9 @@
+---
+import { getCollection } from 'astro:content';
+import WorksCard from './WorksCard.astro';
+const entries = await getCollection('works');
+---
+
+<ul>
+  {entries.map((item) => <WorksCard work={item.data} />)}
+</ul>

@@ -2,6 +2,7 @@
 import { Icon as AstroIcon } from 'astro-icon';
 
 export interface Props {
+  pack?: string;
   name: string;
   size: keyof typeof sizes;
 }
@@ -10,10 +11,10 @@ const sizes = {
   md: 1.5,
 } as const;
 
-const { name, size } = Astro.props;
+const { pack, name, size } = Astro.props;
 ---
 
-<AstroIcon {name} style={`--size: ${sizes[size]}rem;`} />
+<AstroIcon {pack} {name} style={`--size: ${sizes[size]}rem;`} />
 
 <style>
   [astro-icon] {
