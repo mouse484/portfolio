@@ -17,11 +17,15 @@ const { work } = Astro.props;
   <p class="mt-4 ml-4">
     {work.description}
   </p>
-  <div>
+  <div class="mt-4 flex flex-wrap gap-4">
     {
       work.libraries.map((lib) => (
-        <div class="flex">
-          <Icon pack="logos" name={`${lib.toLowerCase()}-icon`} size="md" />
+        <div class="flex gap-2 items-center">
+          <Icon
+            pack="simple-icons"
+            name={lib.toLowerCase().replaceAll(/\s+/g, '').replace('.', 'dot')}
+            size="sm"
+          />
           {lib}
         </div>
       ))

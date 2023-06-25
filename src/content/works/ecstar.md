@@ -1,7 +1,7 @@
 ---
 title: Ecstar
 description: The easiest JavaScript/TypeScript Discord bot framework.
-libraries: [TypeScript]
+libraries: [Node.js, TypeScript]
 repository: Ecstarjs/Ecstar
 url: https://ecstar.js.org/
 ---
