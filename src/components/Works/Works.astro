@@ -6,6 +6,6 @@ const entries = await getCollection('works');
 
 <h3 class="text-3xl text-center">Works</h3>
 
-<div class="mt-8 flex flex-wrap gap-4 justify-center">
+<div class="mt-8 flex flex-wrap justify-center gap-4">
   {entries.map((item) => <WorksCard work={item.data} />)}
 </div>
