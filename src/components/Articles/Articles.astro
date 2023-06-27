@@ -1,4 +1,5 @@
 ---
+import { format } from 'date-fns';
 import Parser from 'rss-parser';
 import Icon from '../Icon.astro';
 import LinkWithContent from '../LinkWithContent.astro';
@@ -33,23 +34,25 @@ const result = allfeed
     return {
       title,
       link,
-      isoDate,
+      date: new Date(isoDate || ''),
       platform: isPlatform(link),
     } as const;
   });
 ---
 
-<div class="mt-8 w-96 mx-auto">
+<div class="mt-8 w-96 mx-auto max-w-[80vw]">
   {
-    result.map(({ platform, title, link, isoDate }) => (
+    result.map(({ platform, title, link, date }) => (
       <div class="group">
-        <div>{new Date(isoDate).toLocaleDateString()}</div>
-        <LinkWithContent href={link}>
-          <Icon pack="simple-icons" name={platform || ''} size="md" />
-          <span class="truncate group-hover:break-normal group-hover:whitespace-normal">
-            {title}
-          </span>
-        </LinkWithContent>
+        <div>{format(date, 'yyyy/MM/dd')}</div>
+        {link && (
+          <LinkWithContent href={link}>
+            <Icon pack="simple-icons" name={platform || ''} size="md" />
+            <span class="truncate group-hover:break-normal group-hover:whitespace-normal">
+              {title}
+            </span>
+          </LinkWithContent>
+        )}
       </div>
     ))
   }
