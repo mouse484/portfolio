@@ -23,6 +23,9 @@ class ThemeBuilder {
 }
 
 const theme = new ThemeBuilder();
-theme.addColor('text', ['#000000', '#ffffff']).addColor('background', ['#ffffff', '#121212']);
+theme
+	.addColor('text', ['#000000', '#ffffff'])
+	.addColor('background', ['#ffffff', '#121212'])
+	.addColor('main', ['#2196f3', '#2196f3']);
 
 export default theme.value;
