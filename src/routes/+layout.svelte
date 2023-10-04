@@ -5,6 +5,10 @@
 	import { layoutCSS } from '$lib/styles/layout.css';
 </script>
 
+<svelte:head>
+	<title>mouse's Portfolio.</title>
+</svelte:head>
+
 <div class={layoutCSS}>
 	<Header />
 	<slot />
