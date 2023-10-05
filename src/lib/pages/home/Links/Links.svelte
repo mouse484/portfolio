@@ -1,19 +1,9 @@
 <script>
-	import { flex } from 'styled-system/patterns';
 	import LinkWithContent from '$lib/components/LinkWithContent.svelte';
 	import Icon from '$lib/components/Icon.svelte';
 </script>
 
-<div
-	class={flex({
-		flexDirection: 'column',
-		gap: '2',
-		'& svg': {
-			height: '1.5rem',
-			width: '1.5rem'
-		}
-	})}
->
+<div>
 	<LinkWithContent href="https://twitter.com/mouse_484">
 		<Icon name="mdi:twitter" />
 		@mouse_484

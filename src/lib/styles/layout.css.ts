@@ -1,7 +1,8 @@
-import { css } from 'styled-system/css';
+import { style } from '@vanilla-extract/css';
+import { vars } from './themes.css';
 
-export const layoutCSS = css({
-	color: 'text',
-	backgroundColor: 'background',
-	padding: '8'
+export const layoutClass = style({
+	color: vars.color.text,
+	backgroundColor: vars.color.background,
+	padding: 4
 });
