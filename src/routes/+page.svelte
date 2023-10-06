@@ -5,7 +5,7 @@
 
 <h1>mouse's Portfolio.</h1>
 
-<main>
+<div>
 	<Links />
 	<Works />
-</main>
+</div>

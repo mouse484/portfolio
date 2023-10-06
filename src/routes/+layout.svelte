@@ -1,9 +1,10 @@
 <script lang="ts">
-	import "modern-normalize"
+	import 'modern-normalize';
 
 	import Header from '$lib/components/Header.svelte';
-	import { layoutClass } from '$lib/styles/layout.css';
+	import { layoutClass, mainClass } from '$lib/styles/layout.css';
 	import { darkThemeClass, lightThemeClass } from '$lib/styles/themes.css';
+	import { sprinkles } from '$lib/styles/sprinkles.css';
 </script>
 
 <svelte:head>
@@ -20,5 +21,7 @@
 
 <div class={layoutClass}>
 	<Header />
-	<slot />
+	<main class="{mainClass} {sprinkles({ marginX: 'auto' })}">
+		<slot />
+	</main>
 </div>

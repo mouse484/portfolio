@@ -7,3 +7,7 @@ export const layoutClass = style({
 	padding: 32,
 	minHeight: '100dvh'
 });
+
+export const mainClass = style({
+	width: 'fit-content'
+});
