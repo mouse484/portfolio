@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import { browser } from '$app/environment';
 	import { darkThemeClass, lightThemeClass } from '$lib/styles/themes.css';
 	import { beforeUpdate } from 'svelte';
@@ -30,4 +30,4 @@
 
 		<input type="checkbox" bind:checked={isDark} class={checkboxClass} />
 	</label>
-{/if}
+{/if} -->

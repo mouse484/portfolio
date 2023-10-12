@@ -1,6 +1,6 @@
-import { style } from '@vanilla-extract/css';
+// import { style } from '@vanilla-extract/css';
 
-export const headerClass = style({
-	display: 'flex',
-	justifyContent: 'space-between'
-});
+// export const headerClass = style({
+// 	display: 'flex',
+// 	justifyContent: 'space-between'
+// });
