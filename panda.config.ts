@@ -1,20 +1,16 @@
 import { defineConfig } from '@pandacss/dev';
+import { tokens } from './src/lib/styles/tokens';
 
 export default defineConfig({
-	// Whether to use css reset
-	preflight: true,
-
-	// Where to look for your css declarations
 	include: ['./src/**/*.{js,ts,svelte}'],
 
-	// Files to exclude
-	exclude: [],
+	outdir: 'styled-system',
 
-	// Useful for theme customization
+	preflight: true,
+
+	shorthands: false,
+
 	theme: {
-		extend: {}
-	},
-
-	// The output directory for your css system
-	outdir: 'styled-system'
+		semanticTokens: tokens
+	}
 });
