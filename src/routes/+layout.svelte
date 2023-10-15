@@ -1,19 +1,21 @@
 <script lang="ts">
 	import '../app.css';
+	import { css } from 'styled-system/css';
 	import Header from '$lib/components/Header.svelte';
+
+	const layoutClass = css({
+		color: 'text',
+		backgroundColor: 'background',
+		padding: '4',
+		minHeight: '100vh'
+	});
 </script>
 
 <svelte:head>
 	<title>mouse's Portfolio.</title>
-	<!-- {@html `
-		<script>
-		 	const theme =	'theme' in localStorage ? localStorage.getItem('theme') === 'dark' :  window.matchMedia('(prefers-color-scheme: dark)').matches;
-			document.documentElement.classList.add(theme ? '${darkThemeClass}' : '${lightThemeClass}');
-		</script>
-	`} -->
 </svelte:head>
 
-<div>
+<div class={layoutClass}>
 	<Header />
 	<main>
 		<slot />
