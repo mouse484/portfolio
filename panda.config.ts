@@ -8,8 +8,6 @@ export default defineConfig({
 
 	preflight: true,
 
-	shorthands: false,
-
 	theme: {
 		semanticTokens: tokens
 	}

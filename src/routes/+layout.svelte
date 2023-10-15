@@ -19,7 +19,12 @@
 
 <div class={layoutClass}>
 	<Header />
-	<main>
+	<main
+		class={css({
+			margin: '2rem',
+			lg: { marginX: '8rem', marginY: '4rem' }
+		})}
+	>
 		<slot />
 	</main>
 </div>
