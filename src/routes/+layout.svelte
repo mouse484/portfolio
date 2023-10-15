@@ -6,6 +6,8 @@
 	const layoutClass = css({
 		color: 'text',
 		backgroundColor: 'background',
+		transitionProperty: 'background-color',
+		transitionDuration: '2s',
 		padding: '4',
 		minHeight: '100vh'
 	});
