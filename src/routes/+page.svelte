@@ -14,7 +14,11 @@
 	mouse's Portfolio.
 </h1>
 
-<div>
+<div
+	class={css({
+		marginTop: '4rem'
+	})}
+>
 	<Links />
 	<Works />
 </div>
