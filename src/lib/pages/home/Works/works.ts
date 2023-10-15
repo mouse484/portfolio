@@ -12,7 +12,7 @@ export const works: Work[] = [
 		description: 'Svelte(TypeScript)で作成したNostr Webクライアント',
 		libraries: ['Svelte', 'TypeScript', 'Tailwind CSS'],
 		repository: 'mouse484/Astraea',
-		url: 'https://astraea.mouse484.dev'
+		url: 'https://astraea.mousedev.page'
 	},
 	{
 		title: 'Ecstar',

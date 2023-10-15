@@ -1,8 +1,7 @@
 <script lang="ts">
 	import Links from '$lib/pages/home/Links/Links.svelte';
 	import Works from '$lib/pages/home/Works/Works.svelte';
-	import { css } from 'styled-system/css';
-	import { center } from 'styled-system/patterns';
+	import { center, flex } from 'styled-system/patterns';
 </script>
 
 <h1
@@ -15,8 +14,10 @@
 </h1>
 
 <div
-	class={css({
-		marginTop: '4rem'
+	class={flex({
+		marginTop: '4rem',
+		flexDirection: 'column',
+		gap: '4rem'
 	})}
 >
 	<Links />
