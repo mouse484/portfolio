@@ -47,7 +47,11 @@ const result = allfeed
         <div>{format(date, 'yyyy/MM/dd')}</div>
         {link && (
           <LinkWithContent href={link}>
-            <Icon pack="simple-icons" name={platform || ''} size="md" />
+            <Icon
+              pack="simple-icons"
+              name={platform || ''}
+              size="md"
+            />
             <span class="truncate group-hover:break-normal group-hover:whitespace-normal">
               {title}
             </span>

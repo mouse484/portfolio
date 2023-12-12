@@ -33,11 +33,20 @@ const { work } = Astro.props;
   </div>
   <div class="mt-2">
     <LinkWithContent href={`https://github.com/${work.repository}`}>
-      <Icon name="mdi:github" size="md" />
+      <Icon
+        name="mdi:github"
+        size="md"
+      />
       <span>{work.repository}</span>
     </LinkWithContent>
-    <LinkWithContent href={work.url} target="blank">
-      <Icon name="mdi:link" size="md" />
+    <LinkWithContent
+      href={work.url}
+      target="blank"
+    >
+      <Icon
+        name="mdi:link"
+        size="md"
+      />
       <span>{work.url}</span>
     </LinkWithContent>
   </div>
