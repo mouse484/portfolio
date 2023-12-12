@@ -15,7 +15,11 @@ const sizes = {
 const { pack, name, size } = Astro.props;
 ---
 
-<AstroIcon {pack} {name} style={`--size: ${sizes[size]}rem;`} />
+<AstroIcon
+  {pack}
+  {name}
+  style={`--size: ${sizes[size]}rem;`}
+/>
 
 <style>
   // eslint-disable-next-line astro/no-unused-css-selector
