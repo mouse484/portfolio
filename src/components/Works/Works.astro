@@ -4,6 +4,6 @@ import WorksCard from './WorksCard.astro';
 const entries = await getCollection('works');
 ---
 
-<div class="mt-8 flex flex-wrap justify-center gap-4">
+<div class="mt-8 flex gap-4 flex-wrap justify-center">
   {entries.map((item) => <WorksCard work={item.data} />)}
 </div>
