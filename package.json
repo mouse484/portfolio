@@ -7,7 +7,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@unocss/reset": "^0.58.0",
@@ -16,5 +17,9 @@
     "date-fns": "^2.30.0",
     "rss-parser": "^3.13.0",
     "unocss": "^0.58.0"
+  },
+  "devDependencies": {
+    "@mouse_484/eslint-config-astro": "^1.0.2",
+    "eslint": "^8.55.0"
   }
 }
