@@ -10,17 +10,17 @@ export interface Props {
 const { work } = Astro.props;
 ---
 
-<div class="flex px-4 py-2 border rounded flex-col h-full gap-3">
+<div class="h-full flex flex-col gap-3 border rounded px-4 py-2">
   <h4 class="text-xl">
     {work.title}
   </h4>
   <p>
     {work.description}
   </p>
-  <div class="flex gap-4 flex-wrap">
+  <div class="flex flex-wrap gap-4">
     {
       work.libraries.map((lib) => (
-        <div class="flex gap-2 items-center">
+        <div class="flex items-center gap-2">
           <Icon
             pack="simple-icons"
             name={lib.toLowerCase().replaceAll(/\s+/g, '').replace('.', 'dot')}

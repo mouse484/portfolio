@@ -40,7 +40,7 @@ const result = allfeed
   });
 ---
 
-<div class="mt-8 w-96 mx-auto max-w-[80vw]">
+<div class="mx-auto mt-8 max-w-[80vw] w-96">
   {
     result.map(({ platform, title, link, date }) => (
       <div class="group">
@@ -52,7 +52,7 @@ const result = allfeed
               name={platform || ''}
               size="md"
             />
-            <span class="truncate group-hover:break-normal group-hover:whitespace-normal">
+            <span class="truncate group-hover:whitespace-normal group-hover:break-normal">
               {title}
             </span>
           </LinkWithContent>
