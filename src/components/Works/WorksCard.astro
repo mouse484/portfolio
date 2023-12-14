@@ -10,7 +10,7 @@ export interface Props {
 const { work } = Astro.props;
 ---
 
-<div class="h-full flex flex-col gap-3 border rounded px-4 pt-2 pb-4">
+<div class="flex h-full flex-col gap-3 border rounded px-4 pt-2 pb-4">
   <h4 class="text-xl">
     {work.title}
   </h4>
@@ -32,16 +32,19 @@ const { work } = Astro.props;
     }
   </div>
   <div class="mt-auto">
-    <LinkWithContent href={`https://github.com/${work.repository}`}>
+    <LinkWithContent
+      href={`https://github.com/${work.repository}`}
+      content={work.repository}
+    >
       <Icon
         pack="mdi"
         name="github"
         size="md"
       />
-      <span>{work.repository}</span>
     </LinkWithContent>
     <LinkWithContent
       href={work.url}
+      content={work.url}
       target="blank"
     >
       <Icon
@@ -49,7 +52,6 @@ const { work } = Astro.props;
         name="link"
         size="md"
       />
-      <span>{work.url}</span>
     </LinkWithContent>
   </div>
 </div>
