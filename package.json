@@ -12,9 +12,11 @@
     "fmt": "prettier --write . --plugin=prettier-plugin-astro"
   },
   "dependencies": {
+    "@iconify-json/mdi": "^1.1.62",
+    "@iconify-json/simple-icons": "^1.1.84",
+    "@iconify/utils": "^2.1.12",
     "@unocss/reset": "^0.58.0",
     "astro": "^4.0.4",
-    "astro-icon": "^0.8.2",
     "date-fns": "^2.30.0",
     "rss-parser": "^3.13.0",
     "unocss": "^0.58.0"

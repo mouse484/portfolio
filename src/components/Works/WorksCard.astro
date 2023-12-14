@@ -34,7 +34,8 @@ const { work } = Astro.props;
   <div>
     <LinkWithContent href={`https://github.com/${work.repository}`}>
       <Icon
-        name="mdi:github"
+        pack="mdi"
+        name="github"
         size="md"
       />
       <span>{work.repository}</span>
@@ -44,7 +45,8 @@ const { work } = Astro.props;
       target="blank"
     >
       <Icon
-        name="mdi:link"
+        pack="mdi"
+        name="link"
         size="md"
       />
       <span>{work.url}</span>
