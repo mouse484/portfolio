@@ -1,31 +1,38 @@
 ---
-import { Icon as AstroIcon } from 'astro-icon';
+import { getIconData, iconToSVG, iconToHTML, replaceIDs } from '@iconify/utils';
 
-export interface Props {
-  pack?: string;
-  name: string;
-  size: keyof typeof sizes;
-}
+import { icons as iconsMdi } from '@iconify-json/mdi';
+import { icons as iconSimpleIcons } from '@iconify-json/simple-icons';
+
+const packs = {
+  mdi: iconsMdi,
+  'simple-icons': iconSimpleIcons,
+} as const;
 
 const sizes = {
   sm: 1,
   md: 1.5,
 } as const;
 
+export interface Props {
+  pack: keyof typeof packs;
+  name: string;
+  size: keyof typeof sizes;
+}
 const { pack, name, size } = Astro.props;
+
+const iconData = getIconData(packs[pack], name);
+if (!iconData) {
+  throw new Error(`Icon ${pack}:${name} not found`);
+}
+
+const svg = iconToSVG(iconData, {
+  width: sizes[size] + 'em',
+  height: sizes[size] + 'em',
+});
+
+const html = iconToHTML(svg.body, svg.attributes);
 ---
 
-<AstroIcon
-  {pack}
-  {name}
-  style={`--size: ${sizes[size]}rem;`}
-/>
-
-{/* eslint-disable astro/no-unused-css-selector */}
-<style>
-  [astro-icon] {
-    height: var(--size);
-    width: var(--size);
-  }
-</style>
-{/* eslint-enable astro/no-unused-css-selector */}
+{/* eslint-disable-next-line astro/no-set-html-directive */}
+<Fragment set:html={html} />
