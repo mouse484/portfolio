@@ -10,14 +10,14 @@ export interface Props {
 const { work } = Astro.props;
 ---
 
-<div class="h-full flex flex-col gap-3 border rounded px-4 py-2">
+<div class="h-full flex flex-col gap-3 border rounded px-4 pt-2 pb-4">
   <h4 class="text-xl">
     {work.title}
   </h4>
   <p>
     {work.description}
   </p>
-  <div class="flex flex-wrap gap-4">
+  <div class="flex flex-wrap gap-x-4 gap-y-1">
     {
       work.libraries.map((lib) => (
         <div class="flex items-center gap-2">
@@ -31,7 +31,7 @@ const { work } = Astro.props;
       ))
     }
   </div>
-  <div>
+  <div class="mt-auto">
     <LinkWithContent href={`https://github.com/${work.repository}`}>
       <Icon
         pack="mdi"
