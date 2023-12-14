@@ -1,16 +1,20 @@
 ---
 export interface Props {
   href: string;
+  content: string;
   target?: 'blank';
 }
-const { href, target } = Astro.props;
+const { href, content, target = '_blank' } = Astro.props;
 ---
 
 {/* eslint-disable-next-line astro/jsx-a11y/control-has-associated-label */}
 <a
   {href}
-  target={`${target ? '_blank' : ''}`}
-  class="flex gap-4"
+  {target}
+  class="flex gap-4 justify-items-start min-w-0"
 >
-  <slot />
+  <div class="flex-none">
+    <slot />
+  </div>
+  <p>{content}</p>
 </a>
