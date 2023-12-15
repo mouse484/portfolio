@@ -32,8 +32,8 @@ dependencies:
 
 devDependencies:
   '@mouse_484/eslint-config-astro':
-    specifier: ^1.0.2
-    version: 1.0.2(eslint@8.55.0)(typescript@5.3.3)
+    specifier: ^1.0.3
+    version: 1.0.3(eslint@8.55.0)(typescript@5.3.3)
   '@mouse_484/prettier-config':
     specifier: ^2.0.2
     version: 2.0.2
@@ -787,11 +787,11 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: false
 
-  /@mouse_484/eslint-config-astro@1.0.2(eslint@8.55.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-4PkfYvot3hJ87xQYOus4FJGcCvslOZekkhESBNXf2op3Pd6gJpkA8Uo6nlt4cPVS+IODcoBcVtng3yPburAWtA==}
+  /@mouse_484/eslint-config-astro@1.0.3(eslint@8.55.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-HGGeNsHf/+29Z1/bBx/xl5BGWYwSNHP09iLX0/n0kOV5xsHwrv+/gvn663Q1UPQGSP0HnEy2QuJxVktGZegn6w==}
     dependencies:
       '@typescript-eslint/parser': 6.14.0(eslint@8.55.0)(typescript@5.3.3)
-      eslint-plugin-astro: 0.30.0(eslint@8.55.0)
+      eslint-plugin-astro: 0.31.0(eslint@8.55.0)
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.55.0)
     transitivePeerDependencies:
       - eslint
@@ -2340,8 +2340,8 @@ packages:
       eslint: 8.55.0
     dev: true
 
-  /eslint-plugin-astro@0.30.0(eslint@8.55.0):
-    resolution: {integrity: sha512-LDbbs836SiHqhuiuAF4CPqSSWsfa7R8vfX5lckphCUD/kBFIsobViI8fuTyMktQ9isCg+Q86LIQAHTFl3PWKTA==}
+  /eslint-plugin-astro@0.31.0(eslint@8.55.0):
+    resolution: {integrity: sha512-oNZj7bcpCPkebKD7ZfGflAFVUwz78ItdXeK5aVAqFpZZk1JhGaseWdU24f8r26hRte9rrT3EQV4Qwbngp2xSPA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=7.0.0'
