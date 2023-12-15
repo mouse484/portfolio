@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@iconify-json/mdi':
-    specifier: ^1.1.62
-    version: 1.1.62
+    specifier: ^1.1.63
+    version: 1.1.63
   '@iconify-json/simple-icons':
     specifier: ^1.1.84
     version: 1.1.84
@@ -725,8 +725,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@iconify-json/mdi@1.1.62:
-    resolution: {integrity: sha512-VEfnaIwO++vZ5xUYdbPuB303E1Db29kRfkd+n9dxC0zQQ6fTy4TEI2Q79TYZtEPwiIOWOy8pudTbOv4GLUaziA==}
+  /@iconify-json/mdi@1.1.63:
+    resolution: {integrity: sha512-b07dRM5LYdwJqd/lm+1+JDNDNSWHvpZ7ujb73oJxx3lmK1J0giDS0BSc4yia0hixNV0Z2q/4GyxAu/A8XqDnbg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
