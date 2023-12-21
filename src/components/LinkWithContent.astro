@@ -3,8 +3,9 @@ export interface Props {
   href: string;
   content: string;
   target?: 'blank';
+  contentClass?: string;
 }
-const { href, content, target = '_blank' } = Astro.props;
+const { href, content, target = '_blank', contentClass = '' } = Astro.props;
 ---
 
 {/* eslint-disable-next-line astro/jsx-a11y/control-has-associated-label */}
@@ -16,5 +17,5 @@ const { href, content, target = '_blank' } = Astro.props;
   <div class="flex-none">
     <slot />
   </div>
-  <p class="truncate group-hover:whitespace-normal group-hover:break-normal">{content}</p>
+  <p class:list={contentClass}>{content}</p>
 </a>
