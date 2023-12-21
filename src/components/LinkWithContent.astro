@@ -12,10 +12,13 @@ const { href, content, target = '_blank', contentClass = '' } = Astro.props;
 <a
   {href}
   {target}
-  class="flex gap-4 justify-items-start min-w-0"
+  class="w-full flex gap-4 min-w-0"
 >
-  <div class="flex-none">
-    <slot />
-  </div>
-  <p class:list={contentClass}>{content}</p>
+  <slot />
+  <p
+    class=""
+    class:list={contentClass}
+  >
+    {content}
+  </p>
 </a>
