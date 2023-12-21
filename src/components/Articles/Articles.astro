@@ -45,16 +45,13 @@ const result = allfeed
     result.map(({ platform, title, link, date }) => (
       <div class="group">
         <div>{format(date, 'yyyy/MM/dd')}</div>
-        {link && (
-          <LinkWithContent href={link}>
+        {link && title && (
+          <LinkWithContent href={link} content={title}>
             <Icon
               pack="simple-icons"
               name={platform || ''}
               size="md"
             />
-            <span class="truncate group-hover:whitespace-normal group-hover:break-normal">
-              {title}
-            </span>
           </LinkWithContent>
         )}
       </div>

@@ -16,5 +16,5 @@ const { href, content, target = '_blank' } = Astro.props;
   <div class="flex-none">
     <slot />
   </div>
-  <p>{content}</p>
+  <p class="truncate group-hover:whitespace-normal group-hover:break-normal">{content}</p>
 </a>
