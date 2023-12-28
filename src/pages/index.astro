@@ -1,77 +1,24 @@
 ---
 import Articles from '../components/Articles/Articles.astro';
-import Icon from '../components/Icon.astro';
-import LinkWithContemt from '../components/LinkWithContent.astro';
+import Links from '../components/Links.astro';
 import Works from '../components/Works/Works.astro';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-  <main>
-    <section>
-      <div id="about">
-        <h1 class="text-center text-5xl">Yuto Nagata's Portfolio.</h1>
+  <section class="grid place-content-center place-items-center gap-16">
+    <h1 class="text-center text-5xl">Yuto Nagata's Portfolio.</h1>
 
-        <div class="mt-8 text-center">
-          <p>JavaScript(Node.js/TypeScript)が好きな学生です。</p>
-        </div>
+    <Links />
 
-        <div class="mt-8 flex justify-center">
-          <div class="flex flex-col gap-2">
-            <LinkWithContemt
-              href="https://twitter.com/mouse_484"
-              content="@mouse_484"
-              target="blank"
-            >
-              <Icon
-                pack="mdi"
-                name="twitter"
-                size="md"
-              />
-            </LinkWithContemt>
-            <LinkWithContemt
-              href="https://github.com/mouse484"
-              content="mouse484"
-              target="blank"
-            >
-              <Icon
-                pack="mdi"
-                name="github"
-                size="md"
-              />
-            </LinkWithContemt>
-            <div class="flex gap-4">
-              <Icon
-                pack="simple-icons"
-                name="discord"
-                size="md"
-              />
-              mouse_484
-            </div>
-            <LinkWithContemt
-              href="mailto:me@mousedev.page"
-              content="me@mousedev.page"
-              target="blank"
-            >
-              <Icon
-                pack="mdi"
-                name="email"
-                size="md"
-              />
-            </LinkWithContemt>
-          </div>
-        </div>
-      </div>
-      <div class="mt-8 flex flex-col gap-8">
-        <div id="works">
-          <h3 class="text-center text-3xl">Works</h3>
-          <Works />
-        </div>
-        <div id="articles">
-          <h3 class="text-center text-3xl">Articles</h3>
-          <Articles />
-        </div>
-      </div>
-    </section>
-  </main>
+    <div class="max-w-lg">
+      <h3 class="text-center text-3xl">Works</h3>
+      <Works />
+    </div>
+
+    <div class="max-w-lg">
+      <h3 class="text-center text-3xl">Articles</h3>
+      <Articles />
+    </div>
+  </section>
 </Layout>

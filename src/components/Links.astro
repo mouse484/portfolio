@@ -1,0 +1,48 @@
+---
+import Icon from '../components/Icon.astro';
+import LinkWithContemt from '../components/LinkWithContent.astro';
+---
+
+<div class="flex flex-col gap-2">
+  <LinkWithContemt
+    href="https://twitter.com/mouse_484"
+    content="@mouse_484"
+    target="blank"
+  >
+    <Icon
+      pack="mdi"
+      name="twitter"
+      size="md"
+    />
+  </LinkWithContemt>
+  <LinkWithContemt
+    href="https://github.com/mouse484"
+    content="mouse484"
+    target="blank"
+  >
+    <Icon
+      pack="mdi"
+      name="github"
+      size="md"
+    />
+  </LinkWithContemt>
+  <div class="flex gap-4">
+    <Icon
+      pack="simple-icons"
+      name="discord"
+      size="md"
+    />
+    mouse_484
+  </div>
+  <LinkWithContemt
+    href="mailto:me@mousedev.page"
+    content="me@mousedev.page"
+    target="blank"
+  >
+    <Icon
+      pack="mdi"
+      name="email"
+      size="md"
+    />
+  </LinkWithContemt>
+</div>
