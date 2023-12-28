@@ -32,16 +32,20 @@ const { work } = Astro.props;
     }
   </div>
   <div class="mt-auto w-full">
-    <LinkWithContent
-      href={`https://github.com/${work.repository}`}
-      content={work.repository}
-    >
-      <Icon
-        pack="mdi"
-        name="github"
-        size="md"
-      />
-    </LinkWithContent>
+    {
+      work.repository ? (
+        <LinkWithContent
+          href={`https://github.com/${work.repository}`}
+          content={work.repository}
+        >
+          <Icon
+            pack="mdi"
+            name="github"
+            size="md"
+          />
+        </LinkWithContent>
+      ) : <></>
+    }
     <LinkWithContent
       href={work.url}
       content={work.url}

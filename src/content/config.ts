@@ -7,7 +7,10 @@ export const collections = {
       title: z.string(),
       description: z.string(),
       libraries: z.array(z.string()),
-      repository: z.string().regex(/.+\/.+/),
+      repository: z
+        .string()
+        .regex(/.+\/.+/)
+        .optional(),
       url: z.string().url(),
     }),
   }),
