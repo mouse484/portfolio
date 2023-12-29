@@ -29,9 +29,7 @@ import Header from '../components/Header.astro';
   <body>
     <Header />
     <main class="grid place-items-center">
-      <div class="max-w-lg">
-        <slot />
-      </div>
+      <slot class="max-w-lg" />
     </main>
   </body>
   <Footer />
