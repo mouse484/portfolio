@@ -43,12 +43,13 @@ const result = allfeed
 <div>
   {
     result.map(({ platform, title, link, date }) => (
-      <div>
+      <div class="group overflow-hidden hover:overflow-auto">
         <div>{format(date, 'yyyy/MM/dd')}</div>
         {link && title && (
           <LinkWithContent
             href={link}
             content={title}
+            contentClass="truncate w-4/5 group-hover:(whitespace-normal break-normal)"
           >
             <Icon
               pack="simple-icons"
