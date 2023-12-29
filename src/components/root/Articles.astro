@@ -40,16 +40,15 @@ const result = allfeed
   });
 ---
 
-<div class="w-full">
+<div>
   {
     result.map(({ platform, title, link, date }) => (
-      <div class="group">
+      <div>
         <div>{format(date, 'yyyy/MM/dd')}</div>
         {link && title && (
           <LinkWithContent
             href={link}
             content={title}
-            contentClass="truncate group-hover:whitespace-normal group-hover:break-normal"
           >
             <Icon
               pack="simple-icons"
