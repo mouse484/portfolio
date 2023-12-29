@@ -1,16 +1,16 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import Icon from './Icon.astro';
-import LinkWithContent from './LinkWithContent.astro';
+import Icon from '../Icon.astro';
+import LinkWithContent from '../LinkWithContent.astro';
 
 export interface Props {
-  work: CollectionEntry<'works'>['data'];
+  work: CollectionEntry<'projects'>['data'];
 }
 
 const { work } = Astro.props;
 ---
 
-<div class="flex h-full flex-col gap-3 border rounded px-4 pt-2 pb-4">
+<div class="h-full flex flex-col gap-3 border rounded px-4 pb-4 pt-2">
   <h4 class="text-xl">
     {work.title}
   </h4>
