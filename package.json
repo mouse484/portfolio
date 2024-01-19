@@ -27,6 +27,6 @@
     "@unocss/eslint-config": "^0.58.3",
     "eslint": "^8.56.0",
     "prettier": "^3.2.4",
-    "prettier-plugin-astro": "^0.12.3"
+    "prettier-plugin-astro": "^0.13.0"
   }
 }
