@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.58.5
     version: 0.58.5
   astro:
-    specifier: ^4.4.2
-    version: 4.4.2(typescript@5.3.3)
+    specifier: ^4.4.3
+    version: 4.4.3(typescript@5.3.3)
   date-fns:
     specifier: ^3.3.1
     version: 3.3.1
@@ -1570,8 +1570,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro@4.4.2(typescript@5.3.3):
-    resolution: {integrity: sha512-r1djG61ABvZ9n73vaTW6nTKnMvWY1LQhPpBtzoA2OI2RAk/ptzsqK9ozkAG1qXO2bW3NLJi6pfMxxpngNAALyQ==}
+  /astro@4.4.3(typescript@5.3.3):
+    resolution: {integrity: sha512-9Ih+2mJv+i3XgGfU8m9evkNU7NEQWvOhqGsskrCwKmltuTtLol2hPw+eIfE49Yfktzfj5qLC6ZGkPxCJu5gkhA==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
