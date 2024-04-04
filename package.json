@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.1.65",
-    "@iconify-json/simple-icons": "^1.1.97",
+    "@iconify-json/simple-icons": "^1.1.98",
     "@iconify/utils": "^2.1.22",
     "@unocss/reset": "^0.58.9",
     "astro": "^4.5.15",
