@@ -5,8 +5,8 @@ const entries = await getCollection('projects');
 ---
 
 <div
-  class="mt-8 flex flex-col gap-4"
-  md="flex-row flex-wrap justify-center"
+  class="grid gap-4"
+  md="grid-cols-2"
 >
   {
     entries.map((item) => (
