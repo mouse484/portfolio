@@ -8,10 +8,6 @@ import Header from '../components/Header.astro';
   <head>
     <meta charset="UTF-8" />
     <meta
-      name="description"
-      content="Astro description"
-    />
-    <meta
       name="viewport"
       content="width=device-width"
     />
@@ -28,9 +24,9 @@ import Header from '../components/Header.astro';
   </head>
   <body>
     <Header />
-    <main class="grid place-items-center p-4">
-      <slot class="max-w-lg" />
+    <main class="p-4">
+      <slot />
     </main>
+    <Footer />
   </body>
-  <Footer />
 </html>
