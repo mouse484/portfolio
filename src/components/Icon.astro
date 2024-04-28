@@ -34,5 +34,7 @@ const svg = iconToSVG(iconData, {
 const html = iconToHTML(svg.body, svg.attributes);
 ---
 
-{/* eslint-disable-next-line astro/no-set-html-directive */}
-<Fragment set:html={html} />
+<figure>
+  {/* eslint-disable-next-line astro/no-set-html-directive */}
+  <Fragment set:html={html} />
+</figure>
