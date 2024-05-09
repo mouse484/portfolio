@@ -15,16 +15,16 @@
     "@iconify-json/mdi": "^1.1.66",
     "@iconify-json/simple-icons": "^1.1.101",
     "@iconify/utils": "^2.1.23",
-    "@unocss/reset": "^0.59.4",
+    "@unocss/reset": "^0.60.0",
     "astro": "^4.7.1",
     "date-fns": "^3.6.0",
     "rss-parser": "^3.13.0",
-    "unocss": "^0.59.4"
+    "unocss": "^0.60.0"
   },
   "devDependencies": {
     "@mouse_484/eslint-config-astro": "^1.0.20",
     "@mouse_484/prettier-config": "^2.0.2",
-    "@unocss/eslint-config": "^0.59.4",
+    "@unocss/eslint-config": "^0.60.0",
     "eslint": "^9.2.0",
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0"
