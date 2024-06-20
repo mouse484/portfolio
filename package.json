@@ -22,7 +22,7 @@
     "unocss": "^0.61.0"
   },
   "devDependencies": {
-    "@mouse_484/eslint-config-astro": "^1.0.20",
+    "@mouse_484/eslint-config-astro": "^1.0.21",
     "@mouse_484/prettier-config": "^2.0.2",
     "@unocss/eslint-config": "^0.61.0",
     "eslint": "^9.5.0",
