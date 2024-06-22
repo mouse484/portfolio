@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^1.0.21
     version: 1.0.21(eslint@9.5.0)(typescript@5.4.5)
   '@mouse_484/prettier-config':
-    specifier: ^2.0.2
-    version: 2.0.2
+    specifier: ^2.1.0
+    version: 2.1.0
   '@unocss/eslint-config':
     specifier: ^0.61.0
     version: 0.61.0(eslint@9.5.0)(typescript@5.4.5)
@@ -1018,8 +1018,8 @@ packages:
       - typescript
     dev: true
 
-  /@mouse_484/prettier-config@2.0.2:
-    resolution: {integrity: sha512-6TArvXVLMuHrk0q3whxhx6R5NzmOpGBdD5JfIjfTplcKfwulq3k34+dnTBav5zPjmFRE1j8B5+xN185Ngv3Pqg==}
+  /@mouse_484/prettier-config@2.1.0:
+    resolution: {integrity: sha512-ZHTPJBOENMSRfrjqdFXfywvH5CVwwmyBD/D6UTHMVc7o90Ehr0svHtrERowu8DoU5r6e4x/0Zw2LfoHkJubt1Q==}
     dev: true
 
   /@nodelib/fs.scandir@2.1.5:
