@@ -16,7 +16,7 @@
     "@iconify-json/simple-icons": "^1.1.111",
     "@iconify/utils": "^2.1.29",
     "@unocss/reset": "^0.61.9",
-    "astro": "^4.13.0",
+    "astro": "^4.13.1",
     "date-fns": "^3.6.0",
     "rss-parser": "^3.13.0",
     "unocss": "^0.61.9"
