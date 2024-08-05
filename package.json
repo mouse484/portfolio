@@ -14,7 +14,7 @@
   "dependencies": {
     "@iconify-json/mdi": "^1.1.68",
     "@iconify-json/simple-icons": "^1.1.112",
-    "@iconify/utils": "^2.1.29",
+    "@iconify/utils": "^2.1.30",
     "@unocss/reset": "^0.61.9",
     "astro": "^4.13.1",
     "date-fns": "^3.6.0",
