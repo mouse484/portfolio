@@ -21,8 +21,8 @@ importers:
         specifier: ^0.62.2
         version: 0.62.2
       astro:
-        specifier: ^4.14.4
-        version: 4.14.4(rollup@4.21.0)(typescript@5.4.5)
+        specifier: ^4.14.5
+        version: 4.14.5(rollup@4.21.0)(typescript@5.4.5)
       date-fns:
         specifier: ^3.6.0
         version: 3.6.0
@@ -972,8 +972,8 @@ packages:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro@4.14.4:
-    resolution: {integrity: sha512-gpHGyY9qVJg1WXD/0UFoV3cdGZifhmCkJ3fuYV1zUlh+lWbjEB7/cE+KoSvj6aXHJGyLuTbvWOoxZs2yAdnREw==}
+  astro@4.14.5:
+    resolution: {integrity: sha512-sv47kPE6FnvyxxHHcCePNwTKpOMKBq0r1m6WZYg6ag9j3yF9m72ov64NFB7c+hAMDUKgsHfVdLKjOOqDC/c+fA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3877,7 +3877,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@4.14.4(rollup@4.21.0)(typescript@5.4.5):
+  astro@4.14.5(rollup@4.21.0)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
