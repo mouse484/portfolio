@@ -25,7 +25,7 @@
     "@mouse_484/eslint-config-astro": "^1.0.21",
     "@mouse_484/prettier-config": "^2.1.0",
     "@unocss/eslint-config": "^0.62.3",
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1"
   }
