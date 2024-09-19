@@ -21,8 +21,8 @@ importers:
         specifier: ^0.62.4
         version: 0.62.4
       astro:
-        specifier: ^4.15.7
-        version: 4.15.7(rollup@4.21.0)(typescript@5.4.5)
+        specifier: ^4.15.8
+        version: 4.15.8(rollup@4.21.0)(typescript@5.4.5)
       date-fns:
         specifier: ^3.6.0
         version: 3.6.0
@@ -922,8 +922,8 @@ packages:
     resolution: {integrity: sha512-yTgzioUI9MKgBF4LxP7YI+uuZLrnXgHDeW4dpa3VqCNbDmPzL7ix93tc0JJIwWGcskoSAAHZZVaBSp8bHyZZZA==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
-  astro@4.15.7:
-    resolution: {integrity: sha512-RGZjGpLcR3jcnXA1+g56i73O77krmqs7VjpoBOfk9UVP8Js5T2YSeUBAyComOUb6vj31wEw1vgRgOEN0MzYc8w==}
+  astro@4.15.8:
+    resolution: {integrity: sha512-pdXjtRF6O1xChiPAUF32R7oVRTW7AK1/Oy/JqPNhLfbelO0l6C7cLdSEuSLektwOEnMhOVXqccetjBs7HPaoxA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2152,9 +2152,6 @@ packages:
   path-key@3.1.1:
     resolution: {integrity: sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==}
     engines: {node: '>=8'}
-
-  path-to-regexp@6.2.2:
-    resolution: {integrity: sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==}
 
   path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
@@ -3735,7 +3732,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@4.15.7(rollup@4.21.0)(typescript@5.4.5):
+  astro@4.15.8(rollup@4.21.0)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -3783,7 +3780,6 @@ snapshots:
       ora: 8.1.0
       p-limit: 6.1.0
       p-queue: 8.0.1
-      path-to-regexp: 6.2.2
       preferred-pm: 4.0.0
       prompts: 2.4.2
       rehype: 13.0.1
@@ -5379,8 +5375,6 @@ snapshots:
   path-exists@4.0.0: {}
 
   path-key@3.1.1: {}
-
-  path-to-regexp@6.2.2: {}
 
   path-type@4.0.0: {}
 
