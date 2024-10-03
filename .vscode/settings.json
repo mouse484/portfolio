@@ -1,4 +1,9 @@
 {
-  "eslint.validate": ["astro"],
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "eslint.validate": [
+    "astro"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
 }
