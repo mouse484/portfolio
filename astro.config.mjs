@@ -1,5 +1,5 @@
-import { defineConfig } from 'astro/config';
-import UnocssAstroIntegration from 'unocss/astro';
+import { defineConfig } from 'astro/config'
+import UnocssAstroIntegration from 'unocss/astro'
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,4 +8,4 @@ export default defineConfig({
       injectReset: '@unocss/reset/tailwind-compat.css',
     }),
   ],
-});
+})

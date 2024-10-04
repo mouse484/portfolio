@@ -1,35 +1,35 @@
 ---
-import { getIconData, iconToSVG, iconToHTML, replaceIDs } from '@iconify/utils';
+import { getIconData, iconToHTML, iconToSVG } from '@iconify/utils'
 
-import { icons as iconsMdi } from '@iconify-json/mdi';
-import { icons as iconSimpleIcons } from '@iconify-json/simple-icons';
+import { icons as iconsMdi } from '@iconify-json/mdi'
+import { icons as iconSimpleIcons } from '@iconify-json/simple-icons'
 
 const packs = {
-  mdi: iconsMdi,
+  'mdi': iconsMdi,
   'simple-icons': iconSimpleIcons,
-} as const;
+} as const
 
 const sizes = {
   sm: 1,
   md: 1.5,
-} as const;
+} as const
 
 export interface Props {
-  pack: keyof typeof packs;
-  name: string;
-  size: keyof typeof sizes;
+  pack: keyof typeof packs
+  name: string
+  size: keyof typeof sizes
 }
-const { pack, name, size } = Astro.props;
+const { pack, name, size } = Astro.props
 
-const iconData = getIconData(packs[pack], name);
+const iconData = getIconData(packs[pack], name)
 if (!iconData) {
-  throw new Error(`Icon ${pack}:${name} not found`);
+  throw new Error(`Icon ${pack}:${name} not found`)
 }
 
 const svg = iconToSVG(iconData, {
-  width: sizes[size] + 'em',
-  height: sizes[size] + 'em',
-});
+  width: `${sizes[size]}em`,
+  height: `${sizes[size]}em`,
+})
 
 const html = iconToHTML(svg.body, svg.attributes);
 ---

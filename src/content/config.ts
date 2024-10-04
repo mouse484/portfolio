@@ -1,4 +1,4 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection, z } from 'astro:content'
 
 export const collections = {
   projects: defineCollection({
@@ -14,4 +14,4 @@ export const collections = {
       url: z.string().url(),
     }),
   }),
-} as const;
+} as const

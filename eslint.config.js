@@ -1,4 +1,12 @@
-import eslintPluginAstro from 'eslint-plugin-astro';
-import unocss from '@unocss/eslint-config/flat';
+import { mouse } from '@mouse_484/eslint-config'
 
-export default [...eslintPluginAstro.configs['flat/all'], unocss];
+export default mouse({
+  typescript: true,
+  astro: true,
+  formatters: true,
+  unocss: true,
+}, {
+  rules: {
+    'antfu/no-top-level-await': 'off',
+  },
+})

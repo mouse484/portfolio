@@ -1,15 +1,15 @@
 {
   "name": "@mouse_484/portfolio",
-  "private": "true",
   "type": "module",
+  "private": "true",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint": "eslint src",
-    "fmt": "prettier --write . --plugin=prettier-plugin-astro"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.2.0",
@@ -22,11 +22,7 @@
     "unocss": "^0.63.2"
   },
   "devDependencies": {
-    "@mouse_484/eslint-config-astro": "^1.0.21",
-    "@mouse_484/prettier-config": "^2.1.0",
-    "@unocss/eslint-config": "^0.63.2",
-    "eslint": "^9.11.1",
-    "prettier": "^3.3.3",
-    "prettier-plugin-astro": "^0.14.1"
+    "@mouse_484/eslint-config": "3.3.2",
+    "eslint": "^9.11.1"
   }
 }

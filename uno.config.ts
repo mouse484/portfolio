@@ -4,9 +4,9 @@ import {
   presetUno,
   transformerDirectives,
   transformerVariantGroup,
-} from 'unocss';
+} from 'unocss'
 
 export default defineConfig({
   presets: [presetUno(), presetAttributify()],
   transformers: [transformerDirectives(), transformerVariantGroup()],
-});
+})

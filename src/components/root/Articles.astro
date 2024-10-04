@@ -1,32 +1,32 @@
 ---
-import { format } from 'date-fns';
-import Parser from 'rss-parser';
-import Icon from '../Icon.astro';
-import LinkWithContent from '../LinkWithContent.astro';
+import { format } from 'date-fns'
+import Parser from 'rss-parser'
+import Icon from '../Icon.astro'
+import LinkWithContent from '../LinkWithContent.astro'
 
 const feeds = [
   'https://zenn.dev/mouse_484/feed',
   'https://qiita.com/mouse_484/feed.atom',
-];
+]
 
-const parser = new Parser();
+const parser = new Parser()
 
 const isPlatform = (link = '') => {
-  return ['qiita', 'zenn'].find((value) => link.includes(value));
-};
+  return ['qiita', 'zenn'].find(value => link.includes(value))
+}
 
 const getTime = (isoData = '') => {
-  return new Date(isoData).getTime();
-};
+  return new Date(isoData).getTime()
+}
 
 const allfeed: Parser.Item[] = (
   await Promise.all(
     feeds.map(async (url) => {
-      const feed = await parser.parseURL(url);
-      return feed.items;
-    })
+      const feed = await parser.parseURL(url)
+      return feed.items
+    }),
   )
-).flat();
+).flat()
 
 const result = allfeed
   .sort((a, b) => getTime(b.isoDate) - getTime(a.isoDate))
@@ -36,7 +36,7 @@ const result = allfeed
       link,
       date: new Date(isoDate || ''),
       platform: isPlatform(link),
-    } as const;
+    } as const
   });
 ---
 
