@@ -1,0 +1,6 @@
+name = "portfolio"
+pages_build_output_dir = "dist"
+
+[vars]
+NODE_VERSION = "20.18.0"
+PNPM_VERSION = "9.x"
