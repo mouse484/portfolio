@@ -1,4 +1,4 @@
-name = "portfolio"
+name = "mouse-portfolio"
 pages_build_output_dir = "dist"
 
 [vars]
