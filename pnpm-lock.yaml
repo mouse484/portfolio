@@ -21,8 +21,8 @@ importers:
         specifier: ^0.63.4
         version: 0.63.4
       astro:
-        specifier: ^4.16.4
-        version: 4.16.4(rollup@4.21.0)(typescript@5.4.5)
+        specifier: ^4.16.5
+        version: 4.16.5(rollup@4.21.0)(typescript@5.4.5)
       date-fns:
         specifier: ^3.6.0
         version: 3.6.0
@@ -1181,8 +1181,8 @@ packages:
     resolution: {integrity: sha512-AGsGgcg7Jg9UpyCDgvl/EkdYpe1oMkFdmC2Zl+KWneoieLCtQIFjmcY8yt41gcNx4mby0w8BBJQcBmPuf8UAoQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@4.16.4:
-    resolution: {integrity: sha512-W/ETxHRkt9iEAj1RVSqV3bjSGaGXEFJHqeNpPhvJIj720hC3V/ZBDAd6FpMW291eiZPtxhGh+c/VDtkD6avPXQ==}
+  astro@4.16.5:
+    resolution: {integrity: sha512-v8mKWcEPN7hkfyVsMFWV0F8UgL4GUJKT172KTB7dePO3yJb64HBwCckC0QnA60QQh3jK6+2xwyWEc5QvCeqjtg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -4025,7 +4025,7 @@ snapshots:
       chokidar: 3.6.0
       colorette: 2.0.20
       consola: 3.2.3
-      magic-string: 0.30.11
+      magic-string: 0.30.12
       pathe: 1.1.2
       perfect-debounce: 1.0.0
       tinyglobby: 0.2.9
@@ -4126,7 +4126,7 @@ snapshots:
   '@unocss/rule-utils@0.63.4':
     dependencies:
       '@unocss/core': 0.63.4
-      magic-string: 0.30.11
+      magic-string: 0.30.12
 
   '@unocss/transformer-attributify-jsx@0.63.4':
     dependencies:
@@ -4154,7 +4154,7 @@ snapshots:
       '@unocss/core': 0.63.4
       '@unocss/inspector': 0.63.4
       chokidar: 3.6.0
-      magic-string: 0.30.11
+      magic-string: 0.30.12
       tinyglobby: 0.2.9
       vite: 5.4.9
     transitivePeerDependencies:
@@ -4312,7 +4312,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@4.16.4(rollup@4.21.0)(typescript@5.4.5):
+  astro@4.16.5(rollup@4.21.0)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
