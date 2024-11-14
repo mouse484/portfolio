@@ -23,7 +23,7 @@
     "unocss": "^0.64.0"
   },
   "devDependencies": {
-    "@mouse_484/eslint-config": "3.3.3",
+    "@mouse_484/eslint-config": "3.3.4",
     "@unocss/eslint-plugin": "^0.64.0",
     "eslint": "^9.14.0",
     "eslint-plugin-format": "^0.1.2"
