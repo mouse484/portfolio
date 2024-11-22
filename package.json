@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "lint:css": "stylelint '**/*.{astro,css}'"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -19,10 +20,12 @@
   },
   "devDependencies": {
     "@mouse_484/eslint-config": "3.3.5",
+    "@mouse_484/stylelint-config": "^1.0.2",
     "astro-eslint-parser": "^1.1.0",
     "eslint": "^9.15.0",
     "eslint-plugin-astro": "^1.3.1",
     "eslint-plugin-format": "^0.1.2",
-    "prettier-plugin-astro": "^0.14.1"
+    "prettier-plugin-astro": "^0.14.1",
+    "stylelint": "^16.10.0"
   }
 }
