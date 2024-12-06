@@ -5,6 +5,7 @@
   // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
     "source.organizeImports": "never"
   },
   // Silent the stylistic rules in you IDE, but still auto fix them
@@ -82,6 +83,11 @@
     "less",
     "scss",
     "pcss",
+    "postcss",
+    "svelte"
+  ],
+  "stylelint.validate": [
+    "css",
     "postcss",
     "svelte"
   ]
