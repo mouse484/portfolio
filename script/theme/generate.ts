@@ -1,16 +1,16 @@
-import theme from './theme.json'
+import theme from './theme.json';
 
-const { schemes: { dark: primitive }, palettes } = theme
+const { schemes: { dark: primitive }, palettes } = theme;
 
-const camelToKebab = (str: string) => str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
+const camelToKebab = (str: string) => str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
 
 const hex = (hex: string) => {
-  hex = hex.toLowerCase()
+  hex = hex.toLowerCase();
   if (hex.length === 7 && hex[1] === hex[2] && hex[3] === hex[4] && hex[5] === hex[6]) {
-    return `#${hex[1]}${hex[3]}${hex[5]}`
+    return `#${hex[1]}${hex[3]}${hex[5]}`;
   }
-  return hex
-}
+  return hex;
+};
 
 const style = `
 :root {
@@ -22,11 +22,11 @@ const style = `
       .map(([key, value]) => `--${camelToKebab(name)}-${camelToKebab(key)}: ${hex(value)};`),
   ).join('\n  ')}
 }
-`.trimStart()
+`.trimStart();
 
 declare global {
-  const process: { stdout: { write: (str: string) => void } }
+  const process: { stdout: { write: (str: string) => void } };
 }
 
 // eslint-disable-next-line node/prefer-global/process
-process.stdout.write(style)
+process.stdout.write(style);

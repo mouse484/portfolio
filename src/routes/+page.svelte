@@ -1,13 +1,13 @@
 <script lang='ts'>
-  import { animate, scroll } from 'motion'
+  import { animate, scroll } from 'motion';
 
-  const list = ['Profile', 'About', 'Projects', 'Blog']
+  const list = ['Profile', 'About', 'Projects', 'Blog'];
 
-  let mainElement = $state<HTMLElement>()
-  const sections = $state<HTMLElement[]>([])
+  let mainElement = $state<HTMLElement>();
+  const sections = $state<HTMLElement[]>([]);
 
   $effect(() => {
-    const cancels: (() => void)[] = []
+    const cancels: (() => void)[] = [];
     sections.forEach((section) => {
       const calcel = scroll(
         animate(
@@ -24,14 +24,14 @@
           target: section,
           offset: ['start end', 'end end', 'start start', 'end start'],
         },
-      )
-      cancels.push(calcel)
-    })
+      );
+      cancels.push(calcel);
+    });
 
     return () => {
-      cancels.forEach(cancel => cancel())
-    }
-  })
+      cancels.forEach(cancel => cancel());
+    };
+  });
 </script>
 
 <main bind:this={mainElement}>

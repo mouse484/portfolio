@@ -1,7 +1,7 @@
 @layer reset,theme,base;
 
-@import url("the-new-css-reset/css/reset.css") layer(reset);
-@import url("./theme.css") layer(theme);
+@import url('the-new-css-reset/css/reset.css') layer(reset);
+@import url('./theme.css') layer(theme);
 
 @layer base {
   body {
