@@ -1,15 +1,22 @@
 <script lang='ts'>
   import { animate, scroll } from 'motion'
 
+  const list = ['Profile', 'About', 'Projects', 'Blog']
+
   let mainElement = $state<HTMLElement>()
   const sections = $state<HTMLElement[]>([])
 
   $effect(() => {
+    const cancels: (() => void)[] = []
     sections.forEach((section) => {
-      scroll(
+      const calcel = scroll(
         animate(
           section,
-          { scale: [0.4, 1, 1, 0.4], rotateX: [100, 0, 0, -100] },
+          {
+            'scale': [0.4, 1, 1, 0.4],
+            'rotateX': [100, 0, 0, -100],
+            'border-radius': ['6rem', '0', '0', '6rem'],
+          } as Parameters<typeof animate>[1],
           { duration: 1000, ease: 'linear' },
         ),
         {
@@ -18,50 +25,42 @@
           offset: ['start end', 'end end', 'start start', 'end start'],
         },
       )
+      cancels.push(calcel)
     })
+
+    return () => {
+      cancels.forEach(cancel => cancel())
+    }
   })
 </script>
 
 <main bind:this={mainElement}>
-  {#each Array.from({ length: 4 }) as _, index}
-    <section>
-      <div bind:this={sections[index]}>
-        {index + 1}
-      </div>
-    </section>
+  {#each list as item, index}
+    <div>
+      <section bind:this={sections[index]}>
+        {item}
+      </section>
+    </div>
   {/each}
 </main>
 
 <style>
-main {
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  scroll-snap-stop: always;
+  main {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100dvh;
+  }
 
-  position: relative;
+  main div {
+    scroll-snap-align: start;
+    height: 100%;
+  }
 
-  overflow: hidden scroll;
-
-  height: 100vh;
-
-  perspective: 1000px;
-}
-
-section {
-  scroll-snap-align: start;
-  height: 100%;
-  background-color: #8a2be2;
-  border: 2px solid #f00;
-}
-
-section > div {
-  transform-style: preserve-3d;
-
-  display: grid;
-  place-content: center;
-
-  height: 100%;
-
-  background-color: #d6ffc3;
-}
+  div section {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    background-color: var(--surface-container);
+  }
 </style>

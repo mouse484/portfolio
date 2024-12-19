@@ -9,7 +9,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "eslint .",
-    "lint:css": "stylelint '**/*.{svelte,css}'"
+    "lint:css": "stylelint '**/*.{svelte,css}'",
+    "generate:css": "npx tsx script/theme/generate.ts > src/lib/styles/theme.css"
   },
   "dependencies": {
     "motion": "^11.14.1",
