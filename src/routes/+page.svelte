@@ -1,4 +1,5 @@
 <script lang='ts'>
+  import Navigation from '$lib/components/top/Navigation.svelte';
   import { animate, scroll } from 'motion';
 
   const list = ['Profile', 'About', 'Projects', 'Blog'];
@@ -42,6 +43,10 @@
       </section>
     </div>
   {/each}
+
+  <aside>
+    <Navigation {list} {sections}></Navigation>
+  </aside>
 </main>
 
 <style>
@@ -62,5 +67,12 @@
     place-items: center;
     height: 100%;
     background-color: var(--surface-container);
+  }
+
+  aside {
+    position: fixed;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
   }
 </style>
