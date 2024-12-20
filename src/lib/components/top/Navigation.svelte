@@ -1,24 +1,26 @@
 <script lang='ts'>
+  import ScrollButton from '../ScrollButton.svelte';
+
   interface Props {
-    list: string[]
-    sections: HTMLElement[]
+    elements: HTMLElement[]
   }
 
-  const { list, sections }: Props = $props();
+  const { elements }: Props = $props();
 
+  const list = $derived(elements.map(element => element.dataset.name!));
   let activeIndex = $state(0);
 
   $effect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          activeIndex = sections.indexOf(entry.target as HTMLElement);
+          activeIndex = elements.indexOf(entry.target as HTMLElement);
         }
       });
     }, { threshold: 0.5 });
 
-    sections.forEach((section) => {
-      observer.observe(section);
+    elements.forEach((slement) => {
+      observer.observe(slement);
     });
 
     return () => {
@@ -31,16 +33,9 @@
   <ul>
     {#each list as item, index}
       <li data-active={activeIndex === index}>
-        <button
-          onclick={() => {
-            if (activeIndex === index) {
-              return;
-            }
-            sections[index].scrollIntoView({ behavior: 'smooth' });
-          }}
-        >
+        <ScrollButton element={elements[index]} disabled={activeIndex === index}>
           {item}
-        </button>
+        </ScrollButton>
       </li>
     {/each}
   </ul>
@@ -62,18 +57,17 @@
     transition: font-size 0.8s ease;
   }
 
-  button {
-    cursor: pointer;
+  li > :global(button) {
     position: relative;
     overflow: hidden;
     color: var(--primary);
   }
 
-  li[data-active='true'] > button {
+  li[data-active='true'] > :global(button) {
     cursor: default;
   }
 
-  button::before {
+  li > :global(button)::before {
     content: '';
 
     position: absolute;
@@ -89,7 +83,7 @@
     transition: left 0.5s linear;
   }
 
-  li[data-active='false'] > button:hover::before {
+  li[data-active='false'] > :global(button):hover::before {
     left: 100%;
   }
 

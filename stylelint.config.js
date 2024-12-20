@@ -5,5 +5,8 @@ export default {
   ],
   rules: {
     '@stylistic/string-quotes': 'single',
+    'selector-pseudo-class-no-unknown': [true, {
+      ignorePseudoClasses: ['global'],
+    }],
   },
 };
