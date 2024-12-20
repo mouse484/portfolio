@@ -71,7 +71,7 @@
     place-items: center;
 
     height: 100%;
-    padding: 4rem;
+    padding: 2rem 7rem;
 
     background-color: var(--surface-container);
   }
@@ -88,6 +88,10 @@
       top: auto;
       bottom: 2rem;
       transform: none;
+    }
+
+    div section {
+      padding: 2rem;
     }
   }
 </style>
