@@ -82,4 +82,12 @@
     left: 1rem;
     transform: translateY(-50%);
   }
+
+  @media (width <= 768px) {
+    aside {
+      top: auto;
+      bottom: 2rem;
+      transform: none;
+    }
+  }
 </style>
