@@ -4,7 +4,11 @@
   import { animate, scroll } from 'motion';
 
   let mainElement = $state<HTMLElement>();
-  const sectionElements = $state<HTMLElement[]>([]);
+  let sectionElements = $state<HTMLElement[]>([]);
+
+  $effect(() => {
+    sectionElements = Array.from(document.querySelectorAll<HTMLElement>('section[data-name]'));
+  });
 
   $effect(() => {
     const cancels: (() => void)[] = [];
@@ -35,11 +39,9 @@
 </script>
 
 <main bind:this={mainElement}>
-  {#each sections as { name, component: Component }, index}
+  {#each sections as { component: Component }}
     <div>
-      <section data-name={name} bind:this={sectionElements[index]}>
-        <Component></Component>
-      </section>
+      <Component></Component>
     </div>
   {/each}
 
@@ -65,17 +67,6 @@
     height: 100%;
   }
 
-  div section {
-    display: grid;
-    place-content: center;
-    place-items: center;
-
-    height: 100%;
-    padding: 2rem 7rem;
-
-    background-color: var(--surface-container);
-  }
-
   aside {
     position: fixed;
     top: 50%;
@@ -88,10 +79,6 @@
       top: auto;
       bottom: 2rem;
       transform: none;
-    }
-
-    div section {
-      padding: 2rem;
     }
   }
 </style>

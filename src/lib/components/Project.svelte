@@ -68,6 +68,10 @@ article {
   border-radius: 1em;
 }
 
+article > :not(div:first-of-type) {
+  margin-left: 0.5rem;
+}
+
 div:first-of-type {
   display: flex;
   align-items: center;
