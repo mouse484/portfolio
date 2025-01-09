@@ -1,13 +1,17 @@
 <script lang='ts'>
+  import type { Snapshot } from '@sveltejs/kit';
   import Navigation from '$lib/components/top/Navigation.svelte';
   import { sections } from '$lib/sections';
   import { animate, scroll } from 'motion';
 
   let mainElement = $state<HTMLElement>();
   let sectionElements = $state<HTMLElement[]>([]);
+  let scrollY = $state(0);
 
   $effect(() => {
-    sectionElements = Array.from(document.querySelectorAll<HTMLElement>('section[data-name]'));
+    sectionElements = Array.from(
+      document.querySelectorAll<HTMLElement>('section[data-name]'),
+    );
   });
 
   $effect(() => {
@@ -36,8 +40,14 @@
       cancels.forEach(cancel => cancel());
     };
   });
+
+  export const snapshot: Snapshot<number> = {
+    capture: () => scrollY,
+    restore: value => (scrollY = value),
+  };
 </script>
 
+<svelte:window bind:scrollY />
 <main bind:this={mainElement}>
   {#each sections as { component: Component }}
     <div>
