@@ -26,7 +26,7 @@
     grid-template-rows: 1fr 8fr;
 
     height: 100%;
-    padding: 4rem 5rem;
+    padding: 4rem 5.2rem;
 
     background-color: var(--surface-container);
   }
@@ -38,12 +38,16 @@
   div {
     display: grid;
     width: 100%;
-    padding: 2rem;
+    padding-left: 0.5rem;
   }
 
   @media (width <= 768px) {
     section {
       padding: 2rem;
+    }
+
+    div {
+      height: 88%;
     }
   }
 </style>
