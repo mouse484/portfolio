@@ -25,7 +25,7 @@
   "devDependencies": {
     "@mouse_484/eslint-config": "3.3.5",
     "@unocss/eslint-plugin": "^0.64.1",
-    "eslint": "^9.15.0",
-    "eslint-plugin-format": "^0.1.2"
+    "eslint": "^9.18.0",
+    "eslint-plugin-format": "^0.1.3"
   }
 }
