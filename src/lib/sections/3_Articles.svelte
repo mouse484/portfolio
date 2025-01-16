@@ -6,19 +6,25 @@
   import Section from '$lib/components/Section.svelte';
   import Icon from '@iconify/svelte';
 
-  const example = {
-    title: 'Example サンプル記事...',
-    description: 'This is an example article.',
-    date: '2021-01-01',
-    url: 'https://example.com',
-  };
-  const articles = Array.from({ length: 5 }, () => example);
+  let articles = $state<{ title: string, date: string, url: string }[]>([]);
+
+  async function fetchRss() {
+    const response = await fetch('https://blog.mousedev.page/recent.json', {
+      mode: 'cors',
+    });
+    const json = await response.json();
+    articles = json;
+  }
+
+  $effect(() => {
+    fetchRss();
+  });
 </script>
 
 <Section {name}>
   {#each articles as article}
     <article>
-      <time>{article.date}</time>
+      <time>{article.date.replaceAll('-', '.')}</time>
       <a href={article.url} target='_blank' rel='noopener'>
         <h1>{article.title}</h1>
         <Icon icon='material-symbols:open-in-new' />
@@ -31,7 +37,7 @@
 <style>
   article {
     width: 100%;
-    max-width: 768px;
+    max-width: calc(768px * 0.8);
     margin: 0 auto;
   }
 
