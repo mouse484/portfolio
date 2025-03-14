@@ -31,7 +31,7 @@
     "svelte-check": "^4.1.5",
     "svelte-eslint-parser": "^0.43.0",
     "typescript": "^5.8.2",
-    "vite": "^6.2.1"
+    "vite": "^6.2.2"
   },
   "overrides": {
     "cookie": "^0.7.2"
