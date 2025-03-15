@@ -20,8 +20,8 @@
   "devDependencies": {
     "@mouse_484/eslint-config": "^3.5.5",
     "@mouse_484/stylelint-config": "^1.0.4",
-    "@sveltejs/adapter-cloudflare": "^5.0.3",
-    "@sveltejs/kit": "^2.19.1",
+    "@sveltejs/adapter-cloudflare": "^5.1.0",
+    "@sveltejs/kit": "^2.19.2",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "eslint": "^9.22.0",
     "eslint-plugin-format": "^0.1.3",
