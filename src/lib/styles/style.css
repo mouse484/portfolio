@@ -9,8 +9,8 @@
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: var(--on-surface);
+    color: var(--color-on-surface);
 
-    background-color: var(--surface);
+    background-color: var(--color-surface);
   }
 }

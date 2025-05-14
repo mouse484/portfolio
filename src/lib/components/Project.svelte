@@ -62,9 +62,9 @@ article {
 
   padding: 1em 1.8em;
 
-  color: var(--on-secondary-container);
+  color: var(--color-on-secondary-container);
 
-  background-color: color-mix(in srgb, var(--secondary-container) 70%, transparent);
+  background-color: color-mix(in srgb, var(--color-secondary-container) 70%, transparent);
   border-radius: 1em;
 }
 
@@ -88,9 +88,9 @@ span {
   padding: 0.2em 0.5em;
 
   font-size: 0.875em;
-  color: var(--on-tertiary-container);
+  color: var(--color-on-tertiary-container);
 
-  background-color: var(--tertiary-container);
+  background-color: var(--color-tertiary-container);
   border-radius: 0.5em;
 }
 

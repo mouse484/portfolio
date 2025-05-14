@@ -28,7 +28,7 @@
     height: 100%;
     padding: 4rem 5.2rem;
 
-    background-color: var(--surface-container);
+    background-color: var(--color-surface-container);
   }
 
   h2 {

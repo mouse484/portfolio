@@ -68,7 +68,7 @@
     width: 100%;
     height: 2px;
 
-    background-color: var(--primary);
+    background-color: var(--color-primary);
 
     transition: transform 0.25s;
   }

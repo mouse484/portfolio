@@ -60,7 +60,7 @@
   li > :global(button) {
     position: relative;
     overflow: hidden;
-    color: var(--primary);
+    color: var(--color-primary);
   }
 
   li[data-active='true'] > :global(button) {
@@ -78,7 +78,7 @@
     height: 100%;
 
     opacity: 0.5;
-    background-color: var(--surface-container);
+    background-color: var(--color-surface-container);
 
     transition: left 0.5s linear;
   }
