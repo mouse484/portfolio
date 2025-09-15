@@ -13,7 +13,7 @@
     "generate:css": "npx tsx script/theme/generate.ts > src/lib/styles/theme.css"
   },
   "dependencies": {
-    "@iconify/svelte": "^5.0.1",
+    "@iconify/svelte": "^5.0.2",
     "motion": "^12.23.12",
     "the-new-css-reset": "^1.11.3"
   },
