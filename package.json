@@ -27,7 +27,7 @@
     "eslint-plugin-format": "1.0.2",
     "eslint-plugin-svelte": "3.12.5",
     "stylelint": "16.25.0",
-    "svelte": "5.42.3",
+    "svelte": "5.43.0",
     "svelte-check": "4.3.3",
     "svelte-eslint-parser": "1.4.0",
     "typescript": "5.9.3",
