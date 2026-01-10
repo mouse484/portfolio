@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@iconify/svelte": "^5.2.1",
-    "motion": "^12.24.7",
+    "motion": "^12.24.10",
     "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
