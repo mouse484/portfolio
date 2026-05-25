@@ -1,37 +1,37 @@
 <script lang='ts'>
-  import ScrollButton from '../ScrollButton.svelte';
+  import ScrollButton from '../ScrollButton.svelte'
 
   interface Props {
     elements: HTMLElement[]
   }
 
-  const { elements }: Props = $props();
+  const { elements }: Props = $props()
 
-  const list = $derived(elements.map(element => element.dataset.name!));
-  let activeIndex = $state(0);
+  const list = $derived(elements.map(element => element.dataset.name!))
+  let activeIndex = $state(0)
 
   $effect(() => {
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
+      for (const entry of entries) {
         if (entry.isIntersecting) {
-          activeIndex = elements.indexOf(entry.target as HTMLElement);
+          activeIndex = elements.indexOf(entry.target as HTMLElement)
         }
-      });
-    }, { threshold: 0.5 });
+      }
+    }, { threshold: 0.5 })
 
-    elements.forEach((slement) => {
-      observer.observe(slement);
-    });
+    for (const slement of elements) {
+      observer.observe(slement)
+    }
 
     return () => {
-      observer.disconnect();
-    };
-  });
+      observer.disconnect()
+    }
+  })
 </script>
 
 <nav>
   <ul>
-    {#each list as item, index}
+    {#each list as item, index (item)}
       <li data-active={activeIndex === index}>
         <ScrollButton element={elements[index]} disabled={activeIndex === index}>
           {item}

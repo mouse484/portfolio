@@ -1,17 +1,17 @@
 <script lang='ts'>
-  import type { Snippet } from 'svelte';
-  import type { HTMLButtonAttributes } from 'svelte/elements';
+  import type { Snippet } from 'svelte'
+  import type { HTMLButtonAttributes } from 'svelte/elements'
 
   interface Props extends HTMLButtonAttributes {
     children: Snippet
-    element: HTMLElement | null
+    element: HTMLElement | undefined
   }
-  const { element, children, ...rest }: Props = $props();
+  const { element, children, ...rest }: Props = $props()
 </script>
 
 <button
   onclick={() => {
-    element?.scrollIntoView({ behavior: 'smooth' });
+    element?.scrollIntoView({ behavior: 'smooth' })
   }}
   {...rest}
 >

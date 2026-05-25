@@ -1,19 +1,15 @@
 <script module lang='ts'>
-  export const name = 'Profile';
+  export const name = 'Profile'
 </script>
 
 <script lang='ts'>
-  import ScrollButton from '$lib/components/ScrollButton.svelte';
-  import Section from '$lib/components/Section.svelte';
-  import Icon from '@iconify/svelte';
+  import ScrollButton from '$lib/components/ScrollButton.svelte'
+  import Section from '$lib/components/Section.svelte'
+  import Icon from '@iconify/svelte'
 
-  let nextElement = $state<HTMLElement | null>(null);
-
-  $effect(() => {
-    nextElement = document.querySelector<HTMLElement>(
-      'div:has(section):nth-child(2) > section',
-    );
-  });
+  const nextElement = $derived.by(() => {
+    return document.querySelector<HTMLElement>('div:has(section):nth-child(2) > section') ?? undefined
+  })
 </script>
 
 <Section name={name}>
@@ -79,9 +75,9 @@
     display: grid;
     place-content: center;
 
-    font-size: 2rem;
-
     border-radius: 1rem;
+
+    font-size: 2rem;
 
     animation: slide-down 2s infinite ease-out;
   }
