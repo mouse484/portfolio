@@ -3,12 +3,14 @@
 </script>
 
 <script lang='ts'>
+  import { browser } from '$app/environment'
+
   import ScrollButton from '$lib/components/ScrollButton.svelte'
   import Section from '$lib/components/Section.svelte'
   import Icon from '@iconify/svelte'
 
   const nextElement = $derived.by(() => {
-    return document.querySelector<HTMLElement>('div:has(section):nth-child(2) > section') ?? undefined
+    return (browser && document.querySelector<HTMLElement>('div:has(section):nth-child(2) > section')) || undefined
   })
 </script>
 
