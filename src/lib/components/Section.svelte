@@ -1,12 +1,12 @@
 <script lang='ts'>
-  import type { Snippet } from 'svelte';
+  import type { Snippet } from 'svelte'
 
   interface Props {
     name: string
     header?: Snippet
     children: Snippet
   }
-  const { name, header, children }: Props = $props();
+  const { name, header, children }: Props = $props()
 </script>
 
 <section data-name={name}>

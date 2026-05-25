@@ -1,31 +1,31 @@
 <script module lang='ts'>
-  export const name = 'Articles';
+  export const name = 'Articles'
 </script>
 
 <script lang='ts'>
-  import Section from '$lib/components/Section.svelte';
-  import Icon from '@iconify/svelte';
+  import Section from '$lib/components/Section.svelte'
+  import Icon from '@iconify/svelte'
 
-  let articles = $state<{ title: string, date: string, url: string }[]>([]);
+  let articles = $state<{ title: string, date: string, url: string }[]>([])
 
   async function fetchRss() {
     const response = await fetch('https://blog.mousedev.page/recent.json', {
       mode: 'cors',
-    });
-    const json = await response.json();
-    articles = json;
+    })
+    const json = await response.json()
+    articles = json
   }
 
   $effect(() => {
-    fetchRss();
-  });
+    fetchRss()
+  })
 </script>
 
 <Section {name}>
-  {#each articles as article}
+  {#each articles as article (article.url)}
     <article>
       <time>{article.date.replaceAll('-', '.')}</time>
-      <a href={article.url} target='_blank' rel='noopener'>
+      <a href={article.url} target='_blank' rel='noopener external'>
         <h1>{article.title}</h1>
         <Icon icon='material-symbols:open-in-new' />
       </a>

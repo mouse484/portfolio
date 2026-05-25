@@ -1,22 +1,18 @@
 <script lang='ts'>
-  import type { Snapshot } from '@sveltejs/kit';
-  import Navigation from '$lib/components/top/Navigation.svelte';
-  import { sections } from '$lib/sections';
-  import { animate, scroll } from 'motion';
+  import type { Snapshot } from '@sveltejs/kit'
+  import Navigation from '$lib/components/top/Navigation.svelte'
+  import { sections } from '$lib/sections'
+  import { animate, scroll } from 'motion'
 
-  let mainElement = $state<HTMLElement>();
-  let sectionElements = $state<HTMLElement[]>([]);
-  let scrollY = $state(0);
-
-  $effect(() => {
-    sectionElements = Array.from(
-      document.querySelectorAll<HTMLElement>('section[data-name]'),
-    );
-  });
+  let mainElement = $state<HTMLElement>()
+  const sectionElements = $derived.by(() =>
+    mainElement ? [...mainElement.querySelectorAll<HTMLElement>('section[data-name]')] : [],
+  )
+  let scrollY = $state(0)
 
   $effect(() => {
-    const cancels: (() => void)[] = [];
-    sectionElements.forEach((section) => {
+    const cancels: (() => void)[] = []
+    for (const section of sectionElements) {
       const calcel = scroll(
         animate(
           section,
@@ -32,24 +28,24 @@
           target: section,
           offset: ['start end', 'end end', 'start start', 'end start'],
         },
-      );
-      cancels.push(calcel);
-    });
+      )
+      cancels.push(calcel)
+    }
 
     return () => {
-      cancels.forEach(cancel => cancel());
-    };
-  });
+      for (const cancel of cancels) cancel()
+    }
+  })
 
   export const snapshot: Snapshot<number> = {
     capture: () => scrollY,
     restore: value => (scrollY = value),
-  };
+  }
 </script>
 
 <svelte:window bind:scrollY />
 <main bind:this={mainElement}>
-  {#each sections as { component: Component }}
+  {#each sections as { component: Component, name } (name)}
     <div>
       <Component></Component>
     </div>

@@ -1,10 +1,10 @@
 <script lang='ts' module>
-  export const name = 'Projects';
+  export const name = 'Projects'
 </script>
 
 <script lang='ts'>
-  import Project from '$lib/components/Project.svelte';
-  import Section from '$lib/components/Section.svelte';
+  import Project from '$lib/components/Project.svelte'
+  import Section from '$lib/components/Section.svelte'
 </script>
 
 <Section {name}>
