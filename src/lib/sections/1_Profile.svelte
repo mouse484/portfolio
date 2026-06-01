@@ -41,6 +41,13 @@
 </Section>
 
 <style>
+  :global(section[data-name='Profile']) {
+    grid-template-rows: none;
+    gap: 4rem;
+    place-content: center;
+    margin-top: -2rem;
+  }
+
   h1 {
     margin-top: 4rem;
     font-size: 3rem;
@@ -77,10 +84,12 @@
     display: grid;
     place-content: center;
 
+    margin-top: 4rem;
     border-radius: 1rem;
 
     font-size: 2rem;
 
     animation: slide-down 2s infinite ease-out;
   }
+
 </style>
