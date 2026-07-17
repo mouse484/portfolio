@@ -21,7 +21,7 @@
     "@mouse_484/eslint-config": "5.10.43",
     "@mouse_484/stylelint-config": "1.1.13",
     "@sveltejs/adapter-cloudflare": "7.2.9",
-    "@sveltejs/kit": "2.69.2",
+    "@sveltejs/kit": "2.69.3",
     "@sveltejs/vite-plugin-svelte": "7.2.0",
     "eslint": "10.7.0",
     "eslint-plugin-format": "2.0.1",
