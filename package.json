@@ -18,7 +18,7 @@
     "the-new-css-reset": "^1.11.3"
   },
   "devDependencies": {
-    "@mouse_484/eslint-config": "5.11.6",
+    "@mouse_484/eslint-config": "5.11.7",
     "@mouse_484/stylelint-config": "1.1.14",
     "@sveltejs/adapter-cloudflare": "7.2.9",
     "@sveltejs/kit": "2.70.2",
