@@ -34,8 +34,5 @@
     "typescript": "7.0.2",
     "vite": "8.2.1",
     "wrangler": "^4.120.1"
-  },
-  "overrides": {
-    "cookie": "^1.1.1"
   }
 }
