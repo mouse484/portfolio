@@ -37,7 +37,10 @@
 
   div {
     display: grid;
+
     width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
     padding-left: 0.5rem;
   }
 

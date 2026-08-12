@@ -8,7 +8,7 @@ export default mouse(
     formatters: true,
   },
   {
-    files: ['**/sections/*.svelte'],
+    files: ['**/*.svelte'],
     rules: {
       'unicorn/filename-case': 'off',
     },

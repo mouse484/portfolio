@@ -57,7 +57,7 @@
 article {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 1.5em;
   justify-content: space-between;
 
   padding: 1em 1.8em;

@@ -2,6 +2,7 @@
   "name": "portfolio",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@11.20.0",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -19,7 +20,7 @@
   },
   "devDependencies": {
     "@mouse_484/eslint-config": "5.11.8",
-    "@mouse_484/stylelint-config": "1.1.14",
+    "@mouse_484/stylelint-config": "1.1.16",
     "@sveltejs/adapter-cloudflare": "7.2.9",
     "@sveltejs/kit": "2.70.2",
     "@sveltejs/vite-plugin-svelte": "7.3.0",
@@ -31,7 +32,8 @@
     "svelte-check": "4.7.5",
     "svelte-eslint-parser": "1.8.0",
     "typescript": "6.0.3",
-    "vite": "8.2.1"
+    "vite": "8.2.1",
+    "wrangler": "^4.120.1"
   },
   "overrides": {
     "cookie": "^1.1.1"

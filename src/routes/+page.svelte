@@ -6,7 +6,9 @@
 
   let mainElement = $state<HTMLElement>()
   const sectionElements = $derived.by(() =>
-    mainElement ? [...mainElement.querySelectorAll<HTMLElement>('section[data-name]')] : [],
+    mainElement
+      ? [...mainElement.querySelectorAll<HTMLElement>('section[data-name]')]
+      : [],
   )
   let scrollY = $state(0)
 

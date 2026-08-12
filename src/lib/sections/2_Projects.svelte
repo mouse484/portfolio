@@ -12,7 +12,6 @@
     <Project
       name='Astraea'
       description='Nostr Client'
-      status='rewrinting'
       libraries={['Svelte', 'TypeScript']}
       repository='mouse484/astraea'
       url='astraea.mousedev.page'
@@ -54,8 +53,9 @@
   div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+    align-content: safe center;
 
     height: 100%;
   }
@@ -63,7 +63,7 @@
   @media (width <= 768px) {
     div {
       scroll-snap-type: x mandatory;
-      overflow: auto hidden;
+      overflow: auto;
       grid-template-columns: repeat(2, minmax(70vw, 1fr));
       width: 100%;
     }
