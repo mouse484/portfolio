@@ -12,7 +12,6 @@
     <Project
       name='Astraea'
       description='Nostr Client'
-      status='rewrinting'
       libraries={['Svelte', 'TypeScript']}
       repository='mouse484/astraea'
       url='astraea.mousedev.page'
@@ -55,7 +54,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 1.5rem;
 
     height: 100%;
   }
