@@ -55,8 +55,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto;
     gap: 1.5rem;
-
-    align-content: center;
+    align-content: safe center;
 
     height: 100%;
   }
@@ -64,7 +63,7 @@
   @media (width <= 768px) {
     div {
       scroll-snap-type: x mandatory;
-      overflow: auto hidden;
+      overflow: auto;
       grid-template-columns: repeat(2, minmax(70vw, 1fr));
       width: 100%;
     }
