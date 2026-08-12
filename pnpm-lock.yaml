@@ -60,6 +60,9 @@ importers:
       vite:
         specifier: 8.2.1
         version: 8.2.1(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)
+      wrangler:
+        specifier: ^4.120.1
+        version: 4.120.1
 
 packages:
 
