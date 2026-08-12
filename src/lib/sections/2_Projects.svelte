@@ -53,8 +53,10 @@
   div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto auto;
     gap: 1.5rem;
+
+    align-content: center;
 
     height: 100%;
   }
