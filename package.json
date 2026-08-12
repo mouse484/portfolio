@@ -33,6 +33,6 @@
     "svelte-eslint-parser": "1.8.0",
     "typescript": "7.0.2",
     "vite": "8.2.1",
-    "wrangler": "^4.120.1"
+    "wrangler": "4.120.1"
   }
 }
