@@ -177,8 +177,8 @@ importers:
         version: 1.11.3
     devDependencies:
       '@mouse_484/eslint-config':
-        specifier: 5.11.18
-        version: 5.11.18(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.8.1(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(tailwindcss@4.3.3)(typescript@7.0.2)
+        specifier: 5.11.19
+        version: 5.11.19(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.8.1(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(tailwindcss@4.3.3)(typescript@7.0.2)
       '@mouse_484/stylelint-config':
         specifier: 1.1.16
         version: 1.1.16(postcss-html@2.0.0(postcss@8.5.26))(stylelint-order@8.1.1(stylelint@17.15.0(supports-color@10.2.2)(typescript@7.0.2)))(stylelint@17.15.0(supports-color@10.2.2)(typescript@7.0.2))
@@ -892,8 +892,8 @@ packages:
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
 
-  '@mouse_484/eslint-config@5.11.18':
-    resolution: {integrity: sha512-LKMZckDICnkSxbU1jA5yAUMWzW1Gi9h93Qju/iPVaC5kVqOfl4ejMnlWhowXfEY/ef1t4l1p5C4G5GaYQU5C2Q==}
+  '@mouse_484/eslint-config@5.11.19':
+    resolution: {integrity: sha512-XIz48/8OvwqhbvmIxJPslMlK1LQ0ApZ8NhX6ZXc2GnKr23dFM1JOfxzPjXbhexABZMboinsSbDDBvWDkevTqtA==}
     hasBin: true
 
   '@mouse_484/stylelint-config@1.1.16':
@@ -1534,11 +1534,6 @@ packages:
   balanced-match@4.0.4:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
-
-  baseline-browser-mapping@2.11.21:
-    resolution: {integrity: sha512-uh8vpY/1/YyFkunIDFH/12p7/7VdPKA1hejMVEbdkEaWnUz0Hesvx5EbiU6XxjyHZIOju+ZMbQJkRh+es3/spQ==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
 
   baseline-browser-mapping@2.11.24:
     resolution: {integrity: sha512-hYrgxie335U08WqICoGqKRzV1HFXv6zdxwJE4ekCb80CM9a0SVVsN4QPwT67RraRo+9h8IATk6uxHJw7QSkdOg==}
@@ -3860,7 +3855,7 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@mouse_484/eslint-config@5.11.18(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.8.1(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(tailwindcss@4.3.3)(typescript@7.0.2)':
+  '@mouse_484/eslint-config@5.11.19(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.8.1(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(tailwindcss@4.3.3)(typescript@7.0.2)':
     dependencies:
       '@antfu/eslint-config': 9.5.1(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.0(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(eslint@10.10.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.8.1(svelte@5.57.0(@typescript-eslint/types@8.67.0)))(typescript@7.0.2)
       baseline-browser-mapping: 2.11.24
@@ -4399,8 +4394,6 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  baseline-browser-mapping@2.11.21: {}
-
   baseline-browser-mapping@2.11.24: {}
 
   blake3-wasm@2.1.5: {}
@@ -4417,7 +4410,7 @@ snapshots:
 
   browserslist@4.28.8:
     dependencies:
-      baseline-browser-mapping: 2.11.21
+      baseline-browser-mapping: 2.11.24
       caniuse-lite: 1.0.30001809
       electron-to-chromium: 1.5.404
       node-releases: 2.0.53
