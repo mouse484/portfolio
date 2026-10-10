@@ -2,7 +2,7 @@
   "name": "portfolio",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@12.10.0",
+  "packageManager": "pnpm@12.10.1",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
