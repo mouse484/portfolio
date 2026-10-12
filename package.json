@@ -30,7 +30,7 @@
     "stylelint": "17.16.0",
     "svelte": "5.57.2",
     "svelte-check": "4.7.6",
-    "svelte-eslint-parser": "1.8.1",
+    "svelte-eslint-parser": "1.9.0",
     "typescript": "7.0.2",
     "vite": "8.3.4",
     "wrangler": "4.149.0"
