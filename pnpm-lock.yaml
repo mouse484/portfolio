@@ -177,8 +177,8 @@ importers:
         version: 1.11.3
     devDependencies:
       '@mouse_484/eslint-config':
-        specifier: 5.11.26
-        version: 5.11.26(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.9.0(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(tailwindcss@4.3.3)(typescript@7.0.2)
+        specifier: 5.11.27
+        version: 5.11.27(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.9.0(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(tailwindcss@4.3.3)(typescript@7.0.2)
       '@mouse_484/stylelint-config':
         specifier: 1.1.16
         version: 1.1.16(postcss-html@2.0.0(postcss@8.5.28))(stylelint-order@8.1.1(stylelint@17.16.0(supports-color@10.2.2)(typescript@7.0.2)))(stylelint@17.16.0(supports-color@10.2.2)(typescript@7.0.2))
@@ -895,8 +895,8 @@ packages:
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
 
-  '@mouse_484/eslint-config@5.11.26':
-    resolution: {integrity: sha512-PMULSB3qkbhVi/UoTHCXNb65TQ1mscVCpZEl7I513NThXZoOIYHm9NBVw8DEFRVxWX0mK8s0UdGI0L0ZzFULDg==}
+  '@mouse_484/eslint-config@5.11.27':
+    resolution: {integrity: sha512-DJO+Zunbc2RNrM0Lo2PoLaF2heQnQ2ucCG7SfYX0STJdUMwFfttKeZxvY/hbG2TlRGV51NL39jxa9g97xWopbQ==}
     hasBin: true
 
   '@mouse_484/stylelint-config@1.1.16':
@@ -1541,6 +1541,11 @@ packages:
 
   baseline-browser-mapping@2.11.27:
     resolution: {integrity: sha512-ElY12DaROGuan+lMmZ8Cvo/ZUbXPe7Enc/9VU/b1T3Kp4dwytRcNdR8DoSJN5SNJT/CuvcCA0DHDVmMOCePdRQ==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  baseline-browser-mapping@2.11.28:
+    resolution: {integrity: sha512-br0LOmjJqr6Rt4AEkadbcNf67Zpo7EPwKsWbjnRrJIa1QYFHQBqM4C7F2WTbV8ahTEcg1Eo+Y0aWjjORInYFyA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -2718,9 +2723,6 @@ packages:
     resolution: {integrity: sha512-MyIV3ZA/PmyBN/ud8vV9XzwTrNtR4jFrObymZYnZqMmW0zA8Z17vnT0rBgFE/TlohB+YCHqXMgZzb3Csp49vqg==}
     engines: {node: '>=14.16'}
 
-  package-manager-detector@1.8.0:
-    resolution: {integrity: sha512-yQA4H19AmPEoMUeavPMDIe1higySl/gH/yaQrkT/s07Qp+7pp2hYz30N3z2l5BkjVkF9Ow6o0wjJamm2y7Sn0A==}
-
   package-manager-detector@1.9.0:
     resolution: {integrity: sha512-zAMfbta9nPA8AKkA4WdmNAT8R8s6Dk0/xwPsqNnRidMFcLo1YkLuPDTgs2f64XdzS8vbLNnoJ+uUIkgbz7oRHA==}
 
@@ -3428,7 +3430,7 @@ snapshots:
 
   '@antfu/install-pkg@2.0.1':
     dependencies:
-      package-manager-detector: 1.8.0
+      package-manager-detector: 1.9.0
       tinyexec: 1.3.0
 
   '@babel/code-frame@7.29.7':
@@ -3876,10 +3878,10 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@mouse_484/eslint-config@5.11.26(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.9.0(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(tailwindcss@4.3.3)(typescript@7.0.2)':
+  '@mouse_484/eslint-config@5.11.27(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.9.0(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(tailwindcss@4.3.3)(typescript@7.0.2)':
     dependencies:
       '@antfu/eslint-config': 9.5.1(@typescript-eslint/typescript-estree@8.70.0(supports-color@10.2.2)(typescript@7.0.2))(@typescript-eslint/utils@8.70.0(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(typescript@7.0.2))(@vue/compiler-sfc@3.5.41)(eslint-plugin-format@2.0.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2)))(eslint-plugin-svelte@3.23.1(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(supports-color@10.2.2)(svelte-eslint-parser@1.9.0(svelte@5.57.2(@typescript-eslint/types@8.70.0)))(typescript@7.0.2)
-      baseline-browser-mapping: 2.11.27
+      baseline-browser-mapping: 2.11.28
       eslint-plugin-better-tailwindcss: 4.9.0(eslint@10.12.0(jiti@2.7.0)(supports-color@10.2.2))(tailwindcss@4.3.3)(typescript@7.0.2)
       package-manager-detector: 1.9.0
     transitivePeerDependencies:
@@ -4417,6 +4419,8 @@ snapshots:
   balanced-match@4.0.4: {}
 
   baseline-browser-mapping@2.11.27: {}
+
+  baseline-browser-mapping@2.11.28: {}
 
   blake3-wasm@2.1.5: {}
 
@@ -5785,8 +5789,6 @@ snapshots:
       p-limit: 3.1.0
 
   p-timeout@6.1.4: {}
-
-  package-manager-detector@1.8.0: {}
 
   package-manager-detector@1.9.0: {}
 
