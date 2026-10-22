@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       '@iconify/svelte':
-        specifier: ^5.2.2
-        version: 5.2.2(svelte@5.57.2(@typescript-eslint/types@8.70.0))
+        specifier: ^5.2.3
+        version: 5.2.3(svelte@5.57.2(@typescript-eslint/types@8.70.0))
       motion:
         specifier: ^14.3.0
         version: 14.3.0
@@ -697,8 +697,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@iconify/svelte@5.2.2':
-    resolution: {integrity: sha512-XMXxD3nzH7yB68C3K4sNwzrJ1TBscODR0ZqCeNf0KGuEMCTSuCo0jHNDZ0o0iRXTylO41NSz/DWam/4atLG1yw==}
+  '@iconify/svelte@5.2.3':
+    resolution: {integrity: sha512-RV08FAHSsUW3/4WJsfoMYGbNt413Eh+4thU864pmX2QGFaem2P7zTcANYwkSOnApGlpYhMXJM813tN1tfk68ug==}
     peerDependencies:
       svelte: '>5.0.0'
 
@@ -3740,7 +3740,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@iconify/svelte@5.2.2(svelte@5.57.2(@typescript-eslint/types@8.70.0))':
+  '@iconify/svelte@5.2.3(svelte@5.57.2(@typescript-eslint/types@8.70.0))':
     dependencies:
       '@iconify/types': 2.0.0
       svelte: 5.57.2(@typescript-eslint/types@8.70.0)
