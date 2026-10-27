@@ -1,5 +1,7 @@
+minimumReleaseAgeExcludePrune: true
+trustPolicy: no-downgrade
+shellEmulator: true
+
 allowBuilds:
   esbuild: true
   workerd: true
-minimumReleaseAgeExclude:
-  - '@mouse_484/stylelint-config@1.1.16'
