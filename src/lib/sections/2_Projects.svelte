@@ -40,7 +40,7 @@
 
     <Project
       name='Ecstar'
-      description='The easist TypeScript Discord bot framework.'
+      description='The easiest TypeScript Discord bot framework.'
       status='unmaintained'
       libraries={['Discord', 'Node.js', 'TypeScript']}
       repository='Ecstarjs/Ecstar'
