@@ -13,7 +13,7 @@
   const { name, description, status, libraries, repository, url }: Props = $props()
 
   const libraryNameToIconName = (library: string) => {
-    return library.toLowerCase().replaceAll(/\s+/g, '').replace('.', 'dot')
+    return library.toLowerCase().replaceAll(/[\s/]+/g, '').replaceAll('.', 'dot')
   }
 </script>
 

@@ -12,7 +12,7 @@
     <Project
       name='Astraea'
       description='Nostr Client'
-      libraries={['Svelte', 'TypeScript']}
+      libraries={['React', 'Tanstack', 'shadcn/ui']}
       repository='mouse484/astraea'
       url='astraea.mousedev.page'
     ></Project>
