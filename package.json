@@ -3,6 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@12.15.0",
+  "imports": {
+    "#lib/*": "./src/lib/*"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -21,8 +24,8 @@
   "devDependencies": {
     "@mouse_484/eslint-config": "5.11.31",
     "@mouse_484/stylelint-config": "1.1.16",
-    "@sveltejs/adapter-cloudflare": "7.2.9",
-    "@sveltejs/kit": "2.70.3",
+    "@sveltejs/adapter-cloudflare": "8.0.1",
+    "@sveltejs/kit": "3.0.0",
     "@sveltejs/vite-plugin-svelte": "7.3.1",
     "eslint": "10.13.0",
     "eslint-plugin-format": "2.0.1",
@@ -31,7 +34,7 @@
     "svelte": "5.57.2",
     "svelte-check": "4.7.7",
     "svelte-eslint-parser": "1.10.0",
-    "typescript": "7.0.2",
+    "typescript": "6.0.2",
     "vite": "8.3.5",
     "wrangler": "4.152.0"
   }

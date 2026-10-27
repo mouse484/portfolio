@@ -3,8 +3,8 @@
 </script>
 
 <script lang='ts'>
-  import Section from '$lib/components/Section.svelte'
   import Icon from '@iconify/svelte'
+  import Section from '#lib/components/Section.svelte'
 
   let articles = $state<{ title: string, date: string, url: string }[]>([])
 

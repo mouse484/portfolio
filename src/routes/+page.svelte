@@ -1,8 +1,8 @@
 <script lang='ts'>
   import type { Snapshot } from '@sveltejs/kit'
-  import Navigation from '$lib/components/top/Navigation.svelte'
-  import { sections } from '$lib/sections'
   import { animate, scroll } from 'motion'
+  import Navigation from '#lib/components/top/Navigation.svelte'
+  import { sections } from '#lib/sections/index.ts'
 
   let mainElement = $state<HTMLElement>()
   const sectionElements = $derived.by(() =>
