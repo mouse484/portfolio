@@ -16,7 +16,7 @@
 
 <Section name={name}>
   {#snippet header()}
-    <h1>Yuto Nagata Portofolio</h1>
+    <h1>Yuto Nagata Portfolio</h1>
   {/snippet}
   <div>
     <a href='https://github.com/mouse484'>
