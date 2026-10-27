@@ -30,6 +30,7 @@
       description='Monorepo of my configurations.'
       libraries={[
         'ESLint',
+        'Oxc',
         'Stylelint',
         'Prettier',
         'Renovate',
