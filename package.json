@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@mouse_484/eslint-config": "5.11.36",
-    "@mouse_484/stylelint-config": "1.1.16",
+    "@mouse_484/stylelint-config": "2.0.0",
     "@sveltejs/adapter-cloudflare": "8.0.2",
     "@sveltejs/kit": "3.1.1",
     "@sveltejs/vite-plugin-svelte": "7.3.1",
