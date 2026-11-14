@@ -35,7 +35,7 @@
     "svelte-check": "4.7.8",
     "svelte-eslint-parser": "1.10.1",
     "typescript": "6.0.3",
-    "vite": "8.3.7",
+    "vite": "8.3.8",
     "wrangler": "4.160.0"
   }
 }
